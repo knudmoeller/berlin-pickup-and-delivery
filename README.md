@@ -11,8 +11,8 @@ The RDF data is serialised as [Turtle](https://www.w3.org/TR/turtle/), mainly us
 
 ## Source
 
-The data is derived from the GeoJSON version of the dataset [Gastronomien, Laden- und andere Geschäfte mit Liefer- und Abholservice](https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice), which is published under [CC BY 3.0 DE](http://creativecommons.org/licenses/by/3.0/de/) by Berlin's [Senate Department for
-Economics, Energy and Public Enterprises](https://www.berlin.de/sen/wirtschaft/) (Senatsverwaltung für Wirtschaft, Energie und Betriebe).
+The data is derived from the GeoJSON version of the dataset [Gastronomien, Laden- und andere Geschäfte mit Liefer- und Abholservice](https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice), which is published under [CC BY 3.0 DE](http://creativecommons.org/licenses/by/3.0/de/) by Berlin's [Senate Department for Economics, Energy and Public Enterprises](https://www.berlin.de/sen/wirtschaft/) (Senatsverwaltung für Wirtschaft, Energie und Betriebe).
+The data was collected using a Web form by [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de) (TSB).
 
 ## Conversion Process
 
