@@ -7,7 +7,7 @@ The RDF data can be found in [data/target/lieferdienste.ttl](data/target/lieferd
 
 ## Format and Vocabulary
 
-The RDF data is serialised as [Turtle](https://www.w3.org/TR/turtle/), mainly using terminology from schema.org, as well as some [additional terms](vocab/delivery.ttl) for things not covered by schema.org.
+The RDF data is serialised as [Turtle](https://www.w3.org/TR/turtle/), mainly using terminology from [schema.org](https://schema.org), as well as some [additional terms](vocab/delivery.ttl) for things not covered by schema.org.
 
 ## Source
 
