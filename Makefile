@@ -1,4 +1,4 @@
-all: data/target/lieferdienste.ttl README.md
+all: clean data/target/lieferdienste.ttl README.md
 
 data/target/lieferdienste.ttl: data/temp/lieferdienste.nt | data/target
 	@echo "converting $< to Turtle ..."

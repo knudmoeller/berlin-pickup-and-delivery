@@ -5,6 +5,7 @@ require 'logger'
 require 'pp'
 require 'rdf'
 require 'rdf/ntriples'
+require 'uuid'
 
 DS_BASE = "https://daten.berlin.de/ds/"
 BUSINESS = RDF::Vocabulary.new(File.join(DS_BASE, "business/"))
@@ -62,7 +63,7 @@ class RestaurantConverter include Enumerable
             graph << [ business_res, SCHEMA.telephone, entry['fon']] unless entry['fon'].empty?
             unless entry['strasse_nr'].empty?
                 # address_res = ADDRESS["a_#{entry['id']}"]
-                address_res = RDF::Node.new
+                address_res = RDF::Node.uuid
                 graph << [ business_res, SCHEMA.address, address_res ]
                 graph << [ address_res, RDF.type, SCHEMA.PostalAddress ]
                 graph << [ address_res, SCHEMA.addressCountry, "DE" ]
@@ -94,7 +95,7 @@ class RestaurantConverter include Enumerable
                 end
             end
 
-            geo_res = RDF::Node.new
+            geo_res = RDF::Node.uuid
             graph << [ business_res, SCHEMA.geo, geo_res ]
             graph << [ geo_res, RDF.type, SCHEMA.GeoCoordinates ]
             graph << [ geo_res, SCHEMA.longitude, entry['coordinates'][0] ]
