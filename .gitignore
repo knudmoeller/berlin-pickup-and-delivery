@@ -1,0 +1,8 @@
+.DS_Store
+
+Gemfile.lock
+
+data/source
+data/temp
+
+rdf

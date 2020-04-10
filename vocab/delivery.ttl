@@ -1,0 +1,38 @@
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix deliveries: <https://daten.berlin.de/vocab/deliveries/> .
+@prefix schema:     <https://schema.org/> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+deliveries:deliveryPossible a owl:DatatypeProperty ;
+    rdfs:label "delivery possible"@en ;
+    rdfs:label "Lieferung möglich"@de ;
+    rdfs:definedBy deliveries: ;
+    rdfs:domain schema:FoodEstablishment ;
+    rdfs:range xsd:boolean ;
+.
+
+deliveries:deliveryComment a owl:DatatypeProperty ;
+    rdfs:label "delivery comment"@en ;
+    rdfs:label "Anmerkung zur Lieferung"@de ;
+    rdfs:definedBy deliveries: ;
+    rdfs:domain schema:FoodEstablishment ;
+    rdfs:range xsdf:string ;
+.
+
+deliveries:pickupPossible a owl:DatatypeProperty ;
+    rdfs:label "pickup possible"@en ;
+    rdfs:label "Abholung möglich"@de ;
+    rdfs:definedBy deliveries: ;
+    rdfs:domain schema:FoodEstablishment ;
+    rdfs:range xsd:boolean ;
+.
+
+deliveries:pickupComment a owl:DatatypeProperty ;
+    rdfs:label "pickup comment"@en ;
+    rdfs:label "Anmerkung zur Abholung"@de ;
+    rdfs:definedBy deliveries: ;
+    rdfs:domain schema:FoodEstablishment ;
+    rdfs:range xsdf:string ;
+.
+
