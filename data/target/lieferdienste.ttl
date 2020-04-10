@@ -809,7 +809,13 @@ business:b_1092
     delivery:deliveryPossible true ;
     delivery:pickupComment "Sie erreichen uns von Montag bis Samstag in der Zeit von 12:00 bis 14:00 im Laden Mamsell. Dort können Sie eine direkte Auswahl treffen."@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349811258240 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10781" ;
+        schema:streetAddress "Goltzstraße  48"
+    ] ;
     schema:description "Wir bieten Espresso-Spezialitäten, unsere heiße geschmolzene Schokolade zum trinken oder löffeln, feine Kuchen und den sehr beliebten kalten Hund. Sie finden eine große Auswahl hochwertiger Schokoladen, Nougat, Trüffel, Pralinen und vielem mehr."@de ;
     schema:email "mail@mamsellberlin.de" ;
     schema:geo [
@@ -1185,7 +1191,13 @@ business:b_1137
     delivery:deliveryComment "10367,10369, 13053 und 13055"@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible true ;
-    schema:address _:g70349811239980 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13055" ;
+        schema:streetAddress "Weißenseer Weg 36"
+    ] ;
     schema:description "Apotheke"@de ;
     schema:email "koala.apotheke@t-online.de" ;
     schema:geo [
@@ -2602,11 +2614,7 @@ business:b_1293
         schema:streetAddress "Potsdamer Chaussee 36 d"
     ] ;
     schema:description "Kroatische mittelmeerküche"@de ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.42588 ;
-        schema:longitude 13.20797
-    ] ;
+    schema:geo _:g70324933135400 ;
     schema:name "Adria Grill" ;
     schema:openingHoursSpecification ohspec:oh_69b42214529dd66a64901ac3bb8d1d851a3e6ff8, ohspec:oh_6b8d85481bf35243c479ad6293ae07a0f8eb670c, ohspec:oh_89a646779e85ab1f31b293f7d9f59bc14d8274a1, ohspec:oh_9bb630cb2a1fe86cf24c0a52d8836bab593afe82, ohspec:oh_abc72f07bf6cc12c81ad03d80d6c9abe85ef1ac1, ohspec:oh_c57071a17eb6aacb48240b70ec5d53156bf31f08, ohspec:oh_dfababd6405c50f52904824c7612a5dbfa3f318d ;
     schema:telephone "+4916094965990" ;
@@ -3072,7 +3080,11 @@ business:b_135
     ] ;
     schema:description "Kuchen, Tartes und Quiches"@de ;
     schema:email "kuchen@herrvonmarusin.de" ;
-    schema:geo _:g70349800137440 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.63661 ;
+        schema:longitude 13.5029
+    ] ;
     schema:name "Herr von Marusin" ;
     schema:telephone "+493081476025" ;
     schema:url "https://www.herrvonmarusin.de/" .
@@ -3082,13 +3094,7 @@ business:b_1350
     delivery:deliveryComment "Unsere KiezEngel gehen für immobile Menschen in den Geschäften der Nachbarschaft einkaufen und bringen den Einkauf mit dem Lastenrad nach Hause"@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible false ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "13156" ;
-        schema:streetAddress "Beuthstraße 23. 13156 Berlin"
-    ] ;
+    schema:address _:g70324928458840 ;
     schema:description "Einkaufs-und Lieferservice für immobile Menschen im Stadtteilkiez. Digitale Online Plattform für den stationären und lokalen Einzelhandel"@de ;
     schema:email "rf@webkiez.de" ;
     schema:geo [
@@ -3377,7 +3383,11 @@ business:b_1383
     ] ;
     schema:description "Klaviere, Mundharmonikas, Gitarren, Reparaturen und Service"@de ;
     schema:email "info@trautwein.de" ;
-    schema:geo _:g70349788873860 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.46856 ;
+        schema:longitude 13.32867
+    ] ;
     schema:name "Trautwein Pianoforte" ;
     schema:openingHoursSpecification ohspec:oh_5be2a276256f8b495b090a465513e096513215e3 ;
     schema:telephone "+49308512068" ;
@@ -3885,13 +3895,7 @@ business:b_1443
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "12279" ;
-        schema:streetAddress "Hildburghauserstraße  62"
-    ] ;
+    schema:address _:g70324929052840 ;
     schema:description "Kroatische/Internationale Küche"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -3980,7 +3984,13 @@ business:b_1455
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:pickupPossible true ;
-    schema:address _:g70349788873860 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10961" ;
+        schema:streetAddress "Zossenerstraße 47"
+    ] ;
     schema:description "Kaffee, Brot, Brötchen, Backwaren(süß und herzhaft)"@de ;
     schema:email "kontakt@backhausliberda.de" ;
     schema:geo [
@@ -3997,7 +4007,13 @@ business:b_1458
     delivery:deliveryPossible true ;
     delivery:pickupComment "Sowohl die Bestellaufnahme als auch die Lieferung erfolgt während der Öffnungszeiten von unserem E-Zigaretten-Shop Mo.-Fr. von 11:00 -19:30 Uhr und Sa. von 10:00-18:30 Uhr. Den Lieferzeitpunkt werden wir gemeinsam telefonisch und individuell ausmachen. Es kann leider keine Abgabe"@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349811308220 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10715" ;
+        schema:streetAddress "Wexstraße 20"
+    ] ;
     schema:description "Willkommen in unserem E-Zigaretten-Shop in Berlin. Wir möchten es mit unserem “Same Day Delivery„ Lieferservice den Kunden möglich machen, ihre Bestellung unkompliziert und bequem am selben Tag bis vor die Tür zu liefern."@de ;
     schema:email "bodyjacks@freenet.de" ;
     schema:geo [
@@ -4299,13 +4315,7 @@ business:b_1494
     delivery:deliveryPossible true ;
     delivery:pickupComment "Wir haben für Sie geöffnet. Sie können ohne Bestellung sofort zu uns kommen und einkaufen."@de ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10119" ;
-        schema:streetAddress "Schönhauser Allee 179"
-    ] ;
+    schema:address _:g70324932739860 ;
     schema:description "Spirituosen, Sekte, Champagner, Biere, Wasser, Limonaden, Säfte, Weine von Ihrem freundlichen Getränkehandel aus dem Kiez. Bezahlung bar, girocard oder Kreditkarte. Wir haben ein mobiles Kartenterminal."@de ;
     schema:email "info@guh-getraenkekontor.de" ;
     schema:geo [
@@ -4348,7 +4358,13 @@ business:b_15
     delivery:deliveryPossible true ;
     delivery:pickupComment "kontaktlose Abholung. Bestellung über www.dominos.de"@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349795232160 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10961" ;
+        schema:streetAddress "Brachvogelstraße 1"
+    ] ;
     schema:description "Pizza, Pasta, Salate, Fingerfood"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -4871,11 +4887,7 @@ business:b_1557
     ] ;
     schema:description "Bürobedarf,Schreibwaren,Schulbedarf,Kopier-und Druckservice, Glückwunschkarten,Schreibgeräte vieler Marken, Briefmarken, DHL Paketservice,Stempelservice,Bastelbedarf und Künstlerbedarf"@de ;
     schema:email "haertl.papier@berlin.de" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.51597 ;
-        schema:longitude 13.26233
-    ] ;
+    schema:geo _:g70324928909080 ;
     schema:name "Papier Härtl" ;
     schema:openingHoursSpecification ohspec:oh_1fcbe8655d066748a9d6df2513164020cb2ddcf7, ohspec:oh_35341908403275567eea0d99ad6a5cc02c2f894e, ohspec:oh_5c4d29b402615b1abb00633f55a7459be248d8c4, ohspec:oh_b91e573c66197399146713f9938e5c62120171cc, ohspec:oh_bf454a913a374647afd54a8bec0f04e24911c6d6, ohspec:oh_cd7aa0dd88708642b9e5e3da778acfc71b35ace5 ;
     schema:telephone "+49303041480" ;
@@ -4961,13 +4973,7 @@ business:b_1566
     delivery:deliveryComment "Wir liefern Onlinekurse!"@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible false ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10115" ;
-        schema:streetAddress "Linienstraße  127"
-    ] ;
+    schema:address _:g70324932091700 ;
     schema:description "Martial Arts | Fitness | Yoga | Tee"@de ;
     schema:email "info@chimosa.de" ;
     schema:geo [
@@ -5140,11 +5146,7 @@ business:b_1587
     ] ;
     schema:description "Frische Pasta, Vegane Bowls, Sandwiches, Salate, Risotto, Getränke, Kaffee, Smoothies, frische Säfte"@de ;
     schema:email "eat@spindler-berlin.com" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.49633 ;
-        schema:longitude 13.42132
-    ] ;
+    schema:geo _:g70324935210060 ;
     schema:name "SPINDLER Restaurant" ;
     schema:openingHoursSpecification ohspec:oh_20ae202726610e4c59f8e410132acad35c1bc882, ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_48f4016ca7a6c0a01c3c2fe5e671c77cdb062685, ohspec:oh_85f505f89e2e20fcd5e89f22d21b0678602e43fc, ohspec:oh_8fa5171a0efd7ea719f1acb38b13c59b024272db, ohspec:oh_d8b7c63f5fc78927c24e45bebf761dd392fd40dd ;
     schema:telephone "+493069598880" ;
@@ -6020,7 +6022,13 @@ business:b_1686
     delivery:deliveryComment "Lieferung und Abholung des Teppichs"@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible false ;
-    schema:address _:g70349799766300 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "14193" ;
+        schema:streetAddress "Teplitzer Straße 38"
+    ] ;
     schema:description "Wir bieten Trppichwäsche, Restauration und Desinfektion Ihres Teppichs"@de ;
     schema:email "bodenheim.teppich@outlook.de" ;
     schema:geo [
@@ -6382,11 +6390,7 @@ business:b_1728
     ] ;
     schema:description "Überraschungsei Fachgeschäft"@de ;
     schema:email "thomas-siebrecht@arcor.de" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.53888 ;
-        schema:longitude 13.2033
-    ] ;
+    schema:geo _:g70324932808820 ;
     schema:name "Ü-Ei-Punkt-Berlin" ;
     schema:openingHoursSpecification ohspec:oh_03fa85b916ca5f5f71c7ee0f9ca8babb0587550f, ohspec:oh_848207f9fe9f73b69d45c835218a4dbff7641987, ohspec:oh_9c3c57295b6b85126759f4e94ba9866e9d9c225b, ohspec:oh_ad943d1e32ecd7af84a6c23958d6d67b1a3cd50d, ohspec:oh_bb72d1d23692e2f6c47069be5f8f07ab640dafa2, ohspec:oh_d61326a246f69777dafb94885b4323d3a9741f8a ;
     schema:telephone "+49303336354" ;
@@ -6470,13 +6474,7 @@ business:b_174
     delivery:deliveryPossible true ;
     delivery:pickupComment "Bestellungen zum Abholen sollten am besten einen Tag davor per Mail bestellet werden."@de ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10435" ;
-        schema:streetAddress "Danzigerstraße 49"
-    ] ;
+    schema:address _:g70324932739860 ;
     schema:description "italienische Küche, selbst gemachte Pasta, selbst gemachter Pizzateig"@de ;
     schema:email "hello@luisakocht.de" ;
     schema:geo [
@@ -6503,11 +6501,7 @@ business:b_1740
         schema:streetAddress "Gorkistraße 9"
     ] ;
     schema:description "Asiatische Küche, Sushi, Vietnamesisch, Thailändisch"@de ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.59015 ;
-        schema:longitude 13.28523
-    ] ;
+    schema:geo _:g70324931944200 ;
     schema:name "Asia Wok" ;
     schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 .
 
@@ -7191,11 +7185,7 @@ business:b_1818
         schema:streetAddress "Busonistraße 2"
     ] ;
     schema:description "Onlineshop für Autolacke und Lackierzubehör"@de ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.61536 ;
-        schema:longitude 13.47419
-    ] ;
+    schema:geo _:g70324929023600 ;
     schema:name "Lackcenter Berlin" ;
     schema:telephone "+493023887910" ;
     schema:url "https://www.lackcenter-berlin.de/" .
@@ -7417,7 +7407,13 @@ business:b_1845
     delivery:deliveryPossible true ;
     delivery:pickupComment "Alles was bestellt und abholbar ist kann zu den normalen Zeiten und nach Absprache abgeholt werden"@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349811244660 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13156" ;
+        schema:streetAddress "Buchholzer Straße 59"
+    ] ;
     schema:description "Europäische Möbel , nordisch klassisch und modern, Massivholz , Stühle, Tische, Sofas, Sitzbänke und Wohnaccessoires"@de ;
     schema:email "info@exedra-berlin.de" ;
     schema:geo [
@@ -7435,13 +7431,7 @@ business:b_1848
     delivery:deliveryPossible true ;
     delivery:pickupComment "siehe Homepage & Online-Bestellshop"@de ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "12526" ;
-        schema:streetAddress "Waltersdorfer Straße 1a"
-    ] ;
+    schema:address _:g70324935210060 ;
     schema:description "Italienische Küche"@de ;
     schema:email "ladolcevitaristorante@t-online.de" ;
     schema:geo [
@@ -8306,11 +8296,7 @@ business:b_1947
     ] ;
     schema:description "Burger Shop"@de ;
     schema:email "info@burgerturm.com" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.52722 ;
-        schema:longitude 13.33256
-    ] ;
+    schema:geo _:g70324932755760 ;
     schema:name "Burger Turm" ;
     schema:openingHoursSpecification ohspec:oh_2e2d736ac2a70260050f640e69be91cc4c63f6c5, ohspec:oh_7feac2b9fe04d312beb4334fa25af5d14b80aa90, ohspec:oh_87cf3e3c75b658c665a58ca8e017a5b98c8ed85b, ohspec:oh_b13eaf16a672a1e5aa725bbe9b24e8f5924a5e55, ohspec:oh_ce54489c559e8c0da3a43ef39ea4dc0a1a5da77e, ohspec:oh_e22eb5ec4042bda46838a9cd96ea6002e5c672a3, ohspec:oh_f683917b9966388896db4ab8f05e69d8ede22b13 ;
     schema:telephone "+493049956625" ;
@@ -8699,13 +8685,7 @@ business:b_1992
     a schema:LocalBusiness ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible false ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10999" ;
-        schema:streetAddress "Lausitzerstraße  22 D"
-    ] ;
+    schema:address _:g70324929052840 ;
     schema:description "Online-Verkauf, Transport, Logistik"@de ;
     schema:email "info@q-two.de" ;
     schema:geo [
@@ -9190,13 +9170,7 @@ business:b_2049
     delivery:deliveryPossible false ;
     delivery:pickupComment "Computer Reparatur, Notebook, Laptop, Windows 10 installation"@de ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10781" ;
-        schema:streetAddress "Traunsteinerstraße  1"
-    ] ;
+    schema:address _:g70324933135400 ;
     schema:description "Computer Reparatur, Service, Installation windows 10"@de ;
     schema:email "shop@hd-computer.de" ;
     schema:geo [
@@ -9295,7 +9269,11 @@ business:b_2061
     ] ;
     schema:description "Täglich wechselndes Angebot an Mittag- und Abendessen für Selbstabholer"@de ;
     schema:email "info@treptowerklause.de" ;
-    schema:geo _:g70349811244660 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.49287 ;
+        schema:longitude 13.44524
+    ] ;
     schema:name "Treptower Klause" ;
     schema:openingHoursSpecification ohspec:oh_0d35f7086559be18ab28d9f3cd2fd27247cc0c60, ohspec:oh_0f2f1047390e2e47fb3f1ddec648875779eb0a85, ohspec:oh_244cdc26730019ecade5b7e06d68ac17ec554dc6, ohspec:oh_48e198f59b711692e93391ea3aa5e845a67419a8, ohspec:oh_81d839bba99a7a34b7b51081dfddf041568cf307, ohspec:oh_83b988b6964cfc3f5b547aefb0582c94837f4421, ohspec:oh_948ae594a0b562deff5c9251d4a7302a90b6f87e, ohspec:oh_9a8cf8dce2a9a7410175fc573e7173bae33f0a37, ohspec:oh_9abb45f78196f43986e2995443fd70a2915252b5, ohspec:oh_cbe3aeb590e6e0beaf36c8b4c6f92c5c6d1853ba ;
     schema:telephone "+491759010099" ;
@@ -9330,13 +9308,7 @@ business:b_2067
     delivery:deliveryComment "Lieferung welweit, innerhab Berlin auch mit Kurier, Abholung im Geschäft von Online-Bestellungen"@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10961" ;
-        schema:streetAddress "Bergmannstraße 17"
-    ] ;
+    schema:address _:g70324932808820 ;
     schema:description "HiFi-Technik und High-End, Plattenspieler"@de ;
     schema:email "info@phonophono.de" ;
     schema:geo [
@@ -9674,7 +9646,11 @@ business:b_2100
     ] ;
     schema:description "Arabische-Orientalische Küche"@de ;
     schema:email "hito-falafel@gmx.de" ;
-    schema:geo _:g70349799842740 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52785 ;
+        schema:longitude 13.38688
+    ] ;
     schema:name "Hito Falafel" ;
     schema:telephone "+4917684670050" .
 
@@ -10035,13 +10011,7 @@ business:b_2145
     delivery:deliveryPossible true ;
     delivery:pickupComment "indisch vegetarisch und mit Hähnchen und Lamm"@de ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10623" ;
-        schema:streetAddress "Knesebeckstraße  4"
-    ] ;
+    schema:address _:g70324932755760 ;
     schema:description "Indisch"@de ;
     schema:email "info@manjurani.de" ;
     schema:geo [
@@ -10291,11 +10261,7 @@ business:b_2172
     ] ;
     schema:description "Mediterraner Gerichte( alles glutenfrei),  Pizza, Pasta, Salate, Fleisch"@de ;
     schema:email "info@dasrosmarin.de" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.52502 ;
-        schema:longitude 13.39168
-    ] ;
+    schema:geo _:g70324932091700 ;
     schema:name "Restaurant Rosmarin" ;
     schema:openingHoursSpecification ohspec:oh_3277fdbf32e9872ec0f0dd9cfb9dbd1f6f84d4c4, ohspec:oh_6000adfda2ead9d1e8dad50ebab12e1207e365d5, ohspec:oh_6ed7ef20e880c0661fd7ab2764cc1660dbb8de83, ohspec:oh_9024677705dacf346ddb61ed91753a8f49847ff7, ohspec:oh_9f954de718b38bca090dbb3d3ef56fb6dcab1216, ohspec:oh_a100f9b4a4cfbe9f4971f530305e34b6d528bb0d, ohspec:oh_e05482c706d22eb151ad4d61a5f02a523c168593 ;
     schema:telephone "+491782322988" .
@@ -10945,7 +10911,13 @@ business:b_225
     delivery:deliveryPossible true ;
     delivery:pickupComment "12.00 Uhr bis 20.00 Uhr"@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349811308220 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13593" ;
+        schema:streetAddress "Wilhelmstraße 89"
+    ] ;
     schema:description "Italienisches Küche"@de ;
     schema:email "info@arcinos.de" ;
     schema:geo [
@@ -11468,13 +11440,7 @@ business:b_231
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "14089" ;
-        schema:streetAddress "Neukladower Allee 9 - 12"
-    ] ;
+    schema:address _:g70324933217900 ;
     schema:description "frische Auswahl an Kuchen, Torten, Snacks und regionalen Speisen"@de ;
     schema:email "events@gutshausneukladow.de" ;
     schema:geo [
@@ -11731,13 +11697,7 @@ business:b_234
     delivery:deliveryPossible true ;
     delivery:pickupComment "Alle Speisen und Getränke bieten wir auch zum Abholen an"@de ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10437" ;
-        schema:streetAddress "Senefelderstraße 10"
-    ] ;
+    schema:address _:g70324933217900 ;
     schema:description "knusprige Pizza, frische Pasta, knackige Salate, frischer Fisch und regionales Fleisch"@de ;
     schema:email "trattoria.zoe@gmail.com" ;
     schema:geo [
@@ -11764,11 +11724,7 @@ business:b_2340
     ] ;
     schema:description "italienische Küche, hausgemachte Pasta, Pizza, Salate, Fleisch & Fisch"@de ;
     schema:email "info@quattro-fratelli.de" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.4829 ;
-        schema:longitude 13.5263
-    ] ;
+    schema:geo _:g70324931944200 ;
     schema:name "Quattro Fratelli Karlshorst" ;
     schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
     schema:telephone "+493098419956" ;
@@ -13033,7 +12989,13 @@ business:b_369
     delivery:deliveryPossible true ;
     delivery:pickupComment "Bestellungen täglich von 12.00-20.00 Uhr"@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349789492660 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12623" ;
+        schema:streetAddress "Hultschiner Damm 82"
+    ] ;
     schema:description "Griechische Küche und Getränke"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -13772,7 +13734,13 @@ business:b_453
     delivery:deliveryPossible true ;
     delivery:pickupComment "Jederzeit innerhalb der Öffnungszeiten (Mo-Sa) von 11.00h-20.00h vor Ort zu bestellen und abzuholen. Eine Vorbestellung ist nicht nötig."@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349795232160 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12435" ;
+        schema:streetAddress "Am Treptower Park 14"
+    ] ;
     schema:description "McDonald's"@de ;
     schema:email "91000@restarant.de.mcd.com" ;
     schema:geo [
@@ -14048,11 +14016,7 @@ business:b_483
     ] ;
     schema:description "McDonald's"@de ;
     schema:email "91723@restaurant.de.mcd.com" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.5039 ;
-        schema:longitude 13.46968
-    ] ;
+    schema:geo _:g70324933166720 ;
     schema:name "McDonald's Ostkreuz" ;
     schema:openingHoursSpecification ohspec:oh_547b68ca5915a4628e85ace4bf3afce7f139f0d1, ohspec:oh_6b939fc423f5a873af5b098012b55019905ec295, ohspec:oh_9a4731833b9aa07de9c8069e7d6c324dd3f15490, ohspec:oh_aba9c4491c4ef3fadfe2587c07963b03d95bd26d, ohspec:oh_d3c60e7eb4aaaf2b9591b393ebdfd770e2e5fd03, ohspec:oh_dfdf4c8b0d504057b28400c209d6a37499f1a323, ohspec:oh_f9091bc1314d11caa59f0d38015382e0ecb86aed ;
     schema:telephone "+493020050882" ;
@@ -14121,11 +14085,7 @@ business:b_492
         schema:streetAddress "Drakestraße 36"
     ] ;
     schema:description "italienische Küche"@de ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.44486 ;
-        schema:longitude 13.29502
-    ] ;
+    schema:geo _:g70324928909080 ;
     schema:name "Enoteca Vecchio Mulino" ;
     schema:openingHoursSpecification ohspec:oh_181d34c3c6d8d95beb1a631fe66288d50b7bd0c1, ohspec:oh_58b2b8b52bf68e827413d8a0d9b066ff899f09df, ohspec:oh_af077bfdb2d8122beda1ee91ce702a224428a79c ;
     schema:telephone "+491728911546" ;
@@ -14348,13 +14308,7 @@ business:b_519
     delivery:deliveryComment "Annahme von Bestellungen immer bis zum Vortag, 13 Uhr, und nur für die Wochentage von Montag bis Freitag innerhalb Berlins."@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible false ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "12487" ;
-        schema:streetAddress "Groß-Berliner Damm 82A"
-    ] ;
+    schema:address _:g70324929023600 ;
     schema:description "Unsere wöchentlich wechselnden Gerichte findet Ihr auf unserer Website."@de ;
     schema:email "service@optimahl.de" ;
     schema:geo [
@@ -14395,13 +14349,7 @@ business:b_525
     a schema:FoodEstablishment ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10245" ;
-        schema:streetAddress "Sonntagstraße 2"
-    ] ;
+    schema:address _:g70324928560420 ;
     schema:description "Homemade Burger"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -14581,13 +14529,7 @@ business:b_546
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10178" ;
-        schema:streetAddress "Spreeufer 4"
-    ] ;
+    schema:address _:g70324928458840 ;
     schema:description "Hausgebackene Kuchen & Kaffee (to go) u.a. Apfel-Streusel Kuchen, Cheesecake, Kalter Hund, Carrot Cake uvm."@de ;
     schema:email "info@heidis-cafe.de" ;
     schema:geo [
@@ -14733,7 +14675,11 @@ business:b_564
     ] ;
     schema:description "Süddeutsche Spezialitäten wie Maultaschen Königsberger Klopse, Spätzle, Gulasch, Suppen"@de ;
     schema:email "info@alpenstueck.de" ;
-    schema:geo _:g70349800137440 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53033 ;
+        schema:longitude 13.39184
+    ] ;
     schema:name "Alpenstück" ;
     schema:openingHoursSpecification ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_48f4016ca7a6c0a01c3c2fe5e671c77cdb062685, ohspec:oh_6696cb76a1513b291cdba8248efdbb3d3bf7572a, ohspec:oh_8fa5171a0efd7ea719f1acb38b13c59b024272db, ohspec:oh_d307c7942d5b48ec3fea520a99340045b7295c60, ohspec:oh_d8b7c63f5fc78927c24e45bebf761dd392fd40dd ;
     schema:telephone "+493021751646" ;
@@ -15088,11 +15034,7 @@ business:b_600
         schema:streetAddress "Malmöer Straße 13"
     ] ;
     schema:description "Indische & Pakistanische Küche"@de ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.55314 ;
-        schema:longitude 13.40337
-    ] ;
+    schema:geo _:g70324928560420 ;
     schema:name "Seth & Fathe Indische & Pakistanische Spezialitäten" ;
     schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
     schema:telephone "+493044793040" ;
@@ -15305,7 +15247,11 @@ business:b_627
     ] ;
     schema:description "Lebensmittel, Wein, Kochbücher"@de ;
     schema:email "hallo@goldhahnundsampson.de" ;
-    schema:geo _:g70349811258240 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50393 ;
+        schema:longitude 13.30787
+    ] ;
     schema:name "Goldhahn und Sampson" ;
     schema:openingHoursSpecification ohspec:oh_366f2d9c3fdb5b29a601de8271f9be84f9d30f76, ohspec:oh_41b23d53ecfc32d451ef6f8a4ea486966bc7d4e3, ohspec:oh_5773074cf5b5493fa4cb2298ed9a69f7c71071cd, ohspec:oh_5f73a7a45146a62db51c91f1529b061110afb6ba, ohspec:oh_97568ccad020736151564d2b0fc398947c91be27, ohspec:oh_addd2b90ad956eb31208af51e29e0953947e5832 ;
     schema:telephone "+4915158128837" ;
@@ -15811,7 +15757,11 @@ business:b_684
     ] ;
     schema:description "Pizza, Tiramisú"@de ;
     schema:email "kontakt@vigata.de" ;
-    schema:geo _:g70349789492660 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.48322 ;
+        schema:longitude 13.44678
+    ] ;
     schema:name "Trattoria Vigata" ;
     schema:openingHoursSpecification ohspec:oh_0917e3a3a6c4a24c9ed5a94837db1c435f737b5d, ohspec:oh_0ff5a27043a3d285b4f30a4f4aab70d8fc5f3cb1, ohspec:oh_6fde4eaa0396d35b1eef2c0a57f89e3705685d49, ohspec:oh_9591dbf8ccd334646c639c9f757701cecfa20862, ohspec:oh_adfa648a7019ec7e81ff1c1bb8f6e940ce0c731e, ohspec:oh_b8c42378a612851b590fb6ac4f5f1c60d3a32f21 ;
     schema:telephone "+493098407141" ;
@@ -15971,7 +15921,11 @@ business:b_702
     ] ;
     schema:description "American Food"@de ;
     schema:email "ad-messe@online.de" ;
-    schema:geo _:g70349799842740 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50699 ;
+        schema:longitude 13.28015
+    ] ;
     schema:name "Andys Diner & Bar" ;
     schema:telephone "+491777829466" ;
     schema:url "http://www.andysdiner.de/" .
@@ -16270,7 +16224,13 @@ business:b_738
     delivery:deliveryPossible true ;
     delivery:pickupComment "Bis 12 Uhr bestellen und am selben Tag abholen oder liefern lassen."@de ;
     delivery:pickupPossible true ;
-    schema:address _:g70349788808140 ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10717" ;
+        schema:streetAddress "Uhlandstraße 133"
+    ] ;
     schema:description "Cocktails to go, Gutscheine und Cocktailsets"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -16699,7 +16659,11 @@ business:b_786
     ] ;
     schema:description "Sizilianische Feinkostbistro"@de ;
     schema:email "happy@orlandoberlin.com" ;
-    schema:geo _:g70349788808140 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.54824 ;
+        schema:longitude 13.40834
+    ] ;
     schema:name "Orlando Berlin" ;
     schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
     schema:telephone "+4917660503712" ;
@@ -16718,11 +16682,7 @@ business:b_789
         schema:streetAddress "Alt-Mahlsdorf 88"
     ] ;
     schema:description "Pizza"@de ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.50405 ;
-        schema:longitude 13.62053
-    ] ;
+    schema:geo _:g70324933166720 ;
     schema:name "L'Osteria Mahlsdorf" ;
     schema:openingHoursSpecification ohspec:oh_5a784021649db3702ce2ed021b165fa2a0eef7d4, ohspec:oh_6779431fc56c5ab2bd3f65289f1a6f2f3b5551d3, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_8e9e9d26a6bda41ca4b1e557af2fcfeae2fae9fa, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_9b50ec170e76aadaae1af810e349678459d9aa8e, ohspec:oh_cd656a115f3087f889b565bd99a3a80afa95e74d ;
     schema:telephone "+493064161360" ;
@@ -16813,7 +16773,11 @@ business:b_801
     ] ;
     schema:description "Kroatische Küche und internationale Speisen vom Holzkohlegrill"@de ;
     schema:email "cro-tina@hotmail.de" ;
-    schema:geo _:g70349811239980 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.49801 ;
+        schema:longitude 8.71943
+    ] ;
     schema:name "Dioklecijan Split" ;
     schema:openingHoursSpecification ohspec:oh_2c95bf84c52983eaddffe828d8ad2d86f42066fc, ohspec:oh_2eaa86488e326dd89868d263450c6db2af2df81c, ohspec:oh_7a23231d2ed56d87b76cbc318a063f93b2c48e01, ohspec:oh_96e62052babcd08f257018916bd920b51fbeb6b8, ohspec:oh_9ad01cf97e9ab4ebcbe92f01be5e15294cab7729, ohspec:oh_b9be2049c7d1aa03a2c2e2fb27191fa162d067f6, ohspec:oh_cc48c693875f8f1fcdadeea8aba5b1c8a30b5bff ;
     schema:telephone "+493074730909" ;
@@ -17552,7 +17516,11 @@ business:b_885
     ] ;
     schema:description "Japanische Küche, Udon, Soba, Reisschalen, japanische Tapas, hausgemacht"@de ;
     schema:email "bistro@tsukushiya.de" ;
-    schema:geo _:g70349799766300 ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50119 ;
+        schema:longitude 13.41705
+    ] ;
     schema:name "Tsukushiya Japanese Deli" ;
     schema:openingHoursSpecification ohspec:oh_5a784021649db3702ce2ed021b165fa2a0eef7d4, ohspec:oh_6779431fc56c5ab2bd3f65289f1a6f2f3b5551d3, ohspec:oh_8e9e9d26a6bda41ca4b1e557af2fcfeae2fae9fa, ohspec:oh_9b50ec170e76aadaae1af810e349678459d9aa8e, ohspec:oh_c06f026245856a7ee58fdcf8a81ceadf18e03fce, ohspec:oh_cd656a115f3087f889b565bd99a3a80afa95e74d ;
     schema:telephone "+493023929222" ;
@@ -24563,90 +24531,109 @@ ohspec:oh_ffe4cd8f1ec51fc09588e6819738b52eb7f20b98
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "09:00:00" .
 
-_:g70349788808140
-    a schema:GeoCoordinates, schema:PostalAddress ;
+_:g70324928458840
+    a schema:PostalAddress ;
     schema:addressCountry "DE" ;
     schema:addressLocality "Berlin" ;
-    schema:latitude 52.54824 ;
-    schema:longitude 13.40834 ;
-    schema:postalCode "10717" ;
-    schema:streetAddress "Uhlandstraße 133" .
+    schema:postalCode "10178", "13156" ;
+    schema:streetAddress "Beuthstraße 23. 13156 Berlin", "Spreeufer 4" .
 
-_:g70349788873860
+_:g70324928560420
     a schema:GeoCoordinates, schema:PostalAddress ;
     schema:addressCountry "DE" ;
     schema:addressLocality "Berlin" ;
-    schema:latitude 52.46856 ;
-    schema:longitude 13.32867 ;
+    schema:latitude 52.55314 ;
+    schema:longitude 13.40337 ;
+    schema:postalCode "10245" ;
+    schema:streetAddress "Sonntagstraße 2" .
+
+_:g70324928909080
+    a schema:GeoCoordinates ;
+    schema:latitude 52.44486, 52.51597 ;
+    schema:longitude 13.26233, 13.29502 .
+
+_:g70324929023600
+    a schema:GeoCoordinates, schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:latitude 52.61536 ;
+    schema:longitude 13.47419 ;
+    schema:postalCode "12487" ;
+    schema:streetAddress "Groß-Berliner Damm 82A" .
+
+_:g70324929052840
+    a schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:postalCode "10999", "12279" ;
+    schema:streetAddress "Hildburghauserstraße  62", "Lausitzerstraße  22 D" .
+
+_:g70324931944200
+    a schema:GeoCoordinates ;
+    schema:latitude 52.4829, 52.59015 ;
+    schema:longitude 13.28523, 13.5263 .
+
+_:g70324932091700
+    a schema:GeoCoordinates, schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:latitude 52.52502 ;
+    schema:longitude 13.39168 ;
+    schema:postalCode "10115" ;
+    schema:streetAddress "Linienstraße  127" .
+
+_:g70324932739860
+    a schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:postalCode "10119", "10435" ;
+    schema:streetAddress "Danzigerstraße 49", "Schönhauser Allee 179" .
+
+_:g70324932755760
+    a schema:GeoCoordinates, schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:latitude 52.52722 ;
+    schema:longitude 13.33256 ;
+    schema:postalCode "10623" ;
+    schema:streetAddress "Knesebeckstraße  4" .
+
+_:g70324932808820
+    a schema:GeoCoordinates, schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:latitude 52.53888 ;
+    schema:longitude 13.2033 ;
     schema:postalCode "10961" ;
-    schema:streetAddress "Zossenerstraße 47" .
+    schema:streetAddress "Bergmannstraße 17" .
 
-_:g70349789492660
+_:g70324933135400
     a schema:GeoCoordinates, schema:PostalAddress ;
     schema:addressCountry "DE" ;
     schema:addressLocality "Berlin" ;
-    schema:latitude 52.48322 ;
-    schema:longitude 13.44678 ;
-    schema:postalCode "12623" ;
-    schema:streetAddress "Hultschiner Damm 82" .
-
-_:g70349795232160
-    a schema:PostalAddress ;
-    schema:addressCountry "DE" ;
-    schema:addressLocality "Berlin" ;
-    schema:postalCode "10961", "12435" ;
-    schema:streetAddress "Am Treptower Park 14", "Brachvogelstraße 1" .
-
-_:g70349799766300
-    a schema:GeoCoordinates, schema:PostalAddress ;
-    schema:addressCountry "DE" ;
-    schema:addressLocality "Berlin" ;
-    schema:latitude 52.50119 ;
-    schema:longitude 13.41705 ;
-    schema:postalCode "14193" ;
-    schema:streetAddress "Teplitzer Straße 38" .
-
-_:g70349799842740
-    a schema:GeoCoordinates ;
-    schema:latitude 52.50699, 52.52785 ;
-    schema:longitude 13.28015, 13.38688 .
-
-_:g70349800137440
-    a schema:GeoCoordinates ;
-    schema:latitude 52.53033, 52.63661 ;
-    schema:longitude 13.39184, 13.5029 .
-
-_:g70349811239980
-    a schema:GeoCoordinates, schema:PostalAddress ;
-    schema:addressCountry "DE" ;
-    schema:addressLocality "Berlin" ;
-    schema:latitude 47.49801 ;
-    schema:longitude 8.71943 ;
-    schema:postalCode "13055" ;
-    schema:streetAddress "Weißenseer Weg 36" .
-
-_:g70349811244660
-    a schema:GeoCoordinates, schema:PostalAddress ;
-    schema:addressCountry "DE" ;
-    schema:addressLocality "Berlin" ;
-    schema:latitude 52.49287 ;
-    schema:longitude 13.44524 ;
-    schema:postalCode "13156" ;
-    schema:streetAddress "Buchholzer Straße 59" .
-
-_:g70349811258240
-    a schema:GeoCoordinates, schema:PostalAddress ;
-    schema:addressCountry "DE" ;
-    schema:addressLocality "Berlin" ;
-    schema:latitude 52.50393 ;
-    schema:longitude 13.30787 ;
+    schema:latitude 52.42588 ;
+    schema:longitude 13.20797 ;
     schema:postalCode "10781" ;
-    schema:streetAddress "Goltzstraße  48" .
+    schema:streetAddress "Traunsteinerstraße  1" .
 
-_:g70349811308220
+_:g70324933166720
+    a schema:GeoCoordinates ;
+    schema:latitude 52.5039, 52.50405 ;
+    schema:longitude 13.46968, 13.62053 .
+
+_:g70324933217900
     a schema:PostalAddress ;
     schema:addressCountry "DE" ;
     schema:addressLocality "Berlin" ;
-    schema:postalCode "10715", "13593" ;
-    schema:streetAddress "Wexstraße 20", "Wilhelmstraße 89" .
+    schema:postalCode "10437", "14089" ;
+    schema:streetAddress "Neukladower Allee 9 - 12", "Senefelderstraße 10" .
+
+_:g70324935210060
+    a schema:GeoCoordinates, schema:PostalAddress ;
+    schema:addressCountry "DE" ;
+    schema:addressLocality "Berlin" ;
+    schema:latitude 52.49633 ;
+    schema:longitude 13.42132 ;
+    schema:postalCode "12526" ;
+    schema:streetAddress "Waltersdorfer Straße 1a" .
 
