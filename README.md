@@ -36,12 +36,18 @@ This will trigger:
 - The main conversion script [bin/convert_businesses.rb](bin/convert_businesses.rb) is written in Ruby (>=2.4) and requires the [linkeddata](https://rubygems.org/gems/linkeddata) gem.
 - The script to convert the intermedia N-Triples file to Turtle ([bin/to_ttl.sh](bin/to_ttl.sh)) is a simple shell script and requires the `rapper` command to be available. `rapper` is part of [Redland](http://librdf.org). For Mac OS, there is a [brew formula to install Redland](https://formulae.brew.sh/formula/redland). There are also packages for Debian and other distributions.
 
+## Logo
+
+- "truck" logo by [FontAwesome](https://fontawesome.com) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- "RDF" logo by  [W3C](https://www.w3.org/RDF/icons/).
+
 ## License
 
 All software in this repository is published under the [MIT License](LICENSE). All data in this repository is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
+
 
 ---
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-04-11
+Last changed: 2020-04-13
