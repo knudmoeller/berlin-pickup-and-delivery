@@ -3,7 +3,7 @@
 ![Logo of "Delivery and Pickup Services in Berlin" dataset](logo/lieferdienste-logo_small.png)
 
 This repository contains RDF data on businesses in Berlin that offer delivery and/or pickup of products.
-This includes restaurants and other food establishments, but also any other kind of business that had to close its doors due to the current Corona/Covid-19 situation, and is now relying on delivery and pickup services.
+The data includes restaurants and other food establishments, but also any other kind of business that had to close its doors due to the current Corona/Covid-19 situation, and is now relying on delivery and pickup services.
 
 The RDF data can be found in [data/target/lieferdienste.ttl](data/target/lieferdienste.ttl).
 
