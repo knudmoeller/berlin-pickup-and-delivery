@@ -31,7 +31,10 @@ DAY_MAPPING = {
 
 class RestaurantConverter include Enumerable
     def initialize(json_source)
+        base_path = File.join(File.dirname(json_source), File.basename(json_source, File.extname(json_source)))
+        csv_path = "#{base_path}.csv"
         @source_data = JSON.parse(File.read(json_source))
+        @id_mapping = CSV.read(csv_path, :col_sep=>';', :headers=>true).map { |row| [row['id'], row['unique_id']] }.to_h 
     end
 
     def each(&block)
@@ -44,9 +47,9 @@ class RestaurantConverter include Enumerable
 
     def entry_to_rdf(entry)
         # 1. convert entry to graph
-        if entry['id']
+        if unique_id = @id_mapping[entry['id']]
             graph = RDF::Graph.new
-            business_res = BUSINESS["b_#{entry['id']}"]
+            business_res = BUSINESS["b_#{unique_id}"]
             case entry['art']
             when TYPE_GASTRO
                 business_type = SCHEMA.FoodEstablishment

@@ -5,20 +5,20 @@ data/target/lieferdienste.ttl: data/temp/lieferdienste.nt | data/target
 	@echo "writing to $@ ..."
 	@bin/to_ttl.sh $< $@
 
-data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson | data/temp
+data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson data/source/lieferdienste_simple_search.csv | data/temp
 	@echo "converting $< to N-Triples ..."
 	@echo "writing to $@ ..."
 	@ruby bin/convert_businesses.rb $< $@
 
 .PHONY: data/source/lieferdienste_simple_search.csv
 data/source/lieferdienste_simple_search.csv: | data/source
-	@echo "downloading source from SimpleSearch API ..."
+	@echo "downloading CSV source from SimpleSearch API ..."
 	@echo "writing to $@ ..."
 	@curl -s "https://www.berlin.de/sen/web/service/liefer-und-abholdienste/index.php/index/all.csv?q=" --output $@
 
 .PHONY: data/source/lieferdienste_simple_search.geojson
 data/source/lieferdienste_simple_search.geojson: | data/source
-	@echo "downloading source from SimpleSearch API ..."
+	@echo "downloading GeoJSON source from SimpleSearch API ..."
 	@echo "writing to $@ ..."
 	@curl -s "https://www.berlin.de/sen/web/service/liefer-und-abholdienste/index.php/index/all.gjson?q=" --output $@
 
