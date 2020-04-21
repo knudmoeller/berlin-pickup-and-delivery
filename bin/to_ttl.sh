@@ -13,7 +13,6 @@ rapper -i ntriples -o turtle $1 \
   -f 'xmlns:wikidata="http://www.wikidata.org/entity/"' \
   -f 'xmlns:schema="https://schema.org/"' \
   -f 'xmlns:business="https://daten.berlin.de/ds/business/"' \
-  -f 'xmlns:address="https://daten.berlin.de/ds/address/"' \
   -f 'xmlns:ohspec="https://daten.berlin.de/ds/opening-hours/"' \
   -f 'xmlns:delivery="https://daten.berlin.de/vocab/delivery/"' \
   > $2

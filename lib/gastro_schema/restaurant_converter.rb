@@ -9,7 +9,6 @@ require 'uuid'
 
 DS_BASE = "https://daten.berlin.de/ds/"
 BUSINESS = RDF::Vocabulary.new(File.join(DS_BASE, "business/"))
-ADDRESS = RDF::Vocabulary.new(File.join(DS_BASE, "address/"))
 OH_SPEC = RDF::Vocabulary.new(File.join(DS_BASE, "opening-hours/"))
 VOCAB_BASE = "https://daten.berlin.de/vocab/"
 DELIVERY = RDF::Vocabulary.new(File.join(VOCAB_BASE, "delivery/"))
@@ -65,7 +64,6 @@ class RestaurantConverter include Enumerable
             graph << [ business_res, SCHEMA.email, entry['mail'] ] unless entry['mail'].empty?
             graph << [ business_res, SCHEMA.telephone, entry['fon']] unless entry['fon'].empty?
             unless entry['strasse_nr'].empty?
-                # address_res = ADDRESS["a_#{entry['id']}"]
                 address_res = RDF::Node.uuid
                 graph << [ business_res, SCHEMA.address, address_res ]
                 graph << [ address_res, RDF.type, SCHEMA.PostalAddress ]
