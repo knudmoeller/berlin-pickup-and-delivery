@@ -58,8 +58,8 @@ ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534
     schema:opens "12:00:00" .
 ```
 
-* The local part of the URI (`b_2`) is minted using the `unique_id` feature of the source data (the `id` field is internal to the SimpleSearch tool used to create the dataset and is not stable between the dataset's versions).
-* Each business is either a `schema:FoodEstablishment` or a `schema:LocalBusiness`, based on the `art` field.
+* The local part of the business URI (`b_2`) is minted using the `unique_id` feature of the source data (the `id` field is internal to the SimpleSearch tool used to create the dataset and is not stable between the dataset's versions).
+* Each business is either a `schema:FoodEstablishment` or a `schema:LocalBusiness`, based on the source data's `art` field.
 * The URIs of the opening hours specification (`ohspec:oh_...`) are a hash over a normalized string of the opening hours for a particular day.
 That means that opening hours specifications can be shared by several businesses.
 * `business` (namespace for business URIs), `ohspec` (namespace for opening hours specifications) and `delivery` (custom properties not covered by schema.org) are just URI namespaces and don't currently resolve to anything.
