@@ -10,7 +10,6 @@
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 @prefix schema: <https://schema.org/> .
 @prefix business: <https://daten.berlin.de/ds/business/> .
-@prefix address: <https://daten.berlin.de/ds/address/> .
 @prefix ohspec: <https://daten.berlin.de/ds/opening-hours/> .
 @prefix delivery: <https://daten.berlin.de/vocab/delivery/> .
 
@@ -214,7 +213,7 @@ business:b_1005
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13189" ;
-        schema:streetAddress "Neumannstraße  13"
+        schema:streetAddress "Neumannstraße 13"
     ] ;
     schema:description "Apotheke"@de ;
     schema:email "info@center-apotheke-pankow.de" ;
@@ -478,7 +477,7 @@ business:b_1015
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10625" ;
-        schema:streetAddress "Leibnizstraße  17"
+        schema:streetAddress "Leibnizstraße 17"
     ] ;
     schema:description "Backwaren, Café, Snacks und Mittagstisch"@de ;
     schema:email "leibnizcafe@gmail.com" ;
@@ -717,7 +716,7 @@ business:b_1024
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12459" ;
-        schema:streetAddress "Rathenaustraße  23"
+        schema:streetAddress "Rathenaustraße 23"
     ] ;
     schema:description "Pizza und italienische Feinkost, frische Pasta,"@de ;
     schema:email "manifatturadelgusto.berlin@gmail.com" ;
@@ -908,7 +907,7 @@ business:b_1031
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12205" ;
-        schema:streetAddress "Curtiusstraße  13"
+        schema:streetAddress "Curtiusstraße 13"
     ] ;
     schema:description "Baby- und Kinderkleidung, Kinderschuhe, Schwerpunkt Bio-Kleidung"@de ;
     schema:email "post@klix-berlin.de" ;
@@ -1032,7 +1031,7 @@ business:b_1036
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10627" ;
-        schema:streetAddress "Kantstraße  87"
+        schema:streetAddress "Kantstraße 87"
     ] ;
     schema:description "Indisch-Mexikanische Internationale Fusion Küche"@de ;
     schema:email "soopri2019@gmail.com" ;
@@ -1813,7 +1812,7 @@ business:b_1066
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12047" ;
-        schema:streetAddress "Kirchhofstraße  41"
+        schema:streetAddress "Kirchhofstraße 41"
     ] ;
     schema:description "Afrikanische Speisen und Getränke, Restaurant, Lieferservice und Catering"@de ;
     schema:email "info@panafricaberlin.de" ;
@@ -1887,7 +1886,7 @@ business:b_1069
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10117" ;
-        schema:streetAddress "Albrechtstraße  8"
+        schema:streetAddress "Albrechtstraße 8"
     ] ;
     schema:description "Wir liefern von Montag bis Sonntag, 11 bis 18 Uhr, die Gerichte unserer Wochenkarte sowie leckere Suppen zu Ihnen nach Hause. Die Bestellung kann alternativ auch vor Ort bei uns abgeholt werden.  UNSER ANGEBOT:  Tagesgericht inkl. Vorspeise oder Dessert | 10€  Suppe des Tages | 5"@de ;
     schema:email "kontakt@alvis-restaurant.de" ;
@@ -2295,7 +2294,7 @@ business:b_1085
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12159" ;
-        schema:streetAddress "Rheinstraße  65"
+        schema:streetAddress "Rheinstraße 65"
     ] ;
     schema:description "Kuchen, Kaffee"@de ;
     schema:email "info@gugelhupf-berlin.de" ;
@@ -2319,7 +2318,7 @@ business:b_1086
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10961" ;
-        schema:streetAddress "Bergmannstraße  3"
+        schema:streetAddress "Bergmannstraße 3"
     ] ;
     schema:description "Kuchen, Kaffee"@de ;
     schema:email "info@gugelhupf-berlin.de" ;
@@ -2583,7 +2582,7 @@ business:b_1096
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10625" ;
-        schema:streetAddress "Bismarckstraße  30"
+        schema:streetAddress "Bismarckstraße 30"
     ] ;
     schema:description "Apotheke"@de ;
     schema:email "bestellung@opernviertel-apotheke.de" ;
@@ -2942,7 +2941,7 @@ business:b_1109
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12159" ;
-        schema:streetAddress "Lauterstraße  14"
+        schema:streetAddress "Lauterstraße 14"
     ] ;
     schema:description "Hausgebackenes Brot, Kuchen, Zimtrollen, Pizza, Lasagne, Salate, Curry"@de ;
     schema:email "ammarkt@lula-berlin.de" ;
@@ -3582,7 +3581,7 @@ business:b_1134
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10117" ;
-        schema:streetAddress "Georgenstraße  17/18"
+        schema:streetAddress "Georgenstraße 17/18"
     ] ;
     schema:description "Bei der Auswahl unserer Blumen und Pflanzen achten wir verstärkt auf Produkte aus fairem Handel."@de ;
     schema:email "info@greenqueen.de" ;
@@ -3774,7 +3773,7 @@ business:b_1141
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10245" ;
-        schema:streetAddress "Sonntagstraße  1"
+        schema:streetAddress "Sonntagstraße 1"
     ] ;
     schema:description "Homemade Premium Burgers"@de ;
     schema:email "backoffice@bbbrestaurant.de" ;
@@ -3821,7 +3820,7 @@ business:b_1143
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10437" ;
-        schema:streetAddress "Am Falkplatz  1"
+        schema:streetAddress "Am Falkplatz 1"
     ] ;
     schema:description "deutsche Küche"@de ;
     schema:email "cafe-meta@hotmail.de" ;
@@ -3943,7 +3942,7 @@ business:b_1148
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Hardenbergstraße  9a"
+        schema:streetAddress "Hardenbergstraße 9a"
     ] ;
     schema:description "Landkarten, Reiseführer, Posterkarten, Globen, Wanderkarten und -führer, Fahrradkarten und -führer"@de ;
     schema:email "landkarten@schropp.de" ;
@@ -4282,7 +4281,7 @@ business:b_1161
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13467" ;
-        schema:streetAddress "Heinsestraße  42"
+        schema:streetAddress "Heinsestraße 42"
     ] ;
     schema:description "Chinesische Küche mit Liebe gekocht"@de ;
     schema:geo [
@@ -4331,7 +4330,7 @@ business:b_1163
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10179" ;
-        schema:streetAddress "Waisenstraße  14-16"
+        schema:streetAddress "Waisenstraße 14-16"
     ] ;
     schema:description "Berliner Küche, wöchentlich wechselndes Menü"@de ;
     schema:email "post@zurletzteninstanz.de" ;
@@ -4659,7 +4658,7 @@ business:b_1177
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10179" ;
-        schema:streetAddress "Alte Jakobstraße  92"
+        schema:streetAddress "Alte Jakobstraße 92"
     ] ;
     schema:description "Limitierte Editionen von T-shirts mit Aufdrucken"@de ;
     schema:email "sales@luckysyrup.com" ;
@@ -4695,6 +4694,30 @@ business:b_1178
     schema:telephone "+49307749332" ;
     schema:url "https://www.tavernasirtaki.de" .
 
+business:b_1179
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Bitte Tel. 30min vorher bestellen"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13051" ;
+        schema:streetAddress "Dorfstraße 11"
+    ] ;
+    schema:description "Deutsche Küche .Spargelkarte"@de ;
+    schema:email "feurichs.backstuben@web.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.57766 ;
+        schema:longitude 13.4836
+    ] ;
+    schema:name "Feurichs Wirtshaus Malchow" ;
+    schema:openingHoursSpecification ohspec:oh_015d296c6a7f058fc08acd522f19d2d5d62747a5, ohspec:oh_1276eee6032121557392873d506c79510d0ffd62, ohspec:oh_4368f725253cea12453da7146a147e7d51809de6, ohspec:oh_49de6fd389ed152e35e8bbebb46d9d6e38dd4c8b, ohspec:oh_54f78713f53f2a15f414dccce61e41abf663a959, ohspec:oh_6bf4206a118d77f0685fc52ea8783cd3fc6e1f90, ohspec:oh_b887e689489a1375fa4c1093d35dcbb8c8e2c715 ;
+    schema:telephone "+491624875797" ;
+    schema:url "https://www.feurichswirtshausmalchow.de" .
+
 business:b_118
     a schema:FoodEstablishment ;
     delivery:deliveryComment "Lieferungen Deutschlandweit via unseres Webshops"@de ;
@@ -4720,6 +4743,244 @@ business:b_118
     schema:telephone "+4930208488020" ;
     schema:url "https://www.bonanzacoffee.de" .
 
+business:b_1180
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10117" ;
+        schema:streetAddress "Friedrichstraße 129"
+    ] ;
+    schema:description "Italienische Küche"@de ;
+    schema:email "roma-berlin@hotmail.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52512 ;
+        schema:longitude 13.38713
+    ] ;
+    schema:name "Ristorante Pizzeria Roma" ;
+    schema:telephone "+493028878785" ;
+    schema:url "https://roma-ristorante.de" .
+
+business:b_1181
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Es gibt Spargel mit Schnitzel, mit Gourmetschinken oder Natur...immer mit Erdäpfeln und Hollandaise oder Nussbutter"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10435" ;
+        schema:streetAddress "Kollwitzstrße 87"
+    ] ;
+    schema:description "Wir bieten Freitag,Samstag und Sonntag lecker Spargel mit Schnitzel, mit Gourmetschinken oder Natur an...immer mit Erdäpfeln und Hollandaisse oder Nussbutter"@de ;
+    schema:email "info@zumdrittenmann.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53833 ;
+        schema:longitude 13.41996
+    ] ;
+    schema:name "Zum dritten Mann" ;
+    schema:openingHoursSpecification ohspec:oh_ab3b5f9fbfa3ce082d1cf7a743c880cf6dde4873, ohspec:oh_aff8374aba62112b59c6d87bf7dc410c79f979fc, ohspec:oh_b166a19aece644f8f1714937d95e6088b620a67f ;
+    schema:telephone "+491723252403" ;
+    schema:url "https://WWW.zumdrittenmann.de" .
+
+business:b_1182
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Innerhalb des Rings oder auf Anfrage"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Wir haben verschiedene Biere für euch bereit stehen."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10245" ;
+        schema:streetAddress "Neue Bahnhofstraße 30"
+    ] ;
+    schema:description "Selbstgebrautes Bier"@de ;
+    schema:email "bestellung@strassenbraeu.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50557 ;
+        schema:longitude 13.46932
+    ] ;
+    schema:name "Straßenbräu" ;
+    schema:openingHoursSpecification ohspec:oh_1ce98645ca8603d5e42340816aec407d552c528e, ohspec:oh_2333ee0a9c4c851999c63c72b20ebd8a3f50b646, ohspec:oh_30646956fae3026de5be554e2921d666ad06121b, ohspec:oh_8b1bf4069c9bdd511deae9aba7115039b4254d08, ohspec:oh_c50478f7eff2512db469e4795ece5c7c82d1e3d1, ohspec:oh_dcd44990f28d2a2ca313c330e5ffa885fa932a05, ohspec:oh_fa3e163764937328870d1674af10b25a60fbaa0f ;
+    schema:telephone "+4917684833309" ;
+    schema:url "https://www.strassenbraeu.de" .
+
+business:b_1183
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Weißensee, Hohenschönhausen, Prenzlauerberg,"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13088" ;
+        schema:streetAddress "Bizetstraße 129"
+    ] ;
+    schema:description "Pizza, Nudeln, Fingerfood, Salad"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.55017 ;
+        schema:longitude 13.46394
+    ] ;
+    schema:name "Yellow Pizza" ;
+    schema:openingHoursSpecification ohspec:oh_1499e742db94e72fc5113be53902a7a18db40b9a, ohspec:oh_25f6b301ffcde86500209b1c13c97d34eecf20a9, ohspec:oh_7f2dd59f61fe9c238481269aff60787a777b9ca1, ohspec:oh_935117821746f1a206a9e5637ff08760f0766af4, ohspec:oh_ac47e9b370980b8277a298c8309598bc370775c2, ohspec:oh_be92c83672adc6c99990c8e09fac587f79e8966f, ohspec:oh_c81731e120dbe385d4d411e104c049c326eff705 ;
+    schema:telephone "+49309252261" ;
+    schema:url "https://yellowpizza.de" .
+
+business:b_1184
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Wir sind täglich von 14-20 Uhr da . Bestellungen bitte unter 030 91142450 aufgeben ."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13125" ;
+        schema:streetAddress "Alt Karow 35"
+    ] ;
+    schema:description "Rippchen , Burger , Schnitzel"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.61522 ;
+        schema:longitude 13.48469
+    ] ;
+    schema:name "Das märchenhafte Ribhouse" ;
+    schema:openingHoursSpecification ohspec:oh_0da4bb722c665b26876562df4000bcc009a75005, ohspec:oh_1be08419390583d86bc38e2512cec6d602f6d774, ohspec:oh_83651a864021fa3086e64164d5e264ea106c60df, ohspec:oh_8b79ef1d83c62e68e48fdf8be3b013971f2335c9, ohspec:oh_dcdbb04851fc2a82bdb322bb9ab3c885d0f2d573, ohspec:oh_fd39849742e40247ea37694b2145872a63e236e8, ohspec:oh_fe362aa7696cd94a1007ad94fa7b5497a1285a3e ;
+    schema:telephone "+491723202369" ;
+    schema:url "https://das-maerchenhafte-ribhouse.de" .
+
+business:b_1185
+    a schema:LocalBusiness ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Für Wünsche oder Kaufberatung bitte eine Email schreiben. Ich freue mich!"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10245" ;
+        schema:streetAddress "Wühlischstraße 25"
+    ] ;
+    schema:description "Trendige Unterwäsche für Frauen und Männer, Bademode, Nachtwäsche und Socken von ausgesuchten Labels."@de ;
+    schema:email "info@superschluepfer.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50942 ;
+        schema:longitude 13.45949
+    ] ;
+    schema:name "Superschlüpfer" ;
+    schema:telephone "+4983030152" ;
+    schema:url "https://www.trouva.com/boutiques/superschlupfer-in-10245" .
+
+business:b_1186
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Das kolyma2-Kollektiv liefert euch blitzschnell per Fahrrad unser Essen in die Bezirke Neukölln, Kreuzberg & Friedrichshain. Bestellen per App >>coopcycle<< oder über die Webseite >>https://kolyma2.coopcycle.org<<."@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "#bettercalltschüsch Ihr könnt alles von unserer Karte ganz easy vorbestellen (030 544 844 14) oder direkt bei uns im Laden bestellen. Zur Zeit nur zum mitnehmen! Wir sind gerade, außer Dienstags, täglich von 16 - 21 Uhr für euch am Start!"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12045" ;
+        schema:streetAddress "Fuldastraße 12"
+    ] ;
+    schema:description "alternative indian futurefood, vegan & vegetarisch, Currys, Suppen, Salate, Desserts, solidarisch / regional / ökologisch gehandelte & produzierte  Getränke, Eiskaffees & Paletas, uvm!"@de ;
+    schema:email "cafe@tschuesch.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.48407 ;
+        schema:longitude 13.4366
+    ] ;
+    schema:name "cafe tschüsch" ;
+    schema:openingHoursSpecification ohspec:oh_81a27128e4062bd3a8ff247ceba5f3931307a646, ohspec:oh_8e8a27757bc96f7432b8d35d24070c616497bb5b, ohspec:oh_a1b03157554eaba80bffe3db55f215f9d8fe904e, ohspec:oh_a914d0fa357f8d8d20442ea6b67fc4970af30fd4, ohspec:oh_bbe23c79d31ab9b743c9c281e8f8c637cf5ff6e2, ohspec:oh_d78cca33463a48218f82f5a45854a592ea9822f6 ;
+    schema:telephone "+493054484414" ;
+    schema:url "https://www.tschuesch.de" .
+
+business:b_1187
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "gerne spontan beim Spazieren an der Spree oder auf Vorbestellung spätestens 15.00 Uhr am vorherigen Tag"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12459" ;
+        schema:streetAddress "Paul-Tropp-Straße 11"
+    ] ;
+    schema:description "Specialty Coffee, hausgemachte Kuchen & Quiche, Wraps, Frische Säfte, Alkoholisches und nicht alkoholisches"@de ;
+    schema:email "cafe@kranhaus.berlin" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.45425 ;
+        schema:longitude 13.52878
+    ] ;
+    schema:name "Kranhaus Cafe Berlin" ;
+    schema:openingHoursSpecification ohspec:oh_02bb46edc68d3dacba6838238a1cf1783bef4355, ohspec:oh_2d6c11a4252eed599223eb165248e9d1fd44b9ff, ohspec:oh_b82ff440011bac5ff9fc59ad6bdaaa9b446a9187, ohspec:oh_b8a9bbb7f46d04e1b5a64058ea6b9a5875dcf91d, ohspec:oh_cd14d901508165093b777f15fcea4f3ff44c54d8 ;
+    schema:telephone "+493052138265" ;
+    schema:url "https://www.kranhaus.berlin" .
+
+business:b_1188
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Bestellungen zum Abholen können telefonisch oder persönlich von 10:00 bis 17:30 Uhr stattfinden."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "14052" ;
+        schema:streetAddress "Reichsstraße 9"
+    ] ;
+    schema:description "Italienische Spezialitäten, hausgemachte Pasta, Fisch, Fleisch, Salumeria, große Weinauswahl"@de ;
+    schema:email "info@via-vai.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51226 ;
+        schema:longitude 13.26813
+    ] ;
+    schema:name "Salumeria Via Vai Specialità Italiane" ;
+    schema:openingHoursSpecification ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_48f4016ca7a6c0a01c3c2fe5e671c77cdb062685, ohspec:oh_6696cb76a1513b291cdba8248efdbb3d3bf7572a, ohspec:oh_8fa5171a0efd7ea719f1acb38b13c59b024272db, ohspec:oh_d8b7c63f5fc78927c24e45bebf761dd392fd40dd ;
+    schema:telephone "+49303047741" ;
+    schema:url "http://www.via-vai.de/" .
+
+business:b_1189
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "6 KM Radius"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Während der Öffnungszeit"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12107" ;
+        schema:streetAddress "Friedenstraße 7"
+    ] ;
+    schema:description "Pizza, Pasta, Burger"@de ;
+    schema:email "info@call-toeat.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.43817 ;
+        schema:longitude 13.3834
+    ] ;
+    schema:name "Call to Eat" ;
+    schema:openingHoursSpecification ohspec:oh_15e74349e149c1db5caa3ae1b10e1af85db6a181, ohspec:oh_24e8c142d8dbd20fca35c3971559d1fcfa8f69cc, ohspec:oh_772b39fc368f2197401aea4180b396b4010463f6, ohspec:oh_7ba8be5886267b5111a07fc1b345aa4014c84910, ohspec:oh_aad0562dd9b22d70ffc428283d85fbe1ec26bee1, ohspec:oh_e24dbb1bc967779e14de9bccddfdf22f6c43799a, ohspec:oh_fa01d27add4b94228f79b29d7aa091d7264f9111 ;
+    schema:telephone "+493031167237" ;
+    schema:url "https://www.Call-toEat.de" .
+
 business:b_119
     a schema:FoodEstablishment ;
     delivery:deliveryComment "Lieferungen in Schöneberg Berlin Mitte auch möglich aber mit Wartezeit"@de ;
@@ -4742,6 +5003,101 @@ business:b_119
     schema:name "Ristorante Centro Sud" ;
     schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 ;
     schema:telephone "+4917684531565" .
+
+business:b_1190
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Wir bieten Ihnen ab sofort unser neues Takeaway Menü an. Bestellen Sie einfach Ihre gewünschten Speisen unter unserer Telefonnummer und Ihr Essen wird wie gewohnt frisch, schnell und lecker nach Ihren Wünschen zubereitet und für Sie abholbereit verpackt. Wir freuen uns!"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "14167" ;
+        schema:streetAddress "Teltower Damm 49"
+    ] ;
+    schema:description "In unserem Restaurant \"Thai Cuisine\" dürfen Sie eine erlesene Vielfalt an köstlichen und vor allem authentisch zubereiteten Speisen genießen. Tauchen Sie ein in den Geschmack Thailands. Unser Familienbetrieb steht seit über 10 Jahren für Gaumenfreuden aus unserem Heimatland."@de ;
+    schema:email "thaicuisine.berlin@gmail.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.42967 ;
+        schema:longitude 13.25997
+    ] ;
+    schema:name "Thai Cuisine Berlin Zehlendorf" ;
+    schema:openingHoursSpecification ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea ;
+    schema:telephone "+493088669150" ;
+    schema:url "https://www.thai-cuisine-berlin.de/de" .
+
+business:b_1191
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "anrufen, abholen, genießen"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10437" ;
+        schema:streetAddress "Stargarder Straße 28"
+    ] ;
+    schema:description "hausgemacht deutsche regionale Küche, Spargelgerichte"@de ;
+    schema:email "info@thueringer-stuben.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.5444 ;
+        schema:longitude 13.42267
+    ] ;
+    schema:name "Restaurant Thüringer Stuben" ;
+    schema:openingHoursSpecification ohspec:oh_5a784021649db3702ce2ed021b165fa2a0eef7d4, ohspec:oh_6779431fc56c5ab2bd3f65289f1a6f2f3b5551d3, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_8e9e9d26a6bda41ca4b1e557af2fcfeae2fae9fa, ohspec:oh_9b50ec170e76aadaae1af810e349678459d9aa8e, ohspec:oh_c06f026245856a7ee58fdcf8a81ceadf18e03fce, ohspec:oh_cd656a115f3087f889b565bd99a3a80afa95e74d ;
+    schema:telephone "+49304463339" ;
+    schema:url "https://www.thueringer-stuben.de" .
+
+business:b_1192
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10585" ;
+        schema:streetAddress "Gierkezeile 1"
+    ] ;
+    schema:description "Italienische Weine, Olivenöl und mehr"@de ;
+    schema:email "vinipozzolini@outlook.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51304 ;
+        schema:longitude 13.30287
+    ] ;
+    schema:name "Vini Pozzolini" ;
+    schema:openingHoursSpecification ohspec:oh_10c47ad9cea05e7ec5fb34d102eefd3939c19914, ohspec:oh_2f2472fd1117145a5527c0c5a59791991e0c27b1, ohspec:oh_3e8d8ffaeae1d7dfb718c21c6915b1578c822716, ohspec:oh_6ba5b6c412e6d5043c815ae5c9794c0d4bcbb1a7, ohspec:oh_b8a05510a0772862d827f3fc7c472c9993b04e0c ;
+    schema:telephone "+491748407021" ;
+    schema:url "https://vinipozzolini.de" .
+
+business:b_1193
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Wir bieten ab dem 20. April täglich von 12.00 bis 18.00 unser Mittagsmenü zum Mitnehmen an"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10117" ;
+        schema:streetAddress "Jägerstraße 56"
+    ] ;
+    schema:description "Bayrische Köstlichkeiten zum Mitnehmen"@de ;
+    schema:email "info@erdingerberlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51431 ;
+        schema:longitude 13.39348
+    ] ;
+    schema:name "ERDINGER am Gendarmenmarkt" ;
+    schema:openingHoursSpecification ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_48f4016ca7a6c0a01c3c2fe5e671c77cdb062685, ohspec:oh_6696cb76a1513b291cdba8248efdbb3d3bf7572a, ohspec:oh_8fa5171a0efd7ea719f1acb38b13c59b024272db, ohspec:oh_d307c7942d5b48ec3fea520a99340045b7295c60, ohspec:oh_d8b7c63f5fc78927c24e45bebf761dd392fd40dd ;
+    schema:telephone "+4930208799800" ;
+    schema:url "https://erdingerberlin.de/" .
 
 business:b_12
     a schema:FoodEstablishment ;
@@ -5260,7 +5616,7 @@ business:b_139
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13125" ;
-        schema:streetAddress "Achilles str 62"
+        schema:streetAddress "Achilles Straße 62"
     ] ;
     schema:description "Indische küche"@de ;
     schema:geo [
@@ -5530,7 +5886,7 @@ business:b_149
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14197" ;
-        schema:streetAddress "Rüdesheimerstr 9"
+        schema:streetAddress "Rüdesheimerstraße 9"
     ] ;
     schema:description "Französiche Küche"@de ;
     schema:email "info@restaurant-pastis.de" ;
@@ -6221,7 +6577,7 @@ business:b_175
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10781" ;
-        schema:streetAddress "Goltzstr 24"
+        schema:streetAddress "Goltzstraße 24"
     ] ;
     schema:description "Hausgemachte Burger mit Neuland Fleisch"@de ;
     schema:email "info@schoene-burger.de" ;
@@ -6781,7 +7137,7 @@ business:b_196
         schema:longitude 13.30787
     ] ;
     schema:name "Goldhahn und Sampson" ;
-    schema:openingHoursSpecification ohspec:oh_366f2d9c3fdb5b29a601de8271f9be84f9d30f76, ohspec:oh_41b23d53ecfc32d451ef6f8a4ea486966bc7d4e3, ohspec:oh_5773074cf5b5493fa4cb2298ed9a69f7c71071cd, ohspec:oh_5f73a7a45146a62db51c91f1529b061110afb6ba, ohspec:oh_97568ccad020736151564d2b0fc398947c91be27, ohspec:oh_addd2b90ad956eb31208af51e29e0953947e5832 ;
+    schema:openingHoursSpecification ohspec:oh_366f2d9c3fdb5b29a601de8271f9be84f9d30f76, ohspec:oh_41b23d53ecfc32d451ef6f8a4ea486966bc7d4e3, ohspec:oh_5773074cf5b5493fa4cb2298ed9a69f7c71071cd, ohspec:oh_5e86c5cef277403576126ce6fadfa7be47a89d56, ohspec:oh_97568ccad020736151564d2b0fc398947c91be27, ohspec:oh_addd2b90ad956eb31208af51e29e0953947e5832 ;
     schema:telephone "+4915158128837" ;
     schema:url "https://www.goldhahnundsampson.de/shop/" .
 
@@ -7011,7 +7367,7 @@ business:b_204
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10437" ;
-        schema:streetAddress "Lettestr 6a"
+        schema:streetAddress "Lettestraße 6a"
     ] ;
     schema:description "Frühstück, Crêpes, Teigtaschen sowie leckere Fleischgerichte wie Spare Ribs and more...."@de ;
     schema:email "info@molokoberlin.de" ;
@@ -7540,7 +7896,7 @@ business:b_224
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10115" ;
-        schema:streetAddress "Wöhlerstraße  12-13"
+        schema:streetAddress "Wöhlerstraße 12-13"
     ] ;
     schema:description "Online Bestellservice  mit Bedienung ans Auto"@de ;
     schema:email "info@swipeby.de" ;
@@ -7802,7 +8158,7 @@ business:b_234
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10115" ;
-        schema:streetAddress "Ackerstraße  173"
+        schema:streetAddress "Ackerstraße 173"
     ] ;
     schema:description "Frisch geröstete Kaffee - und Espressobohnen, Kaffeegetränke, Kaffeespezialitäten zu Mitnehmen, Frische Backwaren, Kuchen und Torten zum Mitnehmen"@de ;
     schema:email "info@roeststaette.com" ;
@@ -7968,7 +8324,7 @@ business:b_240
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12163" ;
-        schema:streetAddress "Feuerbachstraße  16"
+        schema:streetAddress "Feuerbachstraße 16"
     ] ;
     schema:description "Thai Spezialitäten Restaurant"@de ;
     schema:geo [
@@ -8158,7 +8514,7 @@ business:b_248
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10178" ;
-        schema:streetAddress "Memhardstraße  3"
+        schema:streetAddress "Memhardstraße 3"
     ] ;
     schema:description "Pizza"@de ;
     schema:geo [
@@ -8378,7 +8734,7 @@ business:b_256
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10405" ;
-        schema:streetAddress "Knaackstraße  4"
+        schema:streetAddress "Knaackstraße 4"
     ] ;
     schema:description "Original Sri Lanka Küche - Das beliebteste Essen Sri Lankas ist „Reis und Curry“ mit seiner ganzen Vielfalt und jedes individuell gewürzt."@de ;
     schema:email "info@suriya-kanthi.de" ;
@@ -8588,7 +8944,7 @@ business:b_264
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13187" ;
-        schema:streetAddress "Florastraße  25"
+        schema:streetAddress "Florastraße 25"
     ] ;
     schema:description "Klassiker der Deutschen Küche, vegetarisch, vegan, mediterran. Alles frisch und hausgemacht!"@de ;
     schema:email "info@franz-pankow.de" ;
@@ -8778,7 +9134,7 @@ business:b_271
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Grolmanstraße  27"
+        schema:streetAddress "Grolmanstraße 27"
     ] ;
     schema:description "Street Food aus Nordafrika und dem Mittleren Osten"@de ;
     schema:email "info@klx-kosharylux.com" ;
@@ -9134,7 +9490,7 @@ business:b_286
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10999" ;
-        schema:streetAddress "Reichenbergerstraße  147"
+        schema:streetAddress "Reichenbergerstraße 147"
     ] ;
     schema:description "Mediterrane, orientalische, kurdische Spezialitäten"@de ;
     schema:email "kontakt@tenur.de" ;
@@ -9158,7 +9514,7 @@ business:b_287
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10407" ;
-        schema:streetAddress "Hufelandstraße  10"
+        schema:streetAddress "Hufelandstraße 10"
     ] ;
     schema:description "Törtchen, Törtchen, Törtchen"@de ;
     schema:email "hallo@jubel.berlin" ;
@@ -9277,7 +9633,7 @@ business:b_291
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12043" ;
-        schema:streetAddress "Weichselstraße  65"
+        schema:streetAddress "Weichselstraße 65"
     ] ;
     schema:description "Käsespätzle, Fondue, Alpenländische Spezialitäten"@de ;
     schema:email "kaese@peppikaese.de" ;
@@ -9660,7 +10016,7 @@ business:b_305
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13357" ;
-        schema:streetAddress "Badstraße  67"
+        schema:streetAddress "Badstraße 67"
     ] ;
     schema:description "hausgemachte Torten, Frühstück, hausgemachte Backwaren,"@de ;
     schema:email "info@lafemmeberlin.de" ;
@@ -9684,7 +10040,7 @@ business:b_306
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13347" ;
-        schema:streetAddress "Malplaquetstraße  16b"
+        schema:streetAddress "Malplaquetstraße 16b"
     ] ;
     schema:description "Soulfood, Burger, Pizza, internationale Küche, Getränke und Cocktails"@de ;
     schema:email "schraders@schraders-berlin.de" ;
@@ -9732,7 +10088,7 @@ business:b_308
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10117" ;
-        schema:streetAddress "Kronenstraße  66"
+        schema:streetAddress "Kronenstraße 66"
     ] ;
     schema:description "Japanische Küche, Sushi"@de ;
     schema:email "info@sushi-izumi.de" ;
@@ -10023,7 +10379,7 @@ business:b_319
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Grolmanstraße  51"
+        schema:streetAddress "Grolmanstraße 51"
     ] ;
     schema:description "Indische Küche, vegetarisch vegan und mit Fleisch"@de ;
     schema:email "info@myashoka.de" ;
@@ -10047,7 +10403,7 @@ business:b_32
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10997" ;
-        schema:streetAddress "Görlitzer Str 42"
+        schema:streetAddress "Gertrud Kolmar Straße 4"
     ] ;
     schema:description "Argentinische Küche, Empanadas, Teigtaschen"@de ;
     schema:email "info@gloriaberlin.de" ;
@@ -10238,7 +10594,7 @@ business:b_327
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10823" ;
-        schema:streetAddress "Wartburgstraße  54"
+        schema:streetAddress "Wartburgstraße 54"
     ] ;
     schema:description "gehobene deutsch-elsässische Küche, Flammkuchen"@de ;
     schema:email "info@renger-patzsch.com" ;
@@ -10429,7 +10785,7 @@ business:b_334
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10178" ;
-        schema:streetAddress "Weinmeisterstraße  4"
+        schema:streetAddress "Weinmeisterstraße 4"
     ] ;
     schema:description "Fachgeschäft für Absinth und andere Getränke"@de ;
     schema:email "info@absinthdepot.de" ;
@@ -10523,7 +10879,7 @@ business:b_338
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12043" ;
-        schema:streetAddress "Richardstraße  31"
+        schema:streetAddress "Richardstraße 31"
     ] ;
     schema:description "wir haben fast alles Flüssige...."@de ;
     schema:email "post@sommerfeld.berlin" ;
@@ -10595,7 +10951,7 @@ business:b_340
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14057" ;
-        schema:streetAddress "Neue Kantstraße  7"
+        schema:streetAddress "Neue Kantstraße 7"
     ] ;
     schema:description "Deutsche und russische Küche"@de ;
     schema:email "restaurant.lenhardt1@web.de" ;
@@ -10668,7 +11024,7 @@ business:b_343
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10781" ;
-        schema:streetAddress "Goltzstraße  48"
+        schema:streetAddress "Goltzstraße 48"
     ] ;
     schema:description "Wir bieten Espresso-Spezialitäten, unsere heiße geschmolzene Schokolade zum trinken oder löffeln, feine Kuchen und den sehr beliebten kalten Hund. Sie finden eine große Auswahl hochwertiger Schokoladen, Nougat, Trüffel, Pralinen und vielem mehr."@de ;
     schema:email "mail@mamsellberlin.de" ;
@@ -10787,7 +11143,7 @@ business:b_348
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12105" ;
-        schema:streetAddress "Attilastraße  177"
+        schema:streetAddress "Attilastraße 177"
     ] ;
     schema:description "Typisch amerikanische Geschenkartikel,  Dekorationsartikel,  Original US-Food..."@de ;
     schema:email "info@american-style.de" ;
@@ -10859,7 +11215,7 @@ business:b_350
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10435" ;
-        schema:streetAddress "Husemannstraße  29"
+        schema:streetAddress "Husemannstraße 29"
     ] ;
     schema:description "Japanischer Matcha, Tee und Zubehör"@de ;
     schema:email "info@matchashop.de" ;
@@ -10907,7 +11263,7 @@ business:b_352
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10999" ;
-        schema:streetAddress "Skalitzerstraße  38"
+        schema:streetAddress "Skalitzerstraße 38"
     ] ;
     schema:description "Original südvietnamesische Küche. Gekocht nach altem, traditionellem Rezept. Vegan, vegetarisch, laktosefrei."@de ;
     schema:email "miss-saigon-berlin@t-online.de" ;
@@ -11075,7 +11431,7 @@ business:b_359
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10625" ;
-        schema:streetAddress "Goethestraße  32"
+        schema:streetAddress "Goethestraße 32"
     ] ;
     schema:description "Lieferservice für Gitarren, Mandolinen, Banjos. Wir liefern innerhalb Berlins innerhalb von 24 Stunden ( an Werktagen ) Unsere Werkstatt hat von 10:00 bis 15:00 für Sie geöffnet. Wir haben Instrumente sowohl für Einsteiger als auch für Profis im Angebot."@de ;
     schema:email "info@guitar-shop.de" ;
@@ -11238,7 +11594,7 @@ business:b_365
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12439" ;
-        schema:streetAddress "Schnellerstraße  21 / 1. Etage"
+        schema:streetAddress "Schnellerstraße 21 / 1. Etage"
     ] ;
     schema:description "Shop für Wein, Sekt, Spirituosen, Präsente, Kaffee, Süßwaren, Essig und Öl etc."@de ;
     schema:email "weindealer-berlin@gmx.de" ;
@@ -11262,7 +11618,7 @@ business:b_366
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14052" ;
-        schema:streetAddress "Reichsstraße  107"
+        schema:streetAddress "Reichsstraße 107"
     ] ;
     schema:description "chemische Reinigung und Wäscherei mit Abhol- und Bring-Service (Gardinenreinigung, Bettwäschereinigung, Textilreinigung, Tischdeckenrenigung)"@de ;
     schema:email "info@qualitaetsreinigung24.de" ;
@@ -11287,7 +11643,7 @@ business:b_367
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13409" ;
-        schema:streetAddress "Kühnemannstraße  21-45"
+        schema:streetAddress "Kühnemannstraße 21-45"
     ] ;
     schema:description "Herstellung von Fahnen, Wimpeln, Flaggen, Beachflag u.s.w."@de ;
     schema:email "verkauf-fwb@outlook.de" ;
@@ -11337,7 +11693,7 @@ business:b_369
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Brunnenstraße  29"
+        schema:streetAddress "Brunnenstraße 29"
     ] ;
     schema:description "Hochwertig in Handarbeit und unter FairTrade hergestellte Wohn-Accessoires aus Filz - Teppiche, Sitzauflagen, Tisch- und Stuhlauflagen für ein schöneres Zuhause."@de ;
     schema:email "info@myfelt.de" ;
@@ -11405,7 +11761,7 @@ business:b_371
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14052" ;
-        schema:streetAddress "Reichsstraße  107"
+        schema:streetAddress "Reichsstraße 107"
     ] ;
     schema:description "Juwelier + Pfandleihhaus + Ankauf + Verkauf von Schmuck, Gold und Uhren"@de ;
     schema:email "info@juwelier-leihhaus.de" ;
@@ -11479,7 +11835,7 @@ business:b_374
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10178" ;
-        schema:streetAddress "Dircksenstraße  42-44"
+        schema:streetAddress "Dircksenstraße 42-44"
     ] ;
     schema:description "Weine, Feinkost, Schokoladen und Salziges, alkohohlfreie Getränke, gelagerte englische Biere"@de ;
     schema:email "info@barrio-weine.de" ;
@@ -11698,7 +12054,7 @@ business:b_382
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10249" ;
-        schema:streetAddress "Weinstraße  11"
+        schema:streetAddress "Weinstraße 11"
     ] ;
     schema:description "Deutsche Küche ( DDR )"@de ;
     schema:email "info@restaurant-pila.de" ;
@@ -11910,7 +12266,7 @@ business:b_390
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12101" ;
-        schema:streetAddress "Boelckestraße  88"
+        schema:streetAddress "Boelckestraße 88"
     ] ;
     schema:description "Werkzeughandel & Reparaturwerkstatt - Service für Maschinen, UVV-Prüfungen,"@de ;
     schema:email "info@michaelis-werkzeuge.de" ;
@@ -12079,7 +12435,7 @@ business:b_397
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12101" ;
-        schema:streetAddress "Boelkestraße  88"
+        schema:streetAddress "Boelkestraße 88"
     ] ;
     schema:description "Energieberatung: Sparen Sie Strom & Gas-Kosten. Kostenlose Beratung&Service. Wir suchen Mitarbeiter als Nebenjob oder Vollzeit"@de ;
     schema:email "info@teleson-ezbs.de" ;
@@ -12273,7 +12629,7 @@ business:b_403
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10405" ;
-        schema:streetAddress "Heinrich-Roller-Straße  6"
+        schema:streetAddress "Heinrich-Roller-Straße 6"
     ] ;
     schema:description "Teehaus und Teehandel"@de ;
     schema:email "contact@kos-tea.com" ;
@@ -12298,7 +12654,7 @@ business:b_404
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10317" ;
-        schema:streetAddress "Margaretenstraße  2"
+        schema:streetAddress "Margaretenstraße 2"
     ] ;
     schema:description "lieferbare Bücher bestellbar zum nächsten Tag, Schwerpunkt Kinderbuch und Krimi"@de ;
     schema:email "kontakt@totsicher.com" ;
@@ -12720,7 +13076,7 @@ business:b_420
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10777" ;
-        schema:streetAddress "Motzstraße  32"
+        schema:streetAddress "Motzstraße 32"
     ] ;
     schema:description "Allgemeines Sortiment,"@de ;
     schema:email "motzbuch@t-online.de" ;
@@ -12907,7 +13263,7 @@ business:b_428
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10789" ;
-        schema:streetAddress "Tauentzienstraße  16"
+        schema:streetAddress "Tauentzienstraße 16"
     ] ;
     schema:description "Kurierdienst, Transport und Logistik in Nah- u. Fernverkehr"@de ;
     schema:email "info@klclogistik.de" ;
@@ -12931,7 +13287,7 @@ business:b_429
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13357" ;
-        schema:streetAddress "Wiesenstraße  61"
+        schema:streetAddress "Wiesenstraße 61"
     ] ;
     schema:description "Onlinehandel für Kondome"@de ;
     schema:email "info@kondome.love" ;
@@ -13000,7 +13356,7 @@ business:b_431
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12437" ;
-        schema:streetAddress "Baumschulenstraße  65c"
+        schema:streetAddress "Baumschulenstraße 65c"
     ] ;
     schema:description "Shabby-Chic-Möbel"@de ;
     schema:email "shabbychicberlin@mail.de" ;
@@ -13024,7 +13380,7 @@ business:b_432
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10407" ;
-        schema:streetAddress "Hufelandstraße  13"
+        schema:streetAddress "Hufelandstraße 13"
     ] ;
     schema:description "Einrichtung und Dekoration"@de ;
     schema:email "post@kunstschule.net" ;
@@ -13097,7 +13453,7 @@ business:b_435
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10961" ;
-        schema:streetAddress "Zossenerstraße  24"
+        schema:streetAddress "Zossenerstraße 24"
     ] ;
     schema:description "Jonglierbedarf"@de ;
     schema:email "store@justjuggling.com" ;
@@ -13265,7 +13621,7 @@ business:b_441
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10997" ;
-        schema:streetAddress "Köpenickerstraße  18-20"
+        schema:streetAddress "Köpenickerstraße 18-20"
     ] ;
     schema:description "Die angesagtesten Trends rund ums Wohnen  im Herzen Berlin-Kreuzbergs."@de ;
     schema:email "post@exil-wohnmagazin.de" ;
@@ -13310,7 +13666,7 @@ business:b_443
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10777" ;
-        schema:streetAddress "Maaßenstraße  7"
+        schema:streetAddress "Maaßenstraße 7"
     ] ;
     schema:description "Warmer Mittagstisch, Kaffeespezialitäten, Fassbier, richtig gutes Eis, frische Säfte"@de ;
     schema:email "info@cafeberio.de" ;
@@ -13524,7 +13880,7 @@ business:b_451
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10179" ;
-        schema:streetAddress "Alte Jakobstraße  77"
+        schema:streetAddress "Alte Jakobstraße 77"
     ] ;
     schema:description "Druck- und Versanddienstleistungen"@de ;
     schema:email "mbe0123@mbe.de" ;
@@ -13641,7 +13997,7 @@ business:b_456
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12279" ;
-        schema:streetAddress "Hildburghauserstraße  62"
+        schema:streetAddress "Hildburghauserstraße 62"
     ] ;
     schema:description "Kroatische/Internationale Küche"@de ;
     schema:geo [
@@ -13713,7 +14069,7 @@ business:b_459
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Brunnenstraße  163"
+        schema:streetAddress "Brunnenstraße 163"
     ] ;
     schema:description "Entsorgungsdienstleistung / Containerdienst"@de ;
     schema:email "info@clearago.de" ;
@@ -14018,7 +14374,7 @@ business:b_470
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13187" ;
-        schema:streetAddress "Heynstraße  33"
+        schema:streetAddress "Heynstraße 33"
     ] ;
     schema:description "Hausgemachte Kuchen und Torten, Zimtschnecken und Tagessuppe"@de ;
     schema:email "info@genuesslich-berlin.de" ;
@@ -14280,7 +14636,7 @@ business:b_480
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10713" ;
-        schema:streetAddress "Berliner Straße.  42 A"
+        schema:streetAddress "Berliner Straße. 42 A"
     ] ;
     schema:description "Brötchen, Backwaren alkoholfreie Getränke, Mittagsmenüs"@de ;
     schema:email "emi.backshop@gmx.de" ;
@@ -14422,7 +14778,7 @@ business:b_486
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10961" ;
-        schema:streetAddress "Gneisenaustraße  60"
+        schema:streetAddress "Gneisenaustraße 60"
     ] ;
     schema:description "Vermietung/Verkauf professioneller Viedeotechnik"@de ;
     schema:email "info@geier-tronic.de" ;
@@ -14470,7 +14826,7 @@ business:b_488
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10245" ;
-        schema:streetAddress "Neue Bahnhofstraße  7A"
+        schema:streetAddress "Neue Bahnhofstraße 7A"
     ] ;
     schema:description "Amerikanische Küche"@de ;
     schema:email "info@thronburger.de" ;
@@ -14686,7 +15042,7 @@ business:b_496
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10713" ;
-        schema:streetAddress "Kahlstraße  13"
+        schema:streetAddress "Kahlstraße 13"
     ] ;
     schema:description "Lebensmittel ( Getränke, Süßigkeiten, Soßen,Cerealien, BIO, Vegan )"@de ;
     schema:email "info@mhd-ade.de" ;
@@ -14710,7 +15066,7 @@ business:b_497
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10115" ;
-        schema:streetAddress "Linienstraße  127"
+        schema:streetAddress "Linienstraße 127"
     ] ;
     schema:description "Martial Arts | Fitness | Yoga | Tee"@de ;
     schema:email "info@chimosa.de" ;
@@ -15051,7 +15407,7 @@ business:b_509
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13507" ;
-        schema:streetAddress "Sterkraderstraße  49-59"
+        schema:streetAddress "Sterkraderstraße 49-59"
     ] ;
     schema:description "E-Bikes, Fahrräder, Fahrradzubehör und Sportbekleidung"@de ;
     schema:email "info@kcp-bikes.de" ;
@@ -15197,7 +15553,7 @@ business:b_514
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10551" ;
-        schema:streetAddress "Turmstraße  46"
+        schema:streetAddress "Turmstraße 46"
     ] ;
     schema:description "Arzneimittel, Hilfsmittel, Nahrungsergänzung,"@de ;
     schema:email "service@apolloapo.de" ;
@@ -15222,7 +15578,7 @@ business:b_515
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10961" ;
-        schema:streetAddress "Bergmannstraße  88"
+        schema:streetAddress "Bergmannstraße 88"
     ] ;
     schema:description "Thailändische Küche, seit 1994. Authentisch wie die Foodcourts in Bangkok. All Gerichte to go. Liefern lassen durch Lieferando.de"@de ;
     schema:email "info@berlinasia.de" ;
@@ -15368,7 +15724,7 @@ business:b_520
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Fasanenstraße  15"
+        schema:streetAddress "Fasanenstraße 15"
     ] ;
     schema:description "thailändische Küche; Preise aus der Mittagskarte"@de ;
     schema:email "office@thairestaurant.online" ;
@@ -15463,7 +15819,7 @@ business:b_524
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12103" ;
-        schema:streetAddress "Eresburgstraße  24-29"
+        schema:streetAddress "Eresburgstraße 24-29"
     ] ;
     schema:description "Weinhandel"@de ;
     schema:email "shop@wineandwaters.de" ;
@@ -15488,7 +15844,7 @@ business:b_526
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12159" ;
-        schema:streetAddress "Niedstraße  34"
+        schema:streetAddress "Niedstraße 34"
     ] ;
     schema:description "Heimtierfachgeschäft, Tiernahrung Hund, Katze, Nager, Vogel"@de ;
     schema:email "info@saebelzahn-und-schnabelbar.de" ;
@@ -15698,7 +16054,7 @@ business:b_534
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10625" ;
-        schema:streetAddress "Goethestraße  14"
+        schema:streetAddress "Goethestraße 14"
     ] ;
     schema:description "Gehobene & provokante Streetwear, made in Berlin!"@de ;
     schema:email "webshop@look54.de" ;
@@ -15963,7 +16319,7 @@ business:b_544
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12053" ;
-        schema:streetAddress "Flughafenstraße  22"
+        schema:streetAddress "Flughafenstraße 22"
     ] ;
     schema:description "Englisch- und Deutschsprachige Bücher. Heute bestellt, morgen da!"@de ;
     schema:email "info@curiousfoxbooks.com" ;
@@ -16082,7 +16438,7 @@ business:b_549
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10965" ;
-        schema:streetAddress "Friesenstraße  2"
+        schema:streetAddress "Friesenstraße 2"
     ] ;
     schema:description "Mitten in Berlin-Kreuzberg liegt die BrezelBar. Zum Angebot gehört neben leckeren, knusprigen Brezeln und Laugengebäck ein umfangreiches Frühstückssortiment.  Wir servieren Ihnen Leckereien von frischen Obstsalaten über Müsli bis hin zu süßen sowie deftigen Frühstückstellern..."@de ;
     schema:email "bestellung@brezelbar.de" ;
@@ -16201,7 +16557,7 @@ business:b_553
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12163" ;
-        schema:streetAddress "Hubertussstraße  2"
+        schema:streetAddress "Hubertussstraße 2"
     ] ;
     schema:description "Pizza-Pasta"@de ;
     schema:email "La-buca@web.de" ;
@@ -16320,7 +16676,7 @@ business:b_558
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12205" ;
-        schema:streetAddress "Theklastraße  28"
+        schema:streetAddress "Theklastraße 28"
     ] ;
     schema:description "Software & Hardware Enzelhandel, PC-Service"@de ;
     schema:email "uts.customerservice@gmail.com" ;
@@ -16441,7 +16797,7 @@ business:b_562
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13187" ;
-        schema:streetAddress "Florastraße  40"
+        schema:streetAddress "Florastraße 40"
     ] ;
     schema:description "Musikinstrumente für Kinder und Spielwaren"@de ;
     schema:email "contact@zambomba.de" ;
@@ -16466,7 +16822,7 @@ business:b_563
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10435" ;
-        schema:streetAddress "Husemannstraße  16"
+        schema:streetAddress "Husemannstraße 16"
     ] ;
     schema:description "Französische Feinkost, vor allem luftgetrocknete Salami und Weine aus dem Languedoc"@de ;
     schema:email "flo@le-flo.de" ;
@@ -16515,7 +16871,7 @@ business:b_565
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13158" ;
-        schema:streetAddress "Garibaldistraße  52"
+        schema:streetAddress "Garibaldistraße 52"
     ] ;
     schema:description "E-Piano & Keybordverleih"@de ;
     schema:email "info@tastenexpress.de" ;
@@ -16537,7 +16893,7 @@ business:b_566
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13581" ;
-        schema:streetAddress "Klosterstraße  12"
+        schema:streetAddress "Klosterstraße 12"
     ] ;
     schema:description "Schallplatten, CD"@de ;
     schema:email "info@musicland-berlin.de" ;
@@ -16560,7 +16916,7 @@ business:b_567
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Linienstraße  44"
+        schema:streetAddress "Linienstraße 44"
     ] ;
     schema:description "Große Auswahl an antiken Verlobungsringe und Eheringen von 1750 - 1980. Kostenlose Änderungen und Gravur durch Meistergoldschmied. Antikschmuck wie Ketten, Broschen, Armbänder, Herrenringe, Manschettenknöpfe. Alles ORIGINALE mit Zertifikat. 3-Stunden-Lieferservice in Berlin & Pot"@de ;
     schema:email "or@antique-jewellery.de" ;
@@ -16701,7 +17057,7 @@ business:b_572
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Knesebeckstraße  8-9"
+        schema:streetAddress "Knesebeckstraße 8-9"
     ] ;
     schema:description "Espressomaschinen, Espressomühlen, Espressobohnen"@de ;
     schema:email "info@espressomeisterei.de" ;
@@ -16917,7 +17273,7 @@ business:b_580
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13357" ;
-        schema:streetAddress "Badstraße  21"
+        schema:streetAddress "Badstraße 21"
     ] ;
     schema:description "Arabische Restaurant mit Chicken & Grilled"@de ;
     schema:geo [
@@ -16961,7 +17317,7 @@ business:b_582
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13349" ;
-        schema:streetAddress "Glasgowerstraße  16"
+        schema:streetAddress "Glasgowerstraße 16"
     ] ;
     schema:description "Florale Blumen-Abos für Geschäts- & Privatkunden, Hochzeits- & Eventdekoration, Interiorstyling jetzt auch über Zoom online, Balkon- & Terrassenbepflanzungen"@de ;
     schema:email "info@horeis-florist.com" ;
@@ -17029,7 +17385,7 @@ business:b_585
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10557" ;
-        schema:streetAddress "Kirchstraße  20"
+        schema:streetAddress "Kirchstraße 20"
     ] ;
     schema:description "Ökologische Kleidung für Babys & Kinder, Stoffwindeln, Tragen, Kinderschuhe, Spielzeug & alles rund um liebevolle Elternschaft."@de ;
     schema:email "hallo@hug-and-grow.de" ;
@@ -17124,7 +17480,7 @@ business:b_589
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13403" ;
-        schema:streetAddress "Saalmannstraße  7-9"
+        schema:streetAddress "Saalmannstraße 7-9"
     ] ;
     schema:description "An- und Verkauf von Magic the Gathering Karten, Sammelkartenankauf Magic, Sammlungsankauf Magic the Gathering"@de ;
     schema:email "moonvillagegames@gmail.com" ;
@@ -17363,7 +17719,7 @@ business:b_598
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12047" ;
-        schema:streetAddress "Reuterstraße  53"
+        schema:streetAddress "Reuterstraße 53"
     ] ;
     schema:description "Faire Mode und nachhaltige Produkte, Geschenkartikel"@de ;
     schema:email "post@standard-saubere-sachen.de" ;
@@ -17627,7 +17983,7 @@ business:b_607
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10245" ;
-        schema:streetAddress "Gärtnerstraße  26"
+        schema:streetAddress "Gärtnerstraße 26"
     ] ;
     schema:description "Spielzeug und Verspieltes"@de ;
     schema:email "info@siebenschoen.de" ;
@@ -17676,7 +18032,7 @@ business:b_609
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10405" ;
-        schema:streetAddress "Immanuelkirchstraße  4"
+        schema:streetAddress "Immanuelkirchstraße 4"
     ] ;
     schema:description "Cognac & Grappa aus Familienbetrieben, Whisky & Rum aus unabhängigen Destillerien, liebevoll altmodische Obstbrände, Klosterelixiere und Bio-Liköre. Rare Spezialitäten & regionale Kulturgüter. Spirituosen mit Seele."@de ;
     schema:email "info@schnapskultur.de" ;
@@ -17797,7 +18153,7 @@ business:b_613
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10117" ;
-        schema:streetAddress "Friedrichstraße  127"
+        schema:streetAddress "Friedrichstraße 127"
     ] ;
     schema:description "Büroartikel, Schulbedarf, Schreibprodukte von Clairefontaine, Brause, Rössler, Semikolon, Leuchtturm etc."@de ;
     schema:email "info@claireshop.de" ;
@@ -17846,7 +18202,7 @@ business:b_615
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13507" ;
-        schema:streetAddress "Grußdorfstraße  18"
+        schema:streetAddress "Grußdorfstraße 18"
     ] ;
     schema:description "Bücher aller Art, Bestellservice, Lesetipps"@de ;
     schema:email "info@tegeler-buecherstube.de" ;
@@ -17893,7 +18249,7 @@ business:b_617
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10115" ;
-        schema:streetAddress "Invalidenstraße  154"
+        schema:streetAddress "Invalidenstraße 154"
     ] ;
     schema:description "Schreib- und Spielwarenladen"@de ;
     schema:email "info@claireshop.de" ;
@@ -18248,7 +18604,7 @@ business:b_630
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12055" ;
-        schema:streetAddress "Lahnstraße  25"
+        schema:streetAddress "Lahnstraße 25"
     ] ;
     schema:description "Onlineshop für Kinderbücher und Spielwaren"@de ;
     schema:email "info@tebalou.de" ;
@@ -18460,7 +18816,7 @@ business:b_639
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10999" ;
-        schema:streetAddress "Lausitzerstraße  22 D"
+        schema:streetAddress "Lausitzerstraße 22 D"
     ] ;
     schema:description "Online-Verkauf, Transport, Logistik"@de ;
     schema:email "info@q-two.de" ;
@@ -18930,7 +19286,7 @@ business:b_657
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12163" ;
-        schema:streetAddress "Schloßstraße  32"
+        schema:streetAddress "Schloßstraße 32"
     ] ;
     schema:description "Das Geschäft mit den bequemsten Schuhen der Stadt."@de ;
     schema:geo [
@@ -18952,7 +19308,7 @@ business:b_658
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10781" ;
-        schema:streetAddress "Traunsteinerstraße  1"
+        schema:streetAddress "Traunsteinerstraße 1"
     ] ;
     schema:description "Computer Reparatur, Service, Installation windows 10"@de ;
     schema:email "shop@hd-computer.de" ;
@@ -19236,7 +19592,7 @@ business:b_669
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Steinstraße  4"
+        schema:streetAddress "Steinstraße 4"
     ] ;
     schema:description "Schuhreinigung, Sneaker Reinigung, Schuhrestaurierung"@de ;
     schema:email "berlin@solefresh.de" ;
@@ -19358,7 +19714,7 @@ business:b_673
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13589" ;
-        schema:streetAddress "Frankenwaldstraße  30"
+        schema:streetAddress "Frankenwaldstraße 30"
     ] ;
     schema:description "Transporte aller art"@de ;
     schema:email "rt-transportservice@web.de" ;
@@ -19498,7 +19854,7 @@ business:b_679
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14052" ;
-        schema:streetAddress "Reichsstraße  82"
+        schema:streetAddress "Reichsstraße 82"
     ] ;
     schema:description "Blumensträuße, Blumengestecke, Pflanzen, Vasen & Gefäße, Dekorationsartikel"@de ;
     schema:email "kontakt@reinweiss-blumen.de" ;
@@ -19804,7 +20160,7 @@ business:b_690
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Knesebeckstraße  4"
+        schema:streetAddress "Knesebeckstraße 4"
     ] ;
     schema:description "Indisch"@de ;
     schema:email "info@manjurani.de" ;
@@ -19927,7 +20283,7 @@ business:b_695
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10827" ;
-        schema:streetAddress "Crellestraße  26"
+        schema:streetAddress "Crellestraße 26"
     ] ;
     schema:description "Books People Places ist eine Buchhandlung, Vertrieb und Archiv für Architektur und Stadtforschung."@de ;
     schema:email "info@bookspeopleplaces.com" ;
@@ -20141,7 +20497,7 @@ business:b_702
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12524" ;
-        schema:streetAddress "Richterstraße  5"
+        schema:streetAddress "Richterstraße 5"
     ] ;
     schema:description "Havelwasser - Wein und Birnensaft, EierBirne - Eierlikör mit Birne, Havler - Kräuterlikör mit Birne, Havelbrand - Williams-Christ Birnenbrand"@de ;
     schema:geo [
@@ -20165,7 +20521,7 @@ business:b_703
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12524" ;
-        schema:streetAddress "Richterstraße  5"
+        schema:streetAddress "Richterstraße 5"
     ] ;
     schema:description "Rapskernöl, mit Buttergeschmack aromatisiertes Rapskernöl, Sonnenblumenkernöl und Olivenöl in der 3-Liter Bag-in-Box"@de ;
     schema:email "kugel@rapskernoel.info" ;
@@ -20190,7 +20546,7 @@ business:b_704
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13581" ;
-        schema:streetAddress "Altonaerstraße  85-89"
+        schema:streetAddress "Altonaerstraße 85-89"
     ] ;
     schema:description "KFZ Werkstatt"@de ;
     schema:email "info@mima-kfz.de" ;
@@ -20236,7 +20592,7 @@ business:b_706
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10317" ;
-        schema:streetAddress "Türrschmidtstraße  2a"
+        schema:streetAddress "Türrschmidtstraße 2a"
     ] ;
     schema:description "Kaffeebohnen, Kaffeemaschinenreparatur, Reparatur von Kaffeevollautomaten"@de ;
     schema:email "info@kaffeemueller.de" ;
@@ -20522,7 +20878,7 @@ business:b_717
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10627" ;
-        schema:streetAddress "Bismarckstraße  87"
+        schema:streetAddress "Bismarckstraße 87"
     ] ;
     schema:description "Onlinehandel für Babywaren und Ernährung"@de ;
     schema:email "service@sesello.de" ;
@@ -20618,7 +20974,7 @@ business:b_720
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10178" ;
-        schema:streetAddress "Poststraße  12"
+        schema:streetAddress "Poststraße 12"
     ] ;
     schema:description "Kuchen und Torten"@de ;
     schema:email "info@kugelei.de" ;
@@ -20879,7 +21235,7 @@ business:b_730
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10961" ;
-        schema:streetAddress "Baerwaldstraße  7"
+        schema:streetAddress "Baerwaldstraße 7"
     ] ;
     schema:description "Italienische Olivenöle, Antipasti und gereifte Balsamico Essige"@de ;
     schema:email "bestellung@olio-costa.de" ;
@@ -20903,7 +21259,7 @@ business:b_731
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13409" ;
-        schema:streetAddress "Markstraße  20"
+        schema:streetAddress "Markstraße 20"
     ] ;
     schema:description "TAVERNA HELLAS  ARISTON Erfolgsgeschichte seit 1984 seit über 35 Jahre steht die Taverna Hellas Ariston als eine den besten Restaurants in Berlin Reinikendorf. Die legendäre griechische Küche des Lokals wurde den letzten Jahren von Gastro Award, Gastro Gold, Culinarius, Eurocard"@de ;
     schema:email "info@taverna-hellas.net" ;
@@ -21124,7 +21480,7 @@ business:b_740
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10117" ;
-        schema:streetAddress "Charlottenstraße  75"
+        schema:streetAddress "Charlottenstraße 75"
     ] ;
     schema:description "tolle Sträuße zu jedem Anlaß"@de ;
     schema:email "info@marsano-berlin.de" ;
@@ -21147,7 +21503,7 @@ business:b_741
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10965" ;
-        schema:streetAddress "Fidicinstraße  40"
+        schema:streetAddress "Fidicinstraße 40"
     ] ;
     schema:description "Schallplattenantiquariat (Klassik)"@de ;
     schema:email "info@33rpm.de" ;
@@ -21267,7 +21623,7 @@ business:b_746
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12045" ;
-        schema:streetAddress "Weserstraße  168"
+        schema:streetAddress "Weserstraße 168"
     ] ;
     schema:description "Abhol- und Lieferdienst mit chilisaucen, burgers, fish & Chips, Britische Süßigkeiten."@de ;
     schema:email "mail@crazybsauce.com" ;
@@ -21315,7 +21671,7 @@ business:b_748
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10711" ;
-        schema:streetAddress "Katharinenstraße  24"
+        schema:streetAddress "Katharinenstraße 24"
     ] ;
     schema:description "Haustierbedarf"@de ;
     schema:email "info@tarigs.de" ;
@@ -21458,7 +21814,7 @@ business:b_753
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12043" ;
-        schema:streetAddress "Donaustraße  24"
+        schema:streetAddress "Donaustraße 24"
     ] ;
     schema:description "Baumarkt, Teppichboden, Bodenbeläge, Malerbedarf, Messebodenbeläge"@de ;
     schema:email "info@fuerst-berlin.de" ;
@@ -21482,7 +21838,7 @@ business:b_754
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10318" ;
-        schema:streetAddress "Rheinsteinstraße  1, 10318 Berlin-Karlshorst"
+        schema:streetAddress "Rheinsteinstraße 1, 10318 Berlin-Karlshorst"
     ] ;
     schema:description "italienische Küche, hausgemachte Pasta, Pizza, Salate, Fleisch & Fisch"@de ;
     schema:email "info@quattro-fratelli.de" ;
@@ -21532,7 +21888,7 @@ business:b_756
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10317" ;
-        schema:streetAddress "Hauptstraße  5 C"
+        schema:streetAddress "Hauptstraße 5 C"
     ] ;
     schema:description "Schnittmuster, Stoffe, handgenähte Kleidung, Nähzubehör"@de ;
     schema:email "info@natur-zum-anziehen.de" ;
@@ -21692,7 +22048,7 @@ business:b_762
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12057" ;
-        schema:streetAddress "Bergiusstraße  46"
+        schema:streetAddress "Bergiusstraße 46"
     ] ;
     schema:description "Fahrradschlösser und Fahrradbeleuchtung direkt vom Hersteller"@de ;
     schema:geo [
@@ -21736,7 +22092,7 @@ business:b_764
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10827" ;
-        schema:streetAddress "Crellestraße  3/4"
+        schema:streetAddress "Crellestraße 3/4"
     ] ;
     schema:description "Nachhaltige Kinder und Erwachsene Bekleidung aus Berlin"@de ;
     schema:email "info@monkind.com" ;
@@ -21976,7 +22332,7 @@ business:b_773
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12099" ;
-        schema:streetAddress "Ringbahnstraße  39"
+        schema:streetAddress "Ringbahnstraße 39"
     ] ;
     schema:description "Terrariums, Flaschengarten, Plants, Kokedama, Pflanzen im Glass, Bonsai, Terrarien, Biotope"@de ;
     schema:geo [
@@ -22262,7 +22618,7 @@ business:b_784
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13349" ;
-        schema:streetAddress "Müllerstraße  116"
+        schema:streetAddress "Müllerstraße 116"
     ] ;
     schema:description "Abholung u. Lieferung der im per Mail, Tel oder Shop bestellten Warenbestellten"@de ;
     schema:email "info@brautmoden-happy-day.de" ;
@@ -22405,7 +22761,7 @@ business:b_79
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12207" ;
-        schema:streetAddress "Feldstr 1"
+        schema:streetAddress "Feldstraße 1"
     ] ;
     schema:description "italienisch"@de ;
     schema:email "info@ilcampo.berlin" ;
@@ -22572,7 +22928,7 @@ business:b_796
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13187" ;
-        schema:streetAddress "Galenusstraße  59"
+        schema:streetAddress "Galenusstraße 59"
     ] ;
     schema:description "Apotheke"@de ;
     schema:email "galenusapo-berlin@freenet.de" ;
@@ -22596,7 +22952,7 @@ business:b_797
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12163" ;
-        schema:streetAddress "Bornstraße  20"
+        schema:streetAddress "Bornstraße 20"
     ] ;
     schema:description "Individuelle Fair Isle Taschen aus Wolle gestrickt"@de ;
     schema:email "ideenwirbel@freenet.de" ;
@@ -22757,7 +23113,7 @@ business:b_802
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10777" ;
-        schema:streetAddress "Welserstraße  28"
+        schema:streetAddress "Welserstraße 28"
     ] ;
     schema:description "Bücher, CDs, DVDs, das gesamte Programm der Büchergilde"@de ;
     schema:email "service@buchhandlung-binger.de" ;
@@ -23248,7 +23604,7 @@ business:b_821
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13585" ;
-        schema:streetAddress "Neuendorferstraße  99"
+        schema:streetAddress "Neuendorferstraße 99"
     ] ;
     schema:description "Textildruck, Lasern von Holz, Glas und Plexiglas, Aufkleber für Schaufenster und Autos"@de ;
     schema:email "info@kksports.de" ;
@@ -23364,7 +23720,7 @@ business:b_826
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12105" ;
-        schema:streetAddress "Ringstraße  30-42"
+        schema:streetAddress "Ringstraße 30-42"
     ] ;
     schema:description "Brandneue Messe-Highlights sind hier genauso zuhause, wie antike Einzelstücke und ausgefallene Designmöbel. Die perfekte Möbelvielfalt, für alle, die auf der Suche nach dem gewissen Extra sind."@de ;
     schema:email "home@rahaus.de" ;
@@ -23411,7 +23767,7 @@ business:b_828
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10825" ;
-        schema:streetAddress "Grunewaldstraße  61-62"
+        schema:streetAddress "Grunewaldstraße 61-62"
     ] ;
     schema:description "Elektrofachgeschäft"@de ;
     schema:email "shop@euronics-berlin.de" ;
@@ -23436,7 +23792,7 @@ business:b_829
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Kantstraße  151"
+        schema:streetAddress "Kantstraße 151"
     ] ;
     schema:description "Auf 2 Etagen finden Sie die neuesten Interieur-Trends in einem aufregenden Mix mit zeitlosen Design-Klassikern. Auf der Suche nach ausgefallenen und modernen Möbeln in Berlin sind Sie in unserem „Rahaus Living“ Möbelhaus genau richtig. Von Lampen über Sofas bis hin zu Betten find"@de ;
     schema:email "living@rahaus.de" ;
@@ -23508,7 +23864,7 @@ business:b_831
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10587" ;
-        schema:streetAddress "Franklinstraße  12-14"
+        schema:streetAddress "Franklinstraße 12-14"
     ] ;
     schema:description "Das Rahaus Loft & Country Möbelhaus residiert in den historischen Gebauer-Höfen in einem charmante Ziegelsteingebäude und bietet so einen exklusiven Rahmen für modernen Lifestyle, gemütlichen Landhaus-Stil und angesagten Vintage-Look. Von Lampen über Sofas bis hin zu Betten finde"@de ;
     schema:email "country@rahaus.de" ;
@@ -23532,7 +23888,7 @@ business:b_832
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14052" ;
-        schema:streetAddress "Reichsstraße  94"
+        schema:streetAddress "Reichsstraße 94"
     ] ;
     schema:description "Augenoptiker"@de ;
     schema:email "info@blickcontact.de" ;
@@ -23557,7 +23913,7 @@ business:b_833
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10319" ;
-        schema:streetAddress "Sewanstraße  260"
+        schema:streetAddress "Sewanstraße 260"
     ] ;
     schema:description "indische Spezialitäten hausgemacht"@de ;
     schema:email "binda4406@yahoo.de" ;
@@ -23629,7 +23985,7 @@ business:b_836
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12099" ;
-        schema:streetAddress "Gottlieb-Dunkel-Straße 50-52   Halle 2 Teil 1"
+        schema:streetAddress "Gottlieb-Dunkel-Straße 50-52 Halle 2 Teil 1"
     ] ;
     schema:description "Handel von Rest- und Sonderposten"@de ;
     schema:email "info@weitundbreit.com" ;
@@ -23844,7 +24200,7 @@ business:b_844
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12161" ;
-        schema:streetAddress "Fregestraße  39d"
+        schema:streetAddress "Fregestraße 39d"
     ] ;
     schema:description "Hundezubehör"@de ;
     schema:email "info@derhundeshop.com" ;
@@ -24056,7 +24412,7 @@ business:b_852
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13507" ;
-        schema:streetAddress "Schlieperstraße  8"
+        schema:streetAddress "Schlieperstraße 8"
     ] ;
     schema:description "Musikinstrumente, Noten und Zubehör"@de ;
     schema:email "info@musikhaus-tegel.de" ;
@@ -24177,7 +24533,7 @@ business:b_857
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Mulackstraße  14 + 26"
+        schema:streetAddress "Mulackstraße 14 + 26"
     ] ;
     schema:description "Papeterie, schöne Grußkarten, gehobene Schreibwaren, kein Schulbedarf, kein Bürobedarf!"@de ;
     schema:email "info@rsvp-berlin.de" ;
@@ -24369,7 +24725,7 @@ business:b_864
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10827" ;
-        schema:streetAddress "Helmstraße  11/12"
+        schema:streetAddress "Helmstraße 11/12"
     ] ;
     schema:description "Asiatisches Kunsthandwerk, Dekoration, Schmuck, Geschenkartikel, Spiegel und Klangschalen"@de ;
     schema:email "buymir@gmx.de" ;
@@ -24656,7 +25012,7 @@ business:b_875
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14195" ;
-        schema:streetAddress "Ehrenbergstraße  29"
+        schema:streetAddress "Ehrenbergstraße 29"
     ] ;
     schema:description "Wissenschaftliche Versandbuchhandlung in Berlin-Dahlem beschafft Ihnen (fast) alle Medien aus dem In- und Ausland"@de ;
     schema:email "info@akabuch.de" ;
@@ -24775,7 +25131,7 @@ business:b_880
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "12049" ;
-        schema:streetAddress "Hermannstraße  200"
+        schema:streetAddress "Hermannstraße 200"
     ] ;
     schema:description "Malerbedarf, Farben, Lacke, PVC und Teppichboden"@de ;
     schema:email "raum+farbe@fuerst-berlin.de" ;
@@ -24847,7 +25203,7 @@ business:b_884
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10585" ;
-        schema:streetAddress "Spielhagenstraße  3"
+        schema:streetAddress "Spielhagenstraße 3"
     ] ;
     schema:description "Deutsch/ Österreichische Küche und Weine"@de ;
     schema:email "mb@clara-vere.de" ;
@@ -25342,7 +25698,7 @@ business:b_902
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13597" ;
-        schema:streetAddress "Fischerstraße  28"
+        schema:streetAddress "Fischerstraße 28"
     ] ;
     schema:description "Schmuckgalerie, Trauringe, Goldschmiede, Juwelier"@de ;
     schema:email "info@galerie-spandow.de" ;
@@ -25552,7 +25908,7 @@ business:b_910
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10967" ;
-        schema:streetAddress "Boppstraße  7"
+        schema:streetAddress "Boppstraße 7"
     ] ;
     schema:description "Catering Unternehmen"@de ;
     schema:email "info@caternauts.com" ;
@@ -25719,7 +26075,7 @@ business:b_917
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10115" ;
-        schema:streetAddress "Brunnenstraße  43"
+        schema:streetAddress "Brunnenstraße 43"
     ] ;
     schema:description "Naturwein jeden Monat per Onlinebestellung"@de ;
     schema:email "hi@plain.wine" ;
@@ -25841,7 +26197,7 @@ business:b_921
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13409" ;
-        schema:streetAddress "Residenzstraße  123"
+        schema:streetAddress "Residenzstraße 123"
     ] ;
     schema:description "Telefonica O2 Filiale"@de ;
     schema:email "info.o2Residenz@unel.de" ;
@@ -26079,7 +26435,7 @@ business:b_930
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13359" ;
-        schema:streetAddress "Schwedenstraße  9"
+        schema:streetAddress "Schwedenstraße 9"
     ] ;
     schema:description "Tischtennisartikel"@de ;
     schema:email "info@contra-berlin.de" ;
@@ -26201,7 +26557,7 @@ business:b_935
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10777" ;
-        schema:streetAddress "Fuggerstraße  35"
+        schema:streetAddress "Fuggerstraße 35"
     ] ;
     schema:description "Israelische Spezialitäten, Hummus, Falafel, Vegan"@de ;
     schema:email "info@feinbergs.de" ;
@@ -26367,7 +26723,7 @@ business:b_941
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10965" ;
-        schema:streetAddress "Kreuzbergstraße  75"
+        schema:streetAddress "Kreuzbergstraße 75"
     ] ;
     schema:description "Spielwaren, Taschen und Stoffmasken- Handmade, Fairtrade, Nachhaltig"@de ;
     schema:email "info@liebman-design-import.de" ;
@@ -26463,7 +26819,7 @@ business:b_945
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Fehrbellinerstraße  22"
+        schema:streetAddress "Fehrbellinerstraße 22"
     ] ;
     schema:description "Verkauf von Büchern in arabischer, deutscher u. englischer Sprache zum Vorderen Orient u. dem arabischen Raumm"@de ;
     schema:email "nabil@papyriberlin.de" ;
@@ -26749,7 +27105,7 @@ business:b_956
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "14059" ;
-        schema:streetAddress "Danckelmannstraße  50"
+        schema:streetAddress "Danckelmannstraße 50"
     ] ;
     schema:description "Sorgfältig ausgewählte Literatur für Groß und Klein."@de ;
     schema:email "info@buchhandlung-godolt.de" ;
@@ -27056,7 +27412,7 @@ business:b_968
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10119" ;
-        schema:streetAddress "Gipsstraße  23b"
+        schema:streetAddress "Gipsstraße 23b"
     ] ;
     schema:description "Schulbedarf, Bürobedarf, Geschenkverpackung, Grußkarten, Bastelbedarf, Recyclingpapier"@de ;
     schema:email "info@pollypaper.de" ;
@@ -27197,7 +27553,7 @@ business:b_973
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10623" ;
-        schema:streetAddress "Kantstraße  154"
+        schema:streetAddress "Kantstraße 154"
     ] ;
     schema:description "Blumenfachgeschäft, Ausbildungsbetrieb und moderne Floristik"@de ;
     schema:email "kantfloristik@web.de" ;
@@ -27271,7 +27627,7 @@ business:b_976
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10439" ;
-        schema:streetAddress "Kanzowstraße  15"
+        schema:streetAddress "Kanzowstraße 15"
     ] ;
     schema:description "Wir fertigen Laufräder für höchste Anforderungen und jeden Fahrradtyp."@de ;
     schema:email "mail@komponentix.de" ;
@@ -28496,6 +28852,12 @@ ohspec:oh_15e2f76d1c4bc358fdbe42013f54545d12057024
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "08:00:00" .
 
+ohspec:oh_15e74349e149c1db5caa3ae1b10e1af85db6a181
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:45:00" ;
+    schema:dayOfWeek schema:Saturday ;
+    schema:opens "11:00:00" .
+
 ohspec:oh_163a793c319c18b10845b2d522352a04577f9997
     a schema:OpeningHoursSpecification ;
     schema:closes "19:30:00" ;
@@ -28927,6 +29289,12 @@ ohspec:oh_24d4ee7840a03216717cda1c1f4eab847ddf77cb
     schema:closes "20:00:00" ;
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "18:00:00" .
+
+ohspec:oh_24e8c142d8dbd20fca35c3971559d1fcfa8f69cc
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:45:00" ;
+    schema:dayOfWeek schema:Thursday ;
+    schema:opens "11:00:00" .
 
 ohspec:oh_257c58d8a6fed46359c132a420ee8b59def1d22b
     a schema:OpeningHoursSpecification ;
@@ -31190,6 +31558,12 @@ ohspec:oh_76a5cbd4127276ba85b05c953c394cb472d3e9d5
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "07:00:00" .
 
+ohspec:oh_772b39fc368f2197401aea4180b396b4010463f6
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:45:00" ;
+    schema:dayOfWeek schema:Tuesday ;
+    schema:opens "11:00:00" .
+
 ohspec:oh_77513e4997d41fa937af343dc8ec23fd4afd9a67
     a schema:OpeningHoursSpecification ;
     schema:closes "20:00:00" ;
@@ -31320,6 +31694,12 @@ ohspec:oh_7b779be0b81aa67469fb900abe99180b550670a1
     a schema:OpeningHoursSpecification ;
     schema:closes "14:00:00" ;
     schema:dayOfWeek schema:Wednesday ;
+    schema:opens "11:00:00" .
+
+ohspec:oh_7ba8be5886267b5111a07fc1b345aa4014c84910
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:45:00" ;
+    schema:dayOfWeek schema:Friday ;
     schema:opens "11:00:00" .
 
 ohspec:oh_7beea5f66760b090bf427f446577a0a4b531eb68
@@ -31657,6 +32037,12 @@ ohspec:oh_8ab4ba7a16be41205fb9bfbcbb70b7a7d1694162
     schema:closes "17:00:00" ;
     schema:dayOfWeek schema:Friday ;
     schema:opens "09:00:00" .
+
+ohspec:oh_8b1bf4069c9bdd511deae9aba7115039b4254d08
+    a schema:OpeningHoursSpecification ;
+    schema:closes "18:30:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "10:00:00" .
 
 ohspec:oh_8b256657c18c6ff243c0e28f00cac2aeaed208ef
     a schema:OpeningHoursSpecification ;
@@ -32545,6 +32931,12 @@ ohspec:oh_aab2c3f58725379e328b3ae575f0079488bd8e0d
     schema:closes "19:00:00" ;
     schema:dayOfWeek schema:Thursday ;
     schema:opens "12:30:00" .
+
+ohspec:oh_aad0562dd9b22d70ffc428283d85fbe1ec26bee1
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:45:00" ;
+    schema:dayOfWeek schema:Monday ;
+    schema:opens "11:00:00" .
 
 ohspec:oh_aad79f9ba5ccf0ddd4f11c1382b582d138ddd952
     a schema:OpeningHoursSpecification ;
@@ -34184,6 +34576,12 @@ ohspec:oh_e22eb5ec4042bda46838a9cd96ea6002e5c672a3
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "12:00:00" .
 
+ohspec:oh_e24dbb1bc967779e14de9bccddfdf22f6c43799a
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:45:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "11:00:00" .
+
 ohspec:oh_e279ba07178020e4ec4fec546a8d5dc5690fc889
     a schema:OpeningHoursSpecification ;
     schema:closes "21:00:00" ;
@@ -34777,6 +35175,12 @@ ohspec:oh_f9e173d79db6e13b398f2832bfd2d5ff7d0ca21c
     schema:closes "22:00:00" ;
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "07:00:00" .
+
+ohspec:oh_fa01d27add4b94228f79b29d7aa091d7264f9111
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:45:00" ;
+    schema:dayOfWeek schema:Wednesday ;
+    schema:opens "11:00:00" .
 
 ohspec:oh_fa2dc0f0845282c310beaa12b117cba7fddbfd86
     a schema:OpeningHoursSpecification ;
