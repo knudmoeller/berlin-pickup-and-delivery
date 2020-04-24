@@ -5024,7 +5024,7 @@ business:b_1190
         schema:longitude 13.25997
     ] ;
     schema:name "Thai Cuisine Berlin Zehlendorf" ;
-    schema:openingHoursSpecification ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea ;
+    schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 ;
     schema:telephone "+493088669150" ;
     schema:url "https://www.thai-cuisine-berlin.de/de" .
 
@@ -5099,6 +5099,125 @@ business:b_1193
     schema:telephone "+4930208799800" ;
     schema:url "https://erdingerberlin.de/" .
 
+business:b_1194
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferungen im Umkreis von 2 km"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10119" ;
+        schema:streetAddress "Schönhauser Allee 8"
+    ] ;
+    schema:description "deutsch/alpenländische Metzgers-Küche, Steak-Spezialitäten und feine österreichische Weine"@de ;
+    schema:email "info@fleischerei-berlin.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52975 ;
+        schema:longitude 13.41053
+    ] ;
+    schema:name "Restaurant Fleischerei" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+493050182117" ;
+    schema:url "http://www.fleischerei-berlin.com/" .
+
+business:b_1196
+    a schema:LocalBusiness ;
+    delivery:deliveryComment "Der klassische Spätkauf vereint mit modernem Standort-Lieferservice - mobil bestellen leicht gemacht mit der ersten Späti App! Schnell und bequem. Einfach und sicher. Geliefert wird direkt an deinen Standort dank Geolokalisation!"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible false ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10999" ;
+        schema:streetAddress "Forsterstraße 4-5"
+    ] ;
+    schema:description "MySpäti - Deine Lieferservice App"@de ;
+    schema:email "info@myspaeti.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.4961 ;
+        schema:longitude 13.43331
+    ] ;
+    schema:name "MySpäti" ;
+    schema:openingHoursSpecification ohspec:oh_28c7433eee18cff3bb4f3bee4839cad08f57e615, ohspec:oh_3e5235f630f7698ef92bef8e1220fff5f381a2bf, ohspec:oh_49570268fec60bdfe4554abb149f25c6edab457d, ohspec:oh_591bc4d35216a6a260379a4f5e222c6d55d4bcbf, ohspec:oh_71310f538e04c92b716a70869a63b059398a3716, ohspec:oh_9e3dab7c850e7a2e8483272e2fcb248e2198919f, ohspec:oh_fbbefdd3c242fa04200eb802a1a9135b8f63870f ;
+    schema:telephone "+4915901962546" ;
+    schema:url "https://www.myspäti.com" .
+
+business:b_1197
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferdienst im näheren Umkreis zum Restaurant"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Selbstabholung von Dienstag bis Sonntag zwischen 17:00 Uhr und 21:30 Uhr möglich"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10245" ;
+        schema:streetAddress "Sonntagstraße 26"
+    ] ;
+    schema:description "Hochwertige pflanzenbasierte Küche"@de ;
+    schema:email "info@luecks-berlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50613 ;
+        schema:longitude 13.46524
+    ] ;
+    schema:name "LÜCK'S" ;
+    schema:openingHoursSpecification ohspec:oh_01c7edda6709216e49806561397b51d006c87bc7, ohspec:oh_8d04f2a23d7398fb14d46d63ebdc00b7c56e0a9b, ohspec:oh_8e2ba8606b9ce018953d71d6f763cf5940270096, ohspec:oh_aebc0cb238328e335600f3030404cf157b5aa48e, ohspec:oh_d43c31e44396b6b1608dac98e7e3b278e1689ad8, ohspec:oh_e0e6cdd5447d9aede57f14d5eb8b33821fc81963 ;
+    schema:telephone "+493022462198" ;
+    schema:url "https://www.luecks-berlin.de/" .
+
+business:b_1198
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Essen to Go von freitags-sonntags von 17-21 Uhr"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10717" ;
+        schema:streetAddress "Uhlandstraße 67"
+    ] ;
+    schema:description "Armenisch/Persische Küche"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.49294 ;
+        schema:longitude 13.32314
+    ] ;
+    schema:name "Restaurant Amberd" ;
+    schema:openingHoursSpecification ohspec:oh_88256a6f0d63e3c66316cb81e689a9e5147225d7, ohspec:oh_9b50ec170e76aadaae1af810e349678459d9aa8e, ohspec:oh_c06f026245856a7ee58fdcf8a81ceadf18e03fce ;
+    schema:telephone "+49308614557" .
+
+business:b_1199
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Wir können alles einpacken und auch liefern im Umkreis von bis zu 7min Fahrzeit."@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Alles"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10719" ;
+        schema:streetAddress "Uhlandstraße 29"
+    ] ;
+    schema:description "Wie seit 51 Jahren, ist unsere Minipizza und alle anderen Speisen, auch zum mitnehmen oder liefern jederzeit bereit!!!"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50122 ;
+        schema:longitude 13.32476
+    ] ;
+    schema:name "Piccola Taormina" ;
+    schema:openingHoursSpecification ohspec:oh_32b6073ec6cab1d05eeae8ee5a0ac8702142c157, ohspec:oh_587f94ebca900484fcb72640bab0e08f727be854, ohspec:oh_664f59bbf1f3c687ca47b37b57a3773f3d6d099b, ohspec:oh_6f947af4180ab67e451440bd202de3bee98b7dbc, ohspec:oh_f4b20c4061bd932382fa3bda2d9145a702641342, ohspec:oh_fd0a9a58efed0019a5b5dce4c4096099aeaada27, ohspec:oh_fe4ed05634f465dcbfbc535c8f9fca77c64b19ce ;
+    schema:telephone "+49308814710" ;
+    schema:url "https://www.taormina.berlin" .
+
 business:b_12
     a schema:FoodEstablishment ;
     delivery:deliveryComment "10999"@de ;
@@ -5147,6 +5266,100 @@ business:b_120
     schema:openingHoursSpecification ohspec:oh_02bb46edc68d3dacba6838238a1cf1783bef4355, ohspec:oh_19a05db5bba76d4ccfc472add3965d07d11a5530, ohspec:oh_2d6c11a4252eed599223eb165248e9d1fd44b9ff, ohspec:oh_4031e6e51bce1b8ce2788a030c442f8c9a6819e8, ohspec:oh_4e9e64d2e8c02fead56b65625a59b69f606d047c, ohspec:oh_a9c6067af133d345ce7b2f33193bb4071f313a64, ohspec:oh_d9acfd8544465cfb41a730f63268a05040784386 ;
     schema:telephone "+4930208488020" ;
     schema:url "https://www.bonanzacoffee.de" .
+
+business:b_1200
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "unser Partner Lieferando liefert 2,3 km um die Postleitzahl 12165 Berlin Steglitz"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Wir nehmen Bestellungen per Telefon, Mail und WhatsApp entgegen. Die Speisen werden für Sie frisch zubereitet."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12165" ;
+        schema:streetAddress "Wrangelstraße 11-12"
+    ] ;
+    schema:description "lateinamerikansche und mexikanische Küche, sowie klassische und extravagante Cocktails."@de ;
+    schema:email "sombreroberlin@gmail.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.45557 ;
+        schema:longitude 13.31752
+    ] ;
+    schema:name "Sombrero Restaurant Bar Catering" ;
+    schema:openingHoursSpecification ohspec:oh_4c96a6913fb65f0dd09348d30be52e75e140f844, ohspec:oh_81a27128e4062bd3a8ff247ceba5f3931307a646, ohspec:oh_8e8a27757bc96f7432b8d35d24070c616497bb5b, ohspec:oh_a914d0fa357f8d8d20442ea6b67fc4970af30fd4, ohspec:oh_d78cca33463a48218f82f5a45854a592ea9822f6 ;
+    schema:telephone "+49491773203208" ;
+    schema:url "https://www.sombrero.berlin//" .
+
+business:b_1202
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Bis jetzt nur ToGo for Ort"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10405" ;
+        schema:streetAddress "Kollwitzstrasse18"
+    ] ;
+    schema:description "Cocktails und Longdrinks"@de ;
+    schema:email "info@scotch-sofa.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53266 ;
+        schema:longitude 13.41441
+    ] ;
+    schema:name "Scotch&Sofa" ;
+    schema:openingHoursSpecification ohspec:oh_349f59c7e1329fbea84addc96caa6bbfa5f19816, ohspec:oh_3645b15b8b7235d647d98967cfd3710671b6a8fa, ohspec:oh_6bf4206a118d77f0685fc52ea8783cd3fc6e1f90, ohspec:oh_6c6b89928c4900071b48c86decb338e25b661efb, ohspec:oh_7ac57b43c401921661e11505834f9c93f9adf8ae, ohspec:oh_e54cac35f7423392bd1b384a3722d8b4dbd6897f ;
+    schema:telephone "+491775438554" ;
+    schema:url "https://scotch-sofa.de" .
+
+business:b_1204
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12357" ;
+        schema:streetAddress "Stubenrauchstraße 2"
+    ] ;
+    schema:description "Pizza, Pasta, Salate"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.42586 ;
+        schema:longitude 13.48714
+    ] ;
+    schema:name "Trattoria Pane e Vino" ;
+    schema:openingHoursSpecification ohspec:oh_03320a6a173686182df9ff4a0e9cbebb86fc18f8, ohspec:oh_0febdd8a31dba5306f7504b58fed78950b064625, ohspec:oh_2a6b326c95dc40eea3cffdfa28aa870826611f85, ohspec:oh_931a70ab84203a399a4327d2bd3fc955fa1279cb, ohspec:oh_ab3e410e43132116fe4da0148e5ec088db094192, ohspec:oh_ef2336d4856ef8e5f1ace0508f9013fefb126193, ohspec:oh_f1b6b59c7d80e707565a69b24624da29e0f16f1d ;
+    schema:telephone "+4917699811239" ;
+    schema:url "https://paneevino-rudow.berlin" .
+
+business:b_1206
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Wechselnde Tagesgerichte (Fleisch und Vegetarisch) mit Salatbuffet und Brot für 7,5"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12435" ;
+        schema:streetAddress "Am Treptower Park 28 12435"
+    ] ;
+    schema:description "Internationale Hausmannskost / Täglich Wechselende Tagesgerichte von 12 bis 14 :30"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.48671 ;
+        schema:longitude 13.46207
+    ] ;
+    schema:name "Teufelsküche" ;
+    schema:openingHoursSpecification ohspec:oh_0fddc96d9c24a3b8fa9b663bc25fcae6ee511248, ohspec:oh_7bf359c2081012596ec65e9998d39fd00d698dce, ohspec:oh_b6b922902cb1e860f48ff8d6f23d70242fbf59a2, ohspec:oh_e3a252b9367c19f6eeeb6ed528077583d63e3570 ;
+    schema:telephone "+491745143218" ;
+    schema:url "https://www.teufelskueche-berlin.de" .
 
 business:b_121
     a schema:FoodEstablishment ;
@@ -7262,8 +7475,9 @@ business:b_20
 
 business:b_200
     a schema:FoodEstablishment ;
-    delivery:deliveryPossible false ;
-    delivery:pickupComment "Bestellungen bitte am Vortag bis 14 Uhr per E-Mail oder per SMS."@de ;
+    delivery:deliveryComment "Lieferung nach Absprache innerhalb Charlottenburgs möglich"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Herzhafte Speisen, Getränke und Kuchen zum Mitnehmen: zurzeit täglich 12 bis 17 Uhr. Vorbestellung möglich."@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -7272,7 +7486,7 @@ business:b_200
         schema:postalCode "14059" ;
         schema:streetAddress "Schloßstraße 55"
     ] ;
-    schema:description "Hausgemachte Kuchen und Torten, Quiche und mehr. Die aktuelle Auswahl finden Sie auf unserer Webseite."@de ;
+    schema:description "Hausgemachte Kuchen, heiße und kalte Getränke, herzhafte Gerichte (auch vegan und vegetarisch)"@de ;
     schema:email "info@cafevillaoppenheim.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -7280,7 +7494,7 @@ business:b_200
         schema:longitude 13.29812
     ] ;
     schema:name "Café Villa Oppenheim" ;
-    schema:openingHoursSpecification ohspec:oh_00710fbce98cd451f9b66531e037ea99abd580db, ohspec:oh_0b72922dd24692bef24635754027a8305127b1bb, ohspec:oh_182f3533886040ddc2de75cb0a5a6e6a5d001eed, ohspec:oh_a8dec44fecedfa7359d5b66e2c84a7f247ac7509, ohspec:oh_bdd09150d3dac7bdfab1bfae7d358e2408c5f80e, ohspec:oh_cc7ce3bdee0d61c8d707266a2804ce8d04ac6fb2, ohspec:oh_eef02547270781b714fe7e59803c4e972fb3f0ec ;
+    schema:openingHoursSpecification ohspec:oh_00710fbce98cd451f9b66531e037ea99abd580db, ohspec:oh_0b72922dd24692bef24635754027a8305127b1bb, ohspec:oh_a8dec44fecedfa7359d5b66e2c84a7f247ac7509, ohspec:oh_bdd09150d3dac7bdfab1bfae7d358e2408c5f80e, ohspec:oh_cc7ce3bdee0d61c8d707266a2804ce8d04ac6fb2, ohspec:oh_eef02547270781b714fe7e59803c4e972fb3f0ec ;
     schema:telephone "+4915774421989" ;
     schema:url "https://www.cafevillaoppenheim.de" .
 
@@ -8315,9 +8529,8 @@ business:b_24
 
 business:b_240
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "im umkreis 3 Km"@de ;
+    delivery:deliveryComment "im Umkreis von 3 Km"@de ;
     delivery:deliveryPossible true ;
-    delivery:pickupComment "siehe www.maiphai.de"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -8326,14 +8539,15 @@ business:b_240
         schema:postalCode "12163" ;
         schema:streetAddress "Feuerbachstraße 16"
     ] ;
-    schema:description "Thai Spezialitäten Restaurant"@de ;
+    schema:description "Thailändisch Spezialitäten Küche"@de ;
+    schema:email "maiphaiah@aol.com" ;
     schema:geo [
         a schema:GeoCoordinates ;
         schema:latitude 52.46309 ;
         schema:longitude 13.32884
     ] ;
     schema:name "Thai Restaurant Mai Phai" ;
-    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:openingHoursSpecification ohspec:oh_0f3f7c7667820663746408229cd13aed8c20b5f6, ohspec:oh_4c6bdc4e8140e96b31c243638f217839428937dc, ohspec:oh_717994b83f9faccbaa6f023929806d41f7e4299a, ohspec:oh_875fcb4044967e0a01ee9054d38201d1ae7fa85c, ohspec:oh_992251d84723a9e5e6a788e132b528a8f5dc16c3, ohspec:oh_a97ad513eccbaddc013d62301790f4c2fc608d4d, ohspec:oh_c447719a8b4114af07464788b6a59530e57b9b9c ;
     schema:telephone "+49307922845" ;
     schema:url "https://www.maiphai.de" .
 
@@ -13208,7 +13422,7 @@ business:b_425
 
 business:b_426
     a schema:LocalBusiness ;
-    delivery:deliveryComment "Unsere KiezEngel gehen für immobile Menschen in den Geschäften der Nachbarschaft einkaufen und bringen den Einkauf mit dem Lastenrad nach Hause"@de ;
+    delivery:deliveryComment "Kiefer-und Einkaufsservice des lokalen Einzelhandels im Stadtteilkiez"@de ;
     delivery:deliveryPossible true ;
     delivery:pickupPossible false ;
     schema:address [
@@ -13216,9 +13430,9 @@ business:b_426
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "13156" ;
-        schema:streetAddress "Beuthstraße 23. 13156 Berlin"
+        schema:streetAddress "Beuthstraße 23"
     ] ;
-    schema:description "Einkaufs-und Lieferservice für immobile Menschen im Stadtteilkiez. Digitale Online Plattform für den stationären und lokalen Einzelhandel"@de ;
+    schema:description "Lokale Online Plattform für den Kiez Einzelhandel mit Einkaufs-und Lieferservice"@de ;
     schema:email "rf@webkiez.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -13226,8 +13440,9 @@ business:b_426
         schema:longitude 13.4109
     ] ;
     schema:name "WebKiez GmbH" ;
+    schema:openingHoursSpecification ohspec:oh_2d6c11a4252eed599223eb165248e9d1fd44b9ff, ohspec:oh_5d6408f99ec091608e08ba9243d478658c20a42a, ohspec:oh_7831cf515763bb532cca6bb9e7d42068918ee7d7, ohspec:oh_92e0761d06f96a8c76fdb190fb7808c3d0359b32, ohspec:oh_bbbc502a8ae17b67695dcb5040cc0307555fb816, ohspec:oh_cd14d901508165093b777f15fcea4f3ff44c54d8, ohspec:oh_cf24eed12d4edc5eb4b3312127949dad8e9c8afd ;
     schema:telephone "+491716414704" ;
-    schema:url "https://www.webkiez.de" .
+    schema:url "https://www.webkiz.de" .
 
 business:b_427
     a schema:LocalBusiness ;
@@ -27049,9 +27264,8 @@ business:b_953
 
 business:b_954
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "über Lieferando"@de ;
     delivery:deliveryPossible true ;
-    delivery:pickupComment "Können über Webseite oder telefonisch vorbestellt werden. Ansonsten kurze Wartezeit für die Zubereitung."@de ;
+    delivery:pickupComment "Einfach online bestellen und dann zur vereinbarten Uhrzeit abholen."@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -27060,7 +27274,7 @@ business:b_954
         schema:postalCode "12059" ;
         schema:streetAddress "Sonnenallee 127"
     ] ;
-    schema:description "Empanadas, Chivitos (Burger), Pasta, Salat (siehe webseite)"@de ;
+    schema:description "Pasta, Chivito (Burger), Empanadas, Canelones, Chorizo, Alfajores, Getränke"@de ;
     schema:email "info@pecados.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -27068,9 +27282,9 @@ business:b_954
         schema:longitude 13.44337
     ] ;
     schema:name "Pecados" ;
-    schema:openingHoursSpecification ohspec:oh_046fcfb20a61aaceda272cdb8857626ae1862f85, ohspec:oh_51bdd40d84367fb147f53423cb6ed550d384610a, ohspec:oh_8e11f2e2abe82d04a7267e7a6c628dd7d2a89cd0, ohspec:oh_c660df7be0662aae2c07f8c8d313c5713a86c88d, ohspec:oh_db51a42849b4c51fee3204ef0b1890560e4c45ff, ohspec:oh_de637efd2eb7fb97cf600fd8a2d8f24323f148b2 ;
-    schema:telephone "+493078951633" ;
-    schema:url "http://www.pecados.de/" .
+    schema:openingHoursSpecification ohspec:oh_046fcfb20a61aaceda272cdb8857626ae1862f85, ohspec:oh_0f40f9c2fd91327e3b12eba8bcdb50c9cb35f42c, ohspec:oh_51bdd40d84367fb147f53423cb6ed550d384610a, ohspec:oh_8e11f2e2abe82d04a7267e7a6c628dd7d2a89cd0, ohspec:oh_c660df7be0662aae2c07f8c8d313c5713a86c88d, ohspec:oh_db51a42849b4c51fee3204ef0b1890560e4c45ff, ohspec:oh_de637efd2eb7fb97cf600fd8a2d8f24323f148b2 ;
+    schema:telephone "+493078950854" ;
+    schema:url "https://www.pecados.de" .
 
 business:b_955
     a schema:FoodEstablishment ;
@@ -28276,6 +28490,12 @@ ohspec:oh_0180c95757b07faf085d16dd892676f2ff247911
     schema:dayOfWeek schema:Monday ;
     schema:opens "08:00:00" .
 
+ohspec:oh_01c7edda6709216e49806561397b51d006c87bc7
+    a schema:OpeningHoursSpecification ;
+    schema:closes "21:30:00" ;
+    schema:dayOfWeek schema:Wednesday ;
+    schema:opens "17:00:00" .
+
 ohspec:oh_02bb46edc68d3dacba6838238a1cf1783bef4355
     a schema:OpeningHoursSpecification ;
     schema:closes "18:00:00" ;
@@ -28641,6 +28861,12 @@ ohspec:oh_0f2f1047390e2e47fb3f1ddec648875779eb0a85
     schema:closes "20:00:00" ;
     schema:dayOfWeek schema:Thursday ;
     schema:opens "17:00:00" .
+
+ohspec:oh_0f3f7c7667820663746408229cd13aed8c20b5f6
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:30:00" ;
+    schema:dayOfWeek schema:Wednesday ;
+    schema:opens "02:00:00" .
 
 ohspec:oh_0f40d3e7e5c9a819f81b13ca44956d5c34c84970
     a schema:OpeningHoursSpecification ;
@@ -29386,6 +29612,12 @@ ohspec:oh_28b9c53946e5e6e2e575f62a1acde31021fd3b8c
     schema:dayOfWeek schema:Wednesday ;
     schema:opens "08:30:00" .
 
+ohspec:oh_28c7433eee18cff3bb4f3bee4839cad08f57e615
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
+    schema:dayOfWeek schema:Friday ;
+    schema:opens "10:00:00" .
+
 ohspec:oh_28c9b3e003a5cc6c8f4896adfeebf012b0fd58ea
     a schema:OpeningHoursSpecification ;
     schema:closes "20:00:00" ;
@@ -29613,6 +29845,12 @@ ohspec:oh_32a215d7beca609d9ce64e74a5f91942685264c8
     schema:closes "20:00:00" ;
     schema:dayOfWeek schema:Thursday ;
     schema:opens "07:00:00" .
+
+ohspec:oh_32b6073ec6cab1d05eeae8ee5a0ac8702142c157
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Thursday ;
+    schema:opens "11:30:00" .
 
 ohspec:oh_32c87aab435ead4300610f8b3ea9e992708bd6ef
     a schema:OpeningHoursSpecification ;
@@ -29913,6 +30151,12 @@ ohspec:oh_3e47d375134df9fc9f1c6f21991628acb94c4998
     schema:closes "00:00:00" ;
     schema:dayOfWeek schema:Friday ;
     schema:opens "00:00:00" .
+
+ohspec:oh_3e5235f630f7698ef92bef8e1220fff5f381a2bf
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
+    schema:dayOfWeek schema:Tuesday ;
+    schema:opens "10:00:00" .
 
 ohspec:oh_3e74b2386122f16ac816a2dcc71afd18e9ffc4be
     a schema:OpeningHoursSpecification ;
@@ -30256,6 +30500,12 @@ ohspec:oh_49477b2ae94ee9aa8c0dbe28d3038a02d2f337ad
     schema:dayOfWeek schema:Friday ;
     schema:opens "11:00:00" .
 
+ohspec:oh_49570268fec60bdfe4554abb149f25c6edab457d
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
+    schema:dayOfWeek schema:Wednesday ;
+    schema:opens "10:00:00" .
+
 ohspec:oh_496f583334a5b0b31d2b67fab5e2acb46d91fad4
     a schema:OpeningHoursSpecification ;
     schema:closes "22:00:00" ;
@@ -30321,6 +30571,12 @@ ohspec:oh_4c639cae217520e3be04ef8ac35ee29771bfd262
     schema:closes "15:00:00" ;
     schema:dayOfWeek schema:Thursday ;
     schema:opens "06:00:00" .
+
+ohspec:oh_4c6bdc4e8140e96b31c243638f217839428937dc
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:30:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "12:00:00" .
 
 ohspec:oh_4c96a6913fb65f0dd09348d30be52e75e140f844
     a schema:OpeningHoursSpecification ;
@@ -30682,6 +30938,12 @@ ohspec:oh_58510ca3043c74771f923787bffae9055fda30ab
     schema:dayOfWeek schema:Saturday ;
     schema:opens "00:00:00" .
 
+ohspec:oh_587f94ebca900484fcb72640bab0e08f727be854
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Tuesday ;
+    schema:opens "11:30:00" .
+
 ohspec:oh_58909a34500a88bc40350ec4dd0e23f6b6e1c5a3
     a schema:OpeningHoursSpecification ;
     schema:closes "21:00:00" ;
@@ -30715,6 +30977,12 @@ ohspec:oh_58cd758ee56a4cff537d55281069fe6de0e649f2
 ohspec:oh_591615f77b422ff0416b7cd2cd0e96152b9a6a20
     a schema:OpeningHoursSpecification ;
     schema:closes "12:00:00" ;
+    schema:dayOfWeek schema:Saturday ;
+    schema:opens "10:00:00" .
+
+ohspec:oh_591bc4d35216a6a260379a4f5e222c6d55d4bcbf
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
     schema:dayOfWeek schema:Saturday ;
     schema:opens "10:00:00" .
 
@@ -31078,6 +31346,12 @@ ohspec:oh_65f14cf5fa9890f89a50433e0a1d64edf2f225da
     schema:dayOfWeek schema:Monday ;
     schema:opens "11:00:00" .
 
+ohspec:oh_664f59bbf1f3c687ca47b37b57a3773f3d6d099b
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Monday ;
+    schema:opens "11:30:00" .
+
 ohspec:oh_665fa95d0f16b9371f7a2916afaba49ad4af291a
     a schema:OpeningHoursSpecification ;
     schema:closes "20:00:00" ;
@@ -31342,6 +31616,12 @@ ohspec:oh_6f4251b5e43f1b8edb42d1b13b910a799a914201
     schema:dayOfWeek schema:Sunday ;
     schema:opens "16:00:00" .
 
+ohspec:oh_6f947af4180ab67e451440bd202de3bee98b7dbc
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Friday ;
+    schema:opens "11:30:00" .
+
 ohspec:oh_6fc2e01c73152364790396890289b49bbda6d59e
     a schema:OpeningHoursSpecification ;
     schema:closes "22:30:00" ;
@@ -31396,6 +31676,12 @@ ohspec:oh_712a93808cfde351559c6a0646f5d1a76871d4f8
     schema:dayOfWeek schema:Tuesday ;
     schema:opens "10:30:00" .
 
+ohspec:oh_71310f538e04c92b716a70869a63b059398a3716
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "10:00:00" .
+
 ohspec:oh_713e60f49d8b9cbea050bb3fbf895ff9c1381272
     a schema:OpeningHoursSpecification ;
     schema:closes "13:00:00" ;
@@ -31407,6 +31693,12 @@ ohspec:oh_7150ed83aa978d215ec5761a76b58ae4ef041840
     schema:closes "18:00:00" ;
     schema:dayOfWeek schema:Friday ;
     schema:opens "08:30:00" .
+
+ohspec:oh_717994b83f9faccbaa6f023929806d41f7e4299a
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:30:00" ;
+    schema:dayOfWeek schema:Monday ;
+    schema:opens "12:00:00" .
 
 ohspec:oh_71b25b8fe106c452ba87ef6ac0d9ff90310b3b5b
     a schema:OpeningHoursSpecification ;
@@ -32080,6 +32372,12 @@ ohspec:oh_8b8eb0846c09648f699de369eb1dd67a9e704ea3
     schema:dayOfWeek schema:Friday ;
     schema:opens "15:00:00" .
 
+ohspec:oh_8d04f2a23d7398fb14d46d63ebdc00b7c56e0a9b
+    a schema:OpeningHoursSpecification ;
+    schema:closes "21:30:00" ;
+    schema:dayOfWeek schema:Saturday ;
+    schema:opens "17:00:00" .
+
 ohspec:oh_8d5ff9fafc4f931cc53c22cb1c32e423dfa0d9f0
     a schema:OpeningHoursSpecification ;
     schema:closes "15:00:00" ;
@@ -32102,6 +32400,12 @@ ohspec:oh_8e11f2e2abe82d04a7267e7a6c628dd7d2a89cd0
     a schema:OpeningHoursSpecification ;
     schema:closes "22:00:00" ;
     schema:dayOfWeek schema:Thursday ;
+    schema:opens "17:00:00" .
+
+ohspec:oh_8e2ba8606b9ce018953d71d6f763cf5940270096
+    a schema:OpeningHoursSpecification ;
+    schema:closes "21:30:00" ;
+    schema:dayOfWeek schema:Tuesday ;
     schema:opens "17:00:00" .
 
 ohspec:oh_8e79d0f7f6499de6bf44f75282cdc3603a844dcf
@@ -32446,6 +32750,12 @@ ohspec:oh_983f51f68527446597e0afff0db8d3b3ba2f322c
     schema:dayOfWeek schema:Monday ;
     schema:opens "06:00:00" .
 
+ohspec:oh_992251d84723a9e5e6a788e132b528a8f5dc16c3
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:30:00" ;
+    schema:dayOfWeek schema:Tuesday ;
+    schema:opens "12:00:00" .
+
 ohspec:oh_99720ea63bd0c88cc769dfe1736452f2d7882bbf
     a schema:OpeningHoursSpecification ;
     schema:closes "19:30:00" ;
@@ -32601,6 +32911,12 @@ ohspec:oh_9e1e5c9a2d188a5a567363de2b2f0537e6522af9
     schema:closes "22:00:00" ;
     schema:dayOfWeek schema:Sunday ;
     schema:opens "14:00:00" .
+
+ohspec:oh_9e3dab7c850e7a2e8483272e2fcb248e2198919f
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
+    schema:dayOfWeek schema:Monday ;
+    schema:opens "10:00:00" .
 
 ohspec:oh_9e3f507e3d96f3e935c3501483cdb762993bc1ce
     a schema:OpeningHoursSpecification ;
@@ -32884,6 +33200,12 @@ ohspec:oh_a97178f0462a5c0717a3a780b9b716ef2f94fd13
     schema:dayOfWeek schema:Saturday ;
     schema:opens "11:30:00" .
 
+ohspec:oh_a97ad513eccbaddc013d62301790f4c2fc608d4d
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:30:00" ;
+    schema:dayOfWeek schema:Thursday ;
+    schema:opens "12:00:00" .
+
 ohspec:oh_a986d918eed2a654c03a24ede1d6dae284eeab90
     a schema:OpeningHoursSpecification ;
     schema:closes "20:00:00" ;
@@ -33081,6 +33403,12 @@ ohspec:oh_adfa648a7019ec7e81ff1c1bb8f6e940ce0c731e
     schema:closes "22:00:00" ;
     schema:dayOfWeek schema:Monday ;
     schema:opens "16:00:00" .
+
+ohspec:oh_aebc0cb238328e335600f3030404cf157b5aa48e
+    a schema:OpeningHoursSpecification ;
+    schema:closes "21:30:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "17:00:00" .
 
 ohspec:oh_aeeaec2469d905a5a836e88cb9710c0a7527dd65
     a schema:OpeningHoursSpecification ;
@@ -34252,6 +34580,12 @@ ohspec:oh_d410577734dc0cbfecfaac78a86a1658aa296462
     schema:dayOfWeek schema:Tuesday ;
     schema:opens "11:30:00" .
 
+ohspec:oh_d43c31e44396b6b1608dac98e7e3b278e1689ad8
+    a schema:OpeningHoursSpecification ;
+    schema:closes "21:30:00" ;
+    schema:dayOfWeek schema:Thursday ;
+    schema:opens "17:00:00" .
+
 ohspec:oh_d4b498ef29d013f54638e8080d2df4ce3963d0ca
     a schema:OpeningHoursSpecification ;
     schema:closes "15:00:00" ;
@@ -34551,6 +34885,12 @@ ohspec:oh_e0dac06fb082f4878611363ff48ee5b9540baae1
     schema:closes "15:30:00" ;
     schema:dayOfWeek schema:Saturday ;
     schema:opens "14:30:00" .
+
+ohspec:oh_e0e6cdd5447d9aede57f14d5eb8b33821fc81963
+    a schema:OpeningHoursSpecification ;
+    schema:closes "21:30:00" ;
+    schema:dayOfWeek schema:Friday ;
+    schema:opens "17:00:00" .
 
 ohspec:oh_e1096657c10077f516260cb708d54f19e6cc9aa7
     a schema:OpeningHoursSpecification ;
@@ -35014,6 +35354,12 @@ ohspec:oh_f4a47bac4e32b601c88e81c5d51a2f1e2ab48320
     schema:dayOfWeek schema:Tuesday ;
     schema:opens "16:30:00" .
 
+ohspec:oh_f4b20c4061bd932382fa3bda2d9145a702641342
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Wednesday ;
+    schema:opens "11:30:00" .
+
 ohspec:oh_f5019dde63e9d146a9a5ec0af5b38aa0370e6c51
     a schema:OpeningHoursSpecification ;
     schema:closes "20:30:00" ;
@@ -35248,6 +35594,12 @@ ohspec:oh_fb8b4713e99b29bd3cc63f2a3592b85149bf69c7
     schema:dayOfWeek schema:Thursday ;
     schema:opens "13:00:00" .
 
+ohspec:oh_fbbefdd3c242fa04200eb802a1a9135b8f63870f
+    a schema:OpeningHoursSpecification ;
+    schema:closes "00:00:00" ;
+    schema:dayOfWeek schema:Thursday ;
+    schema:opens "10:00:00" .
+
 ohspec:oh_fc102f0e2b98bf603816c4807232d7d86814c23e
     a schema:OpeningHoursSpecification ;
     schema:closes "21:00:00" ;
@@ -35272,6 +35624,12 @@ ohspec:oh_fced7feddbf16d0bc06d58c6c3431ca78e71f53a
     schema:dayOfWeek schema:Saturday ;
     schema:opens "10:00:00" .
 
+ohspec:oh_fd0a9a58efed0019a5b5dce4c4096099aeaada27
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "17:00:00" .
+
 ohspec:oh_fd39849742e40247ea37694b2145872a63e236e8
     a schema:OpeningHoursSpecification ;
     schema:closes "20:00:00" ;
@@ -35289,6 +35647,12 @@ ohspec:oh_fe362aa7696cd94a1007ad94fa7b5497a1285a3e
     schema:closes "20:00:00" ;
     schema:dayOfWeek schema:Sunday ;
     schema:opens "14:00:00" .
+
+ohspec:oh_fe4ed05634f465dcbfbc535c8f9fca77c64b19ce
+    a schema:OpeningHoursSpecification ;
+    schema:closes "22:30:00" ;
+    schema:dayOfWeek schema:Saturday ;
+    schema:opens "17:00:00" .
 
 ohspec:oh_fe60e69db181ebe31f782cac821ec63a00d1c402
     a schema:OpeningHoursSpecification ;
