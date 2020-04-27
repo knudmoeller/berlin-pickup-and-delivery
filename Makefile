@@ -1,11 +1,16 @@
 all: clean data/target/lieferdienste.ttl README.md
 
-data/target/lieferdienste.ttl: data/temp/lieferdienste.nt | data/target
+data/target/lieferdienste.ttl: data/temp/all.nt | data/target
 	@echo "converting $< to Turtle ..."
 	@echo "writing to $@ ..."
 	@bin/to_ttl.sh $< $@
 
-data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson data/source/lieferdienste_simple_search.csv data/temp/berlin_amenity.json data/temp/berlin_shop.json | data/temp
+data/temp/all.nt: data/temp/lieferdienste.nt data/manual/known_matches.nt | data/temp
+	@echo "combining Datenportal businesses with matches to OSM ..."
+	@echo "writing to $@ ..."
+	@cat data/temp/lieferdienste.nt data/manual/known_matches.nt > $@
+
+data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson data/source/lieferdienste_simple_search.csv | data/temp
 	@echo "converting $< to N-Triples ..."
 	@echo "writing to $@ ..."
 	@ruby bin/convert_businesses.rb $< $@
@@ -19,6 +24,17 @@ data/temp/berlin_shop.json: | data/temp
 	@echo "extracting shop nodes from OpenStreetMap ..."
 	@echo "writing to $@ ..."
 	@ruby bin/get_osm_nodes.rb shop $@
+
+data/temp/berlin_all.json: data/temp/berlin_amenity.json data/temp/berlin_shop.json | data/temp
+	@echo "combining extracted amenity and shop nodes ..."
+	@echo "writing to $@ ..."
+	@jq -s '[.[][]]' data/temp/*.json > $@
+
+data/temp/matches.nt: data/temp/berlin_all.json data/temp/lieferdienste.nt | data/temp
+	@echo "trying to find matches between Datenportal and OSM ..."
+	@echo "writing to $@ ..."
+	@ruby bin/match_osm.rb data/temp/berlin_all.json data/temp/lieferdienste.nt $@ data/manual/known_matches.nt
+	@echo "done - to use the matches, you need to copy them over to data/manual/known_matches.nt ..."
 
 .PHONY: data/source/lieferdienste_simple_search.csv
 data/source/lieferdienste_simple_search.csv: | data/source
@@ -38,8 +54,6 @@ data/temp/date.txt: | data/temp
 	@date "+Last changed: %Y-%m-%d" > $@
 
 clean: clean-source clean-temp clean-target
-	@echo "deleting data folder ..."
-	@rm -rf data
 
 clean-source:
 	@echo "deleting source folder ..."

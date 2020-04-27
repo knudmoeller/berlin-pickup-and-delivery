@@ -8,7 +8,7 @@ deliveries:deliveryPossible a owl:DatatypeProperty ;
     rdfs:label "delivery possible"@en ;
     rdfs:label "Lieferung möglich"@de ;
     rdfs:definedBy deliveries: ;
-    rdfs:domain schema:FoodEstablishment ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:boolean ;
 .
 
@@ -16,7 +16,7 @@ deliveries:deliveryComment a owl:DatatypeProperty ;
     rdfs:label "delivery comment"@en ;
     rdfs:label "Anmerkung zur Lieferung"@de ;
     rdfs:definedBy deliveries: ;
-    rdfs:domain schema:FoodEstablishment ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsdf:string ;
 .
 
@@ -24,7 +24,7 @@ deliveries:pickupPossible a owl:DatatypeProperty ;
     rdfs:label "pickup possible"@en ;
     rdfs:label "Abholung möglich"@de ;
     rdfs:definedBy deliveries: ;
-    rdfs:domain schema:FoodEstablishment ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:boolean ;
 .
 
@@ -32,7 +32,17 @@ deliveries:pickupComment a owl:DatatypeProperty ;
     rdfs:label "pickup comment"@en ;
     rdfs:label "Anmerkung zur Abholung"@de ;
     rdfs:definedBy deliveries: ;
-    rdfs:domain schema:FoodEstablishment ;
-    rdfs:range xsdf:string ;
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range xsd:string ;
 .
 
+deliveries:osmIdentifier a owl:DatatypeProperty ;
+    rdfs:label "OSM Identifier"@en ;
+    rdfs:label "OSM Identifier"@de ;
+    rdfs:comment "The OpenStreetMap identifier"@en ;
+    rdfs:comment "Der OpenStreetMap-Identifier"@de ;
+    rdfs:definedBy deliveries: ;
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:subPropertyOf schema:identifier ;
+    rdfs:range xsd:string ;
+.
