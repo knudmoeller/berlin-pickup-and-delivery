@@ -26,36 +26,38 @@ The following is an example of the target data in [Turtle](https://www.w3.org/TR
 @prefix ohspec: <https://daten.berlin.de/ds/opening-hours/> .
 @prefix delivery: <https://daten.berlin.de/vocab/delivery/> .
 
-business:b_2
+business:b_199
     a schema:FoodEstablishment ;
-    delivery:deliveryPossible false ;
+    delivery:deliveryComment "Ab 50€ Bestellwert liefern wir im Umkreis von 4 km"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "2109017886" ;
+    delivery:pickupComment "Wiener Schnitzel, Saftgulasch, Kässpätzle"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
-        schema:postalCode "10405" ;
-        schema:streetAddress "Strassburgerstraße 16"
+        schema:postalCode "10777" ;
+        schema:streetAddress "Motzstraße 34"
     ] ;
-    schema:description "Mate Tee & Gemischt Mate Brause boxes zu mitnehmen und trocken Bio Lebensmittel."@de ;
-    schema:email "info@metamate.cc" ;
+    schema:description "Wiener Schnitzel, Saftgulasch, Kässpätzle"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
-        schema:latitude 52.53064 ;
-        schema:longitude 13.41499
+        schema:latitude 52.49753 ;
+        schema:longitude 13.34682
     ] ;
-    schema:name "Meta Mate" ;
-    schema:openingHoursSpecification ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_48f4016ca7a6c0a01c3c2fe5e671c77cdb062685, ohspec:oh_8fa5171a0efd7ea719f1acb38b13c59b024272db, ohspec:oh_a13444b8bd03d929e1c32eb7e5b96eaf3a5ef78c ;
-    schema:telephone "+4915233738308" ;
-    schema:url "https://www.metamate.cc" .
+    schema:name "Sissi - Restaurant" ;
+    schema:openingHoursSpecification ohspec:oh_278e11cdddf2f42726fb2fac4e1111f72ed9017e, ohspec:oh_2c11fbcd2c781fb19a336fea0c88c00747565eb6, ohspec:oh_5de23a8d9c8abdc8b52dbe39e00f75621bfc112f, ohspec:oh_80ce7a5a1350c9e01de2226d594e9b29b5d04b52, ohspec:oh_94af436a280831d1e04578c68a19807e3db1730c, ohspec:oh_c45231a188cdbdfba02e2879d9a62aca1914de58, ohspec:oh_cb784c0fceb5a1bfcd322a81083be00404bfa9ab ;
+    schema:telephone "+49302101801" ;
+    schema:url "https://sissi-berlin.de" .
 
 # ...
 
-ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534
+ohspec:oh_278e11cdddf2f42726fb2fac4e1111f72ed9017e
     a schema:OpeningHoursSpecification ;
-    schema:closes "18:00:00" ;
-    schema:dayOfWeek schema:Friday ;
-    schema:opens "12:00:00" .
+    schema:closes "20:30:00" ;
+    schema:dayOfWeek schema:Tuesday ;
+    schema:opens "17:00:00" .
 ```
 
 * The local part of the business URI (`b_2`) is minted using the `unique_id` feature of the source data (the `id` field is internal to the SimpleSearch tool used to create the dataset and is not stable between the dataset's versions).
@@ -63,11 +65,12 @@ ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534
 * The URIs of the opening hours specification (`ohspec:oh_...`) are a hash over a normalized string of the opening hours for a particular day.
 That means that opening hours specifications can be shared by several businesses.
 * `business` (namespace for business URIs), `ohspec` (namespace for opening hours specifications) and `delivery` (custom properties not covered by schema.org) are just URI namespaces and don't currently resolve to anything.
+* `delivery:osmIdentifier` is the OpenStreetMap identifier for this business (see [Matching Businesses to OSM](#matching-businesses-to-osm)).
 
 
 ## Conversion Process
 
-Conversion is driven my the [Makefile](Makefile).
+Conversion is driven by the [Makefile](Makefile).
 
 The target Turtle data can be created as follows:
 
@@ -77,10 +80,13 @@ make data/target/lieferdienste.ttl
 
 This will trigger:
 
-- creating the neccessary folders
-- downloading the source data (to `data/source`)
-- converting the source to N-triples (in `data/temp`)
+- creating the neccessary folders,
+- downloading the source data (to `data/source`),
+- converting the source to N-triples (in `data/temp`),
+- finding matches between the businesses in the dataset to OpenStreetMap identifiers, and
 - converting the intermediate N-triples to Turtle (in `data/target`).
+
+## Matching Businesses to OSM
 
 ## Requirements
 
@@ -101,4 +107,4 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-04-24
+Last changed: 2020-04-28
