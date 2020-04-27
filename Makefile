@@ -5,10 +5,20 @@ data/target/lieferdienste.ttl: data/temp/lieferdienste.nt | data/target
 	@echo "writing to $@ ..."
 	@bin/to_ttl.sh $< $@
 
-data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson data/source/lieferdienste_simple_search.csv | data/temp
+data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson data/source/lieferdienste_simple_search.csv data/temp/berlin_amenity.json data/temp/berlin_shop.json | data/temp
 	@echo "converting $< to N-Triples ..."
 	@echo "writing to $@ ..."
 	@ruby bin/convert_businesses.rb $< $@
+
+data/temp/berlin_amenity.json: | data/temp
+	@echo "extracting amenity nodes from OpenStreetMap ..."
+	@echo "writing to $@ ..."
+	@ruby bin/get_osm_nodes.rb amenity $@
+
+data/temp/berlin_shop.json: | data/temp
+	@echo "extracting shop nodes from OpenStreetMap ..."
+	@echo "writing to $@ ..."
+	@ruby bin/get_osm_nodes.rb shop $@
 
 .PHONY: data/source/lieferdienste_simple_search.csv
 data/source/lieferdienste_simple_search.csv: | data/source
