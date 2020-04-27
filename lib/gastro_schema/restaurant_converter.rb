@@ -11,7 +11,7 @@ DS_BASE = "https://daten.berlin.de/ds/"
 BUSINESS = RDF::Vocabulary.new(File.join(DS_BASE, "business/"))
 OH_SPEC = RDF::Vocabulary.new(File.join(DS_BASE, "opening-hours/"))
 VOCAB_BASE = "https://daten.berlin.de/vocab/"
-DELIVERY = RDF::Vocabulary.new(File.join(VOCAB_BASE, "delivery/"))
+DELIVERY = RDF::Vocabulary.new(File.join(VOCAB_BASE, "deliveries/"))
 SCHEMA = RDF::Vocabulary.new("https://schema.org/")
 XSD = RDF::Vocabulary.new("http://www.w3.org/2001/XMLSchema#")
 
