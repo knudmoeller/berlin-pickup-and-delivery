@@ -550,19 +550,19 @@ business:b_1017
 
 business:b_1018
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Unsere aktuellen Liefergebiete werden auf unsere Webseite veröffentlicht\"."@de ;
+    delivery:deliveryComment "Unsere aktuellen Liefergebiete werden auf unsere Webseite veröffentlicht\""@de ;
     delivery:deliveryPossible true ;
     delivery:osmIdentifier "541077983" ;
-    delivery:pickupComment "leer"@de ;
+    delivery:pickupComment "anrufen bestellen nach 15-20 minuten ab holen"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10435" ;
-        schema:streetAddress "Danziger Straße 29"
+        schema:streetAddress "Danzigerstraße 29"
     ] ;
-    schema:description "Asiatescheküche"@de ;
+    schema:description "Thai,Vietnam,China"@de ;
     schema:email "restaurantreddragon@gmail.com" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -570,9 +570,9 @@ business:b_1018
         schema:longitude 13.41764
     ] ;
     schema:name "Red Dragon" ;
-    schema:openingHoursSpecification ohspec:oh_e719c27035a6bffaa3eeaa5707c04afd1423a380 ;
+    schema:openingHoursSpecification ohspec:oh_177faf77f4ec419f05cf94cb8afc849fa6595930, ohspec:oh_1786cbc6bbbc600cd7f7026bb66466b700faaf50, ohspec:oh_23763a4bb53969f6338e566ae180afd55c6d5e91, ohspec:oh_38919312775f58a4ce78b52f0a40b95580505e08, ohspec:oh_58cd758ee56a4cff537d55281069fe6de0e649f2, ohspec:oh_5aebb97089ec307f8966432178bdf83641d58817, ohspec:oh_ea31ebc9fc9034c6ca1a723d322d7b21c8b01cc2 ;
     schema:telephone "+49304429965" ;
-    schema:url "https://lieferservice-reddragon.de" .
+    schema:url "https://lieferservic-reddragon.de" .
 
 business:b_1019
     a schema:FoodEstablishment ;
@@ -4869,29 +4869,6 @@ business:b_118
     schema:telephone "+4930208488020" ;
     schema:url "https://www.bonanzacoffee.de" .
 
-business:b_1180
-    a schema:FoodEstablishment ;
-    delivery:deliveryPossible true ;
-    delivery:osmIdentifier "333136586" ;
-    delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10117" ;
-        schema:streetAddress "Friedrichstraße 129"
-    ] ;
-    schema:description "Italienische Küche"@de ;
-    schema:email "roma-berlin@hotmail.de" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.52512 ;
-        schema:longitude 13.38713
-    ] ;
-    schema:name "Ristorante Pizzeria Roma" ;
-    schema:telephone "+493028878785" ;
-    schema:url "https://roma-ristorante.de" .
-
 business:b_1181
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
@@ -5604,6 +5581,7 @@ business:b_1210
     a schema:LocalBusiness ;
     delivery:deliveryComment "deutschlandweiter Versand"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "5716675886" ;
     delivery:pickupComment "Unser Ladengeschäft ist MO-FR 11 - 19 Uhr und SA 10 - 19 Uhr geöffnet."@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -5629,6 +5607,7 @@ business:b_1211
     a schema:FoodEstablishment ;
     delivery:deliveryComment "Wir liefern ab 30 € im Umkreis von 4 km alles andere nach Absprache"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "4557432191" ;
     delivery:pickupComment "20 % auf alle Speisen Ausgeschlossen Lieferung"@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -5677,6 +5656,7 @@ business:b_1213
 business:b_1215
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
+    delivery:osmIdentifier "1000198750" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -5699,6 +5679,7 @@ business:b_1215
 business:b_1216
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
+    delivery:osmIdentifier "646574554" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -5766,6 +5747,208 @@ business:b_122
     schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
     schema:telephone "+493024356282" ;
     schema:url "https://christophers.online" .
+
+business:b_1220
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Wir liefern ab 45 Euro Bestellwert noch am gleichen Tag frei Haus. Aktuell beliefern wir Prenzlauer Berg, Friedrichshain, Mitte, Kreuzberg, Tiergarten, Schöneberg, Wilmersdorf und Charlottenburg. Details unter www.goldhahnundsampson.de/lieferservice"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "1784395325" ;
+    delivery:pickupComment "Unsere Geschäfte in Charlottenburg und Prenzlauer Berg sind weiterhin geöffnet."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10437" ;
+        schema:streetAddress "Dunckerstraße 9"
+    ] ;
+    schema:description "Lebensmittel, Weine, Kochbücher und Kochkurse"@de ;
+    schema:email "hallo@goldhahnundsampson.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.54228 ;
+        schema:longitude 13.42079
+    ] ;
+    schema:name "Goldhahn und Sampson" ;
+    schema:openingHoursSpecification ohspec:oh_366f2d9c3fdb5b29a601de8271f9be84f9d30f76, ohspec:oh_41b23d53ecfc32d451ef6f8a4ea486966bc7d4e3, ohspec:oh_5773074cf5b5493fa4cb2298ed9a69f7c71071cd, ohspec:oh_5f73a7a45146a62db51c91f1529b061110afb6ba, ohspec:oh_97568ccad020736151564d2b0fc398947c91be27, ohspec:oh_addd2b90ad956eb31208af51e29e0953947e5832 ;
+    schema:telephone "+4915158128837" ;
+    schema:url "https://www.goldhahnundsampson.de" .
+
+business:b_1221
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferung nur in Umkreis 5 km ab 20 Euro."@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "508679743" ;
+    delivery:pickupComment "Abholservice vom 12 bis 20 Uhr"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13507" ;
+        schema:streetAddress "Alt-Tegel 29"
+    ] ;
+    schema:description "Abhol und Lieferservice vom 12 bis 20 Uhr"@de ;
+    schema:email "mail@lucky-chinese.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.58829 ;
+        schema:longitude 13.27856
+    ] ;
+    schema:name "China Restaurant Lucky Chinese" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+49304335033" ;
+    schema:url "https://www.lucky-chinese.de" .
+
+business:b_1222
+    a schema:LocalBusiness ;
+    delivery:deliveryComment "Kunst"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Kunst"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10785" ;
+        schema:streetAddress "Schöneberger Ufer 71"
+    ] ;
+    schema:description "Galerie und Kunsthandel"@de ;
+    schema:email "office@aurelscheibler.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50546 ;
+        schema:longitude 13.36426
+    ] ;
+    schema:name "Aurel Scheibler" ;
+    schema:openingHoursSpecification ohspec:oh_06c94e62dce42d7a541259719aa18cafba531465, ohspec:oh_3b31adfa849b08116e0e166f517c4437483c5978, ohspec:oh_776c4c3976adc43650c49042c06ce1bd2f6ecdab, ohspec:oh_b215e0291cdb1c1f7f508e7b1922a7ce03dc850d, ohspec:oh_e6c0988570b65c9878b5c44310bdedfc9fcd3be7 ;
+    schema:telephone "+493025938607" ;
+    schema:url "https://www.aurelscheibler.com" .
+
+business:b_1223
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Imbissangebot für Wanderer und Spaziergänger"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12587" ;
+        schema:streetAddress "Josef-nawrocki-straße 16"
+    ] ;
+    schema:description "Deutsche Küche, Imbiss, Snacks, Softeis, Getränke"@de ;
+    schema:email "reservierung@restaurant-ehrlich.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.44532 ;
+        schema:longitude 13.6263
+    ] ;
+    schema:name "Restaurant Ehrlich" ;
+    schema:openingHoursSpecification ohspec:oh_015d296c6a7f058fc08acd522f19d2d5d62747a5, ohspec:oh_1276eee6032121557392873d506c79510d0ffd62, ohspec:oh_2125dcae7b6979983131173de003623dea5a07a1, ohspec:oh_49de6fd389ed152e35e8bbebb46d9d6e38dd4c8b, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_b887e689489a1375fa4c1093d35dcbb8c8e2c715, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+4915786890341" ;
+    schema:url "https://www.restaurant-ehrlich.de" .
+
+business:b_1225
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Sie können bei uns ausschließlich telefonisch oder per Whatsapp bestellen, beides unter der Nummer 0302516069.  Lieferbedinungen: 25€ Mindestbestellwert, 4 KM und Barzahlung Abholbedingungen: Abstand halten"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "895374738" ;
+    delivery:pickupComment "Sie können bei uns ausschließlich telefonisch oder per Whatsapp bestellen, beides unter der Nummer 0302516069.  Lieferbedinungen: 25€ Mindestbestellwert, 4 KM und Barzahlung Abholbedingungen: Abstand halten"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10963" ;
+        schema:streetAddress "Tempelhofer Ufer 12"
+    ] ;
+    schema:description "Griechische Taverne mit klassischen griechischen Gerichten sowohl internationaler Küche."@de ;
+    schema:email "restaurant@taverna-athene.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.49823 ;
+        schema:longitude 13.38541
+    ] ;
+    schema:name "Taverna Athene" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+491758670682" ;
+    schema:url "https://www.taverna-athene.de" .
+
+business:b_1226
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Caterings werden in Berlin-weit angeboten"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "3051044948" ;
+    delivery:pickupComment "Ab 1. Mai könnt Ihr Euch täglich mit Pausini-Köstlichkeiten versorgen. Wir haben von 10:00 bis 16:00 Uhr für den Außer-Haus-Verkauf geöffnet.  Ihr könnt einfach vorbeikommen oder vorher bestellen | E-Mail: bestellung@pausini.de oder WhatsApp: 0177 85 93 555"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12103" ;
+        schema:streetAddress "Kaiserin-Augusta-Straße 78"
+    ] ;
+    schema:description "Hausgemachte Frühstücks-und Lunchbags, Sandwiches, Salate, Pasta, Desserts und vegane Produkte. Außerdem bieten wir individuelle Caterings an. Wir freuen uns auf Euch!"@de ;
+    schema:email "bestellung@pausini.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.45923 ;
+        schema:longitude 13.38382
+    ] ;
+    schema:name "Pausini - Café und Catering" ;
+    schema:openingHoursSpecification ohspec:oh_0330e2708befca9100d6f666fd7ca7cfae9f581a, ohspec:oh_1535167184f39930d7b1deeaf2f8a2ef362c88d6, ohspec:oh_1c7701040dd16b24f992423b1e4585e2e9256194, ohspec:oh_6acaddc8a76faba6a75aba12870c7168ea0c3acf, ohspec:oh_882b6db7dc9d960cd56eeb923c742aecf6ada63f, ohspec:oh_b99fb34045ef851afcf43a4a34032762aa3ca26c, ohspec:oh_fced7feddbf16d0bc06d58c6c3431ca78e71f53a ;
+    schema:telephone "+491778593555" ;
+    schema:url "https://www.pausini.de" .
+
+business:b_1227
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "3937876096" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10115" ;
+        schema:streetAddress "Ackerstraße 157"
+    ] ;
+    schema:description "Maultaschen, schwäbische küche, cafe"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53089 ;
+        schema:longitude 13.39654
+    ] ;
+    schema:name "CAFE RIBO" ;
+    schema:openingHoursSpecification ohspec:oh_609dcbbb4fe703395053f863c42b1806b43b533b, ohspec:oh_67cb77249e580331eed0559ca10f79fae4a7b3fd, ohspec:oh_69591bd5b8aa09846fa8395d6c95dc263adb6b68, ohspec:oh_c1bfcfcf2b2fcc747b9596cc06de501c4c22e824, ohspec:oh_c6acf64cd42a5cc8dd8a92ba34ae3ef3bce26d91 ;
+    schema:telephone "+4917621455203" ;
+    schema:url "https://www.caferibo.de" .
+
+business:b_1228
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Über Liferando.de"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "278874977" ;
+    delivery:pickupComment "Bestellungen zum Abholen von 12-22 Uhr Täglich!!!"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10247" ;
+        schema:streetAddress "Mainzer Straße 14"
+    ] ;
+    schema:description "In unserem Pizzeria bieten wir Ihnen ausschließlich frische Produkte und leckere Pizza, Pasta und Salate"@de ;
+    schema:email "info@eatalian.berlin" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51231 ;
+        schema:longitude 13.46138
+    ] ;
+    schema:name "Eatalian" ;
+    schema:openingHoursSpecification ohspec:oh_496f583334a5b0b31d2b67fab5e2acb46d91fad4, ohspec:oh_4affdb1a71a2f800ed8aebdb71f7748204627952, ohspec:oh_5dab34595bf2e01982e4d205704355b3571f6027, ohspec:oh_759b8edcfe1dd43ea0c910ea8d1400e94da3d987, ohspec:oh_92c43882801d557e7e55a25dcf3b9b5fd8d337b8, ohspec:oh_c0edc930ee0cc97bdc5d097f6c5bd60873428a29, ohspec:oh_e05482c706d22eb151ad4d61a5f02a523c168593 ;
+    schema:telephone "+493039480414" ;
+    schema:url "https://eatalian.berlin" .
 
 business:b_123
     a schema:FoodEstablishment ;
@@ -7735,10 +7918,10 @@ business:b_195
 
 business:b_196
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Liefergebiete und alle Infos wie der Lieferservice informiert finden Sie hier: https://www.goldhahnundsampson.de/shop/Lieferservice:_:128.html"@de ;
+    delivery:deliveryComment "Wir liefern ab 45 Euro Bestellwert frei Haus. Aktuell liefern wir nach Prenzlauer Berg, Mitte, Friedrichshain, Kreuzberg, Tiergarten, Schöneberg, Wilmersdorf und Charlottenburg. Mehr Infos unter: www.goldhahnundsampson.de/lieferservice"@de ;
     delivery:deliveryPossible true ;
     delivery:osmIdentifier "3916605836" ;
-    delivery:pickupComment "Unsere beiden Ladengeschäfte sind weiterhin geöffnet, es gelten Abstands- und Hygieneregelungen."@de ;
+    delivery:pickupComment "Unsere Läden in Charlottenburg und Prenzlauer Berg sind weiterhin und zu den gewohnten Zeiten geöffnet. Wir freuen uns auf euren Besuch!"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -7747,7 +7930,7 @@ business:b_196
         schema:postalCode "10629" ;
         schema:streetAddress "Wilmersdorfer Straße 102-103"
     ] ;
-    schema:description "Lebensmittel, Wein, Kochbücher"@de ;
+    schema:description "Lebensmittel, Weine, Kochbücher & Kochkurse."@de ;
     schema:email "hallo@goldhahnundsampson.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -7757,7 +7940,7 @@ business:b_196
     schema:name "Goldhahn und Sampson" ;
     schema:openingHoursSpecification ohspec:oh_366f2d9c3fdb5b29a601de8271f9be84f9d30f76, ohspec:oh_41b23d53ecfc32d451ef6f8a4ea486966bc7d4e3, ohspec:oh_5773074cf5b5493fa4cb2298ed9a69f7c71071cd, ohspec:oh_5e86c5cef277403576126ce6fadfa7be47a89d56, ohspec:oh_97568ccad020736151564d2b0fc398947c91be27, ohspec:oh_addd2b90ad956eb31208af51e29e0953947e5832 ;
     schema:telephone "+4915158128837" ;
-    schema:url "https://www.goldhahnundsampson.de/shop/" .
+    schema:url "https://www.goldhahnundsampson.de" .
 
 business:b_197
     a schema:FoodEstablishment ;
@@ -25109,7 +25292,6 @@ business:b_840
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:osmIdentifier "521990175" ;
-    delivery:pickupComment "Bestellungen zum Abholen müssen uns spätestens bis 18:00 Uhr am vorherigen Tag erreichenn"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -25118,7 +25300,7 @@ business:b_840
         schema:postalCode "10317" ;
         schema:streetAddress "Kaskelstraße 49"
     ] ;
-    schema:description "Deutsche Küche To Go"@de ;
+    schema:description "Deutsche Küche"@de ;
     schema:email "jelaengerjelieber@yahoo.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -27542,10 +27724,8 @@ business:b_931
 
 business:b_932
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "10115 -10117-10179"@de ;
     delivery:deliveryPossible true ;
     delivery:osmIdentifier "333136586" ;
-    delivery:pickupComment "Bis 1 Stunde vorher"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -27554,17 +27734,16 @@ business:b_932
         schema:postalCode "10117" ;
         schema:streetAddress "Friedrichstraße 129"
     ] ;
-    schema:description "Pizza -Pasta-Salat- Suppe"@de ;
+    schema:description "Italienische Küche"@de ;
     schema:email "roma-berlin@hotmail.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
         schema:latitude 52.52512 ;
         schema:longitude 13.38713
     ] ;
-    schema:name "Ristorante Roma" ;
-    schema:openingHoursSpecification ohspec:oh_242115eb523a617c4fc4dc691717d475df4e7d4d, ohspec:oh_3277fdbf32e9872ec0f0dd9cfb9dbd1f6f84d4c4, ohspec:oh_6000adfda2ead9d1e8dad50ebab12e1207e365d5, ohspec:oh_6ed7ef20e880c0661fd7ab2764cc1660dbb8de83, ohspec:oh_9024677705dacf346ddb61ed91753a8f49847ff7, ohspec:oh_9f954de718b38bca090dbb3d3ef56fb6dcab1216, ohspec:oh_a100f9b4a4cfbe9f4971f530305e34b6d528bb0d ;
+    schema:name "Ristorante Pizzeria Roma" ;
     schema:telephone "+493028878785" ;
-    schema:url "https://www.roma-ristorante.de" .
+    schema:url "https://roma-ristorante.de" .
 
 business:b_933
     a schema:FoodEstablishment ;
