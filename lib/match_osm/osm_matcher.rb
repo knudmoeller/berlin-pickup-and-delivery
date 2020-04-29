@@ -117,7 +117,7 @@ class OSMMatcher
             # straight match after normalization
             return candidate if normalized_datenportal.eql?(normalized_osm)
             return candidate if normalized_datenportal.include?(normalized_osm) || normalized_osm.include?(normalized_datenportal)
-            @nomatch << [ place[:uri], place[:name], candidate[:osm_id], candidate[:name] ]
+            @nomatch << [ place[:uri].split("_").last, place[:uri], place[:name], candidate[:osm_id], candidate[:name] ]
         end
         return nil
     end
@@ -133,7 +133,7 @@ class OSMMatcher
             end
         end
         CSV.open("data/temp/nomatch.csv", "wb") do |csv|
-            csv << [ "datenportal_uri", "datenportal_name", "osm_id", "osm_name" ]
+            csv << [ "datenportal_id", "datenportal_uri", "datenportal_name", "osm_id", "osm_name" ]
             @nomatch.each do |not_a_match|
                 csv << not_a_match
             end
