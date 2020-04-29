@@ -103,8 +103,10 @@ This is done as follows:
 
 ## Requirements
 
-- The main conversion script [bin/convert_businesses.rb](bin/convert_businesses.rb) is written in Ruby (>=2.4) and requires the [linkeddata](https://rubygems.org/gems/linkeddata) gem.
+- The main conversion script [bin/convert_businesses.rb](bin/convert_businesses.rb) is written in Ruby (>=2.4) and requires the [linkeddata](https://rubygems.org/gems/linkeddata) gem, as well as the [uuid](https://rubygems.org/gems/uuid) gem.
+- For the matching to OpenStreetMap, the [haversine](https://rubygems.org/gems/haversine) and [overpass-api-ruby](https://rubygems.org/gems/overpass-api-ruby) gems are needed.
 - The script to convert the intermedia N-Triples file to Turtle ([bin/to_ttl.sh](bin/to_ttl.sh)) is a simple shell script and requires the `rapper` command to be available. `rapper` is part of [Redland](http://librdf.org). For Mac OS, there is a [brew formula to install Redland](https://formulae.brew.sh/formula/redland). There are also packages for Debian and other distributions.
+- [jq](https://stedolan.github.io/jq/) is required for handling intermediate JSON files.
 
 ## Logo
 
