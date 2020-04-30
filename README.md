@@ -122,4 +122,6 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
+Repository: https://github.com/knudmoeller/berlin-pickup-and-delivery
+
 Last changed: 2020-04-30
