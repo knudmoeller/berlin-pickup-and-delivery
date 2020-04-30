@@ -10,7 +10,7 @@
 
 delivery_and_pickup:
     a void:Dataset ;
-    foaf:homepage <https://github.com/knudmoeller/berlin-pickup-and-delivery> ;
+    foaf:homepage <https://knudmoeller.github.io/berlin-pickup-and-delivery> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en ;
     dcterms:title "Liefer- und Abholdienste in Berlin"@de ;
     dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
@@ -18,4 +18,5 @@ delivery_and_pickup:
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:created "2020-04-11"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
+    void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;
 .
