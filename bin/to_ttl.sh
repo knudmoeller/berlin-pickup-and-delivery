@@ -15,4 +15,7 @@ rapper -i ntriples -o turtle $1 \
   -f 'xmlns:business="https://daten.berlin.de/ds/business/"' \
   -f 'xmlns:ohspec="https://daten.berlin.de/ds/opening-hours/"' \
   -f 'xmlns:delivery="https://daten.berlin.de/vocab/deliveries/"' \
+  -f 'xmlns:delivery_and_pickup="https://daten.berlin.de/ds/delivery_and_pickup/"' \
+  -f 'xmlns:void="http://rdfs.org/ns/void#"' \
+  -f 'xmlns:dcterms="http://purl.org/dc/terms/"' \
   > $2

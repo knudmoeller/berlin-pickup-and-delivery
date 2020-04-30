@@ -5,10 +5,15 @@ data/target/lieferdienste.ttl: data/temp/all.nt | data/target
 	@echo "writing to $@ ..."
 	@bin/to_ttl.sh $< $@
 
-data/temp/all.nt: data/temp/lieferdienste.nt data/manual/known_matches.nt | data/temp
-	@echo "combining Datenportal businesses with matches to OSM ..."
+data/temp/void_description.nt: data/manual/void_description.ttl | data/temp
+	@echo "convert $< to N-Triples ..."
 	@echo "writing to $@ ..."
-	@cat data/temp/lieferdienste.nt data/manual/known_matches.nt > $@
+	@rapper -i turtle $< > $@
+
+data/temp/all.nt: data/temp/lieferdienste.nt data/manual/known_matches.nt data/temp/void_description.nt data/temp/modified.nt | data/temp
+	@echo "combining temporary N-Triples files ($^) ..."
+	@echo "writing to $@ ..."
+	@cat $^ > $@
 
 data/temp/lieferdienste.nt: data/source/lieferdienste_simple_search.geojson data/source/lieferdienste_simple_search.csv | data/temp
 	@echo "converting $< to N-Triples ..."
@@ -47,6 +52,11 @@ data/source/lieferdienste_simple_search.geojson: | data/source
 	@echo "downloading GeoJSON source from SimpleSearch API ..."
 	@echo "writing to $@ ..."
 	@curl -s "https://www.berlin.de/sen/web/service/liefer-und-abholdienste/index.php/index/all.gjson?q=" --output $@
+
+.PHONY: data/temp/modified.nt
+data/temp/modified.nt:
+	@echo "write current date as N-Triples to $@ ..."
+	@date '+<https://daten.berlin.de/ds/delivery_and_pickup/> <http://purl.org/dc/terms/modified> "%Y-%m-%d"^^<http://www.w3.org/2001/XMLSchema#date> .' > $@
 
 .PHONY: data/temp/date.txt
 data/temp/date.txt: | data/temp

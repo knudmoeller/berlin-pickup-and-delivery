@@ -12,6 +12,9 @@
 @prefix business: <https://daten.berlin.de/ds/business/> .
 @prefix ohspec: <https://daten.berlin.de/ds/opening-hours/> .
 @prefix delivery: <https://daten.berlin.de/vocab/deliveries/> .
+@prefix delivery_and_pickup: <https://daten.berlin.de/ds/delivery_and_pickup/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 business:b_1
     a schema:FoodEstablishment ;
@@ -29528,6 +29531,17 @@ business:b_999
     schema:openingHoursSpecification ohspec:oh_19a05db5bba76d4ccfc472add3965d07d11a5530, ohspec:oh_2c63228a9be4ec9d0556fe5fdbcce7cebe268386, ohspec:oh_4031e6e51bce1b8ce2788a030c442f8c9a6819e8, ohspec:oh_4e9e64d2e8c02fead56b65625a59b69f606d047c, ohspec:oh_a9c6067af133d345ce7b2f33193bb4071f313a64, ohspec:oh_d9acfd8544465cfb41a730f63268a05040784386 ;
     schema:telephone "+493053005480" ;
     schema:url "https://www.abwshop.de" .
+
+<https://daten.berlin.de/ds/delivery_and_pickup/>
+    dcterms:created "2020-04-11"^^xsd:date ;
+    dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
+    dcterms:descriptions "RDF-Daten zu Geschäften in Berlin die wegen der Corona/COVID-19-Beschränkungen Liefer- oder Abholdienste anbieten. Die werden Daten aus einem offenen Datensatz erzeugt, der von der Berliner Senatsverwaltung für Wirtschaft, Energie und Betriebe veröffentlicht wird."@de ;
+    dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
+    dcterms:modified "2020-04-30"^^xsd:date ;
+    dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
+    dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
+    a void:Dataset ;
+    foaf:homepage <https://github.com/knudmoeller/berlin-pickup-and-delivery> .
 
 ohspec:oh_0000135875bb31ec0bde55b5b3d47576bf33b401
     a schema:OpeningHoursSpecification ;
