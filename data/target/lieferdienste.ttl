@@ -5953,6 +5953,31 @@ business:b_1228
     schema:telephone "+493039480414" ;
     schema:url "https://eatalian.berlin" .
 
+business:b_1229
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "7244303214" ;
+    delivery:pickupComment "Bestellungen zum Abholen sollten uns spätestens am vorherigen Tag erreichen.ns am"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10961" ;
+        schema:streetAddress "Mittenwalder Straße 6"
+    ] ;
+    schema:description "4-Gänge Menü"@de ;
+    schema:email "hostaria@gmx.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.49408 ;
+        schema:longitude 13.39661
+    ] ;
+    schema:name "Hostaria del Monte Croce" ;
+    schema:openingHoursSpecification ohspec:oh_a5561b05d07fd12da78962baf8b4928c7a0fb7e2, ohspec:oh_cbe3aeb590e6e0beaf36c8b4c6f92c5c6d1853ba, ohspec:oh_d54a41b60a840f85cdf26b3a2849a587b402f60c ;
+    schema:telephone "+4917699458781" ;
+    schema:url "https://hostaria.de" .
+
 business:b_123
     a schema:FoodEstablishment ;
     delivery:deliveryComment "Wir bieten euch unseren Abhol- und Lieferservice in Berlin Mitte täglich an von 13-21 Uhr!"@de ;
@@ -5978,6 +6003,207 @@ business:b_123
     schema:openingHoursSpecification ohspec:oh_7282f567cee10557f1ef9e803ab787a3b94f8095, ohspec:oh_754028f2ebb9e4c8d05f252908d90108b35d4a40, ohspec:oh_d725eee1d47556b36b52ff17e37b6cb919ed9d45, ohspec:oh_d7e62525635cf05a7a22afd26c516d02f1f7f698, ohspec:oh_ea789469d05955ca349bf393c2cf9ca04c193f4d, ohspec:oh_f758d1f617d0be888662d0badc0f5143364309f6, ohspec:oh_f8405b3f07b175cce4c92c337feb20a9b501282e ;
     schema:telephone "+493035529966" ;
     schema:url "https://www.eatkwa.de" .
+
+business:b_1230
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "725904425" ;
+    delivery:pickupComment "Speisen zum Abholen von Dienstag- Sonntag von 12 - 19 Uhr. Vorbestellungen ab 11.30 Uhr unter 36702299"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "14059" ;
+        schema:streetAddress "Schloßstraße 64"
+    ] ;
+    schema:description "Deutsche Küche und Wildspezialitäten"@de ;
+    schema:email "restaurant-schlossgarten@web.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51761 ;
+        schema:longitude 13.29688
+    ] ;
+    schema:name "Restaurant Schlossgarten" ;
+    schema:openingHoursSpecification ohspec:oh_015d296c6a7f058fc08acd522f19d2d5d62747a5, ohspec:oh_1276eee6032121557392873d506c79510d0ffd62, ohspec:oh_4368f725253cea12453da7146a147e7d51809de6, ohspec:oh_49de6fd389ed152e35e8bbebb46d9d6e38dd4c8b, ohspec:oh_54f78713f53f2a15f414dccce61e41abf663a959, ohspec:oh_6bf4206a118d77f0685fc52ea8783cd3fc6e1f90, ohspec:oh_b887e689489a1375fa4c1093d35dcbb8c8e2c715 ;
+    schema:telephone "+4936702299" ;
+    schema:url "http://www.restaurant-schlossgarten-berlin.de" .
+
+business:b_1231
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "6576517800" ;
+    delivery:pickupComment "Das Joseph Restaurant hat Montag-Samstags von 12 Uhr - 20 Uhr geöffnet. Bestellungen können telefonisch oder online erfolgen. Zudem bieten wir ein 3-Gang Menü an, welches 2 Tage im Voraus bestellt werden kann."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10117" ;
+        schema:streetAddress "Friedrichstraße 113"
+    ] ;
+    schema:description "Isrealiesche Küche"@de ;
+    schema:email "info@josephberlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52584 ;
+        schema:longitude 13.38769
+    ] ;
+    schema:name "JOSEPH Restaurant" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+4930314950700" ;
+    schema:url "http://www.josephberlin.de" .
+
+business:b_1232
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferungen in Spandau"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "2565475537" ;
+    delivery:pickupComment "Selbstabholen mit Vorbestellung oder spontan"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13597" ;
+        schema:streetAddress "Carl-Schurz-Straße 47"
+    ] ;
+    schema:description "Saftige Steaks, Schnitzel, Burger, Vegetarisches ... - und immer frische Zutaten"@de ;
+    schema:email "info@steakeria-sattundselig.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53824 ;
+        schema:longitude 13.20428
+    ] ;
+    schema:name "SATT UND SELIG" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+493036753877" ;
+    schema:url "https://www.steakeria-sattundselig.de/" .
+
+business:b_1233
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "lieferungen im umkreis von 10 km"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "ja, wochentag ohne sonn- und feiertage"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12557" ;
+        schema:streetAddress "Wendenschloßstraße 350-354"
+    ] ;
+    schema:description "deutsche küche"@de ;
+    schema:email "info@bwsg-berlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.42561 ;
+        schema:longitude 13.58573
+    ] ;
+    schema:name "Restaurant \" Skipper \"" ;
+    schema:openingHoursSpecification ohspec:oh_1698ed1ffa8ba233be3c8160a62881402ad9b0ba, ohspec:oh_1a51b0ce1902451bdd65368d4253138f6a292bfb, ohspec:oh_35ed9fb0e48f4e63c31d899accbbc5d665b9f056, ohspec:oh_9e3f507e3d96f3e935c3501483cdb762993bc1ce, ohspec:oh_e75f83e79771435140a6354b57e5997d42a85ff0 ;
+    schema:telephone "+49306513415" ;
+    schema:url "https://www.bwsg-berlin.de" .
+
+business:b_1234
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Liefer- und Abholservice über unsere Website in Neukölln und Prenzlauer Berg"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "5798432754" ;
+    delivery:pickupComment "Bowls und Flats"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10437" ;
+        schema:streetAddress "Eberswalder Straße 22"
+    ] ;
+    schema:description "Vegetarische und vegan Bowls und Flats"@de ;
+    schema:email "info@holy-flat.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.5409 ;
+        schema:longitude 13.41098
+    ] ;
+    schema:name "HOLY FLAT!" ;
+    schema:openingHoursSpecification ohspec:oh_0bc09e76a8c539da85a641b8722b2396a7bd16da, ohspec:oh_0eca4c91469558b5bd2047b978e8f3123a17d0a7, ohspec:oh_8eb6b385d478f23ae1ddb0070b6c099e4c3e8247, ohspec:oh_9de41174adff2de15006bfec49dae97dd69a80ba, ohspec:oh_db56e6fa4913441f8d667f28fcf303631a3f91d8 ;
+    schema:telephone "+493024536358" ;
+    schema:url "https://www.holy-flat.de" .
+
+business:b_1235
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "6984780038" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12557" ;
+        schema:streetAddress "Rudower Straße 1"
+    ] ;
+    schema:description "ofenfrische Brötchen und Backwaren, frisch belegte Baguettes, täglich hausgemachte Suppen, Kaffeespezialitäten, hausgemachte Kuchen und Torten"@de ;
+    schema:email "hotel@bett-und-buch.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.44413 ;
+        schema:longitude 13.56877
+    ] ;
+    schema:name "Baguette &  Buch" ;
+    schema:openingHoursSpecification ohspec:oh_032cfd488e2d8a74992f58f7b640798d9de5a19b, ohspec:oh_1311204d6269490bdadd90c8870e88a5ad2bfb2a, ohspec:oh_755ef69d5b2ba0403ac7ecd3bfe84b7129b6db6a, ohspec:oh_76a5cbd4127276ba85b05c953c394cb472d3e9d5, ohspec:oh_a0f2204aa00e7f8334bf5eaa4279ff3e5f17cf96, ohspec:oh_b04a8540ae96e681c235c2b465d13032fb4b77f7, ohspec:oh_c18500df1be19fd7d30629fb530dc90c9ca33ff3 ;
+    schema:telephone "+4915732428585" ;
+    schema:url "https://www.bett-und-buch.de" .
+
+business:b_1237
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "847014186" ;
+    delivery:pickupComment "Bestellungen 45 Minuten vor Abholung ordern"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10405" ;
+        schema:streetAddress "Rykestraße 2"
+    ] ;
+    schema:description "Moderne israelische Küche"@de ;
+    schema:email "masel-topf@hotmail.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53481 ;
+        schema:longitude 13.41951
+    ] ;
+    schema:name "Maseltopf" ;
+    schema:openingHoursSpecification ohspec:oh_180a33361b7cbdd60a43da1496401249f90845dd, ohspec:oh_33b0de825870573122104932558e49690d1ba441, ohspec:oh_598fadf6b9b126df243e2541e2bef37810e95309, ohspec:oh_9f17998bf546f752b27870095204f75f520f3cb0, ohspec:oh_a75084b74f3f124b57d021ca70bb2ead73db8e86, ohspec:oh_affabd48a2e1da7a312802f89cd9890d39c522fc, ohspec:oh_f70194bff3ef265de30e0fcc3465b42dfa3002a6 ;
+    schema:telephone "+493044317525" .
+
+business:b_1238
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Afrikanische essen"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "2240184500" ;
+    delivery:pickupComment "Afrikanische essen und afrikanische Getränken"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12055" ;
+        schema:streetAddress "Kirchhof Straße 41,12055 Berlin"
+    ] ;
+    schema:description "Hi"@de ;
+    schema:email "info@panafricaberlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.47238 ;
+        schema:longitude 13.44276
+    ] ;
+    schema:name "Pan Africa restaurant" ;
+    schema:openingHoursSpecification ohspec:oh_07dbece3e89fbf68d0bcc4f82bc1043af424b1dd, ohspec:oh_7ee43b4170602de6f6ff5844e3b69e09ada00a76, ohspec:oh_80bddb4c28ea29c32aeff82d2c0d5c37f8a9214a, ohspec:oh_b59a56f96cbd90d667bfec02326190a3b9901d5b, ohspec:oh_b774da6c13965a806448a2eeddd9d7ad29ddf59e, ohspec:oh_e6633652676fab0bcbf3ee019f2a3f83a74c9c02 ;
+    schema:telephone "+4917661264817" ;
+    schema:url "https://www.panafricaberlin.de" .
 
 business:b_124
     a schema:FoodEstablishment ;
@@ -8739,10 +8965,10 @@ business:b_224
 
 business:b_225
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Momentan Lieferung in Charlottenburg"@de ;
+    delivery:deliveryComment "Lieferung Innerhalb des Berliner S - Bahn Rings kostet die Lieferung 5€. Wohnen Sie außerhalb, rufen Sie uns an, wir lassen Sie nicht verhungern. Die Lieferung erfolgt zwischen 17-19Uhr ?"@de ;
     delivery:deliveryPossible true ;
     delivery:osmIdentifier "3354437239" ;
-    delivery:pickupComment "Bestellungen zum Abholen müssen uns spätestens bis 15:00 Uhr am vorherigen Tag erreichen"@de ;
+    delivery:pickupComment "Abholung im Restaurant Dienstag bis Samstag 16-18Uhr."@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -8751,16 +8977,16 @@ business:b_225
         schema:postalCode "10719" ;
         schema:streetAddress "Uhlandstraße 172"
     ] ;
-    schema:description "Klassische französische Küche"@de ;
+    schema:description "French bistro"@de ;
     schema:email "info@cell.restaurant" ;
     schema:geo [
         a schema:GeoCoordinates ;
         schema:latitude 52.50123 ;
         schema:longitude 13.32593
     ] ;
-    schema:name "Cell" ;
-    schema:openingHoursSpecification ohspec:oh_06c94e62dce42d7a541259719aa18cafba531465, ohspec:oh_776c4c3976adc43650c49042c06ce1bd2f6ecdab, ohspec:oh_b215e0291cdb1c1f7f508e7b1922a7ce03dc850d, ohspec:oh_e6c0988570b65c9878b5c44310bdedfc9fcd3be7 ;
-    schema:telephone "+491796109160" ;
+    schema:name "Cell Restaurant" ;
+    schema:openingHoursSpecification ohspec:oh_0e07a5aca085e26c76124676035963f7efc02e81, ohspec:oh_7667e5c7e99a9babddafc2bcb8b316f64a168055, ohspec:oh_87516b8fec671619ae4ef16e672ca46092dedd82, ohspec:oh_a13444b8bd03d929e1c32eb7e5b96eaf3a5ef78c, ohspec:oh_cc7bc8bf1aabb2f5b6e3a036c46799b4c53144c6 ;
+    schema:telephone "+493086332466" ;
     schema:url "https://www.cell.restaurant/" .
 
 business:b_226
@@ -29540,8 +29766,9 @@ business:b_999
     dcterms:modified "2020-04-30"^^xsd:date ;
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
+    void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;
     a void:Dataset ;
-    foaf:homepage <https://github.com/knudmoeller/berlin-pickup-and-delivery> .
+    foaf:homepage <https://knudmoeller.github.io/berlin-pickup-and-delivery> .
 
 ohspec:oh_0000135875bb31ec0bde55b5b3d47576bf33b401
     a schema:OpeningHoursSpecification ;
