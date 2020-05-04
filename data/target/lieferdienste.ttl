@@ -6205,6 +6205,31 @@ business:b_1238
     schema:telephone "+4917661264817" ;
     schema:url "https://www.panafricaberlin.de" .
 
+business:b_1239
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Charlottenburg und bis zu 5km und ab 6 km einen kleinen Obolus."@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "6821294087" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "14059" ;
+        schema:streetAddress "Schloßstraße 61"
+    ] ;
+    schema:description "Deutsch-Mediterrane Küche z.B. Schnitzel, Konigsberger Klopse, Garnelen und Spargel."@de ;
+    schema:email "info@dieeselin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51706 ;
+        schema:longitude 13.29694
+    ] ;
+    schema:name "Restaurant Die Eselin von A." ;
+    schema:openingHoursSpecification ohspec:oh_1943a483c7975918929f94ad38df8f44682aad92, ohspec:oh_665fa95d0f16b9371f7a2916afaba49ad4af291a, ohspec:oh_ab3b5f9fbfa3ce082d1cf7a743c880cf6dde4873, ohspec:oh_b166a19aece644f8f1714937d95e6088b620a67f, ohspec:oh_c0204f008114c640b35ff2b18b20b54fb2989e5c ;
+    schema:telephone "+49302141484" ;
+    schema:url "https://info@dieeselin.de" .
+
 business:b_124
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
@@ -6227,6 +6252,231 @@ business:b_124
     schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 ;
     schema:telephone "+4930629341790" ;
     schema:url "http://www.yuzu-berlin.de" .
+
+business:b_1241
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "1726837028" ;
+    delivery:pickupComment "Bestellungen werden bis spätestens Mittwoch, 18:00 Uhr  per Whatsapp 01608544002 oder Email info@domaines-berlin.de entgegengenommen  Die  Gerichte können dann am darauffolgenden Sonntag im Restaurant am Kücheneingang zwischen 11:30h und 14:00 Uhr abgeholt werden."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12587" ;
+        schema:streetAddress "Josef-Nawrocki-Straße 22"
+    ] ;
+    schema:description "Sonntagsbrutzelei to go"@de ;
+    schema:email "info@domaines-berlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.44544 ;
+        schema:longitude 13.62718
+    ] ;
+    schema:name "Domaines am Müggelsee" ;
+    schema:openingHoursSpecification ohspec:oh_244cdc26730019ecade5b7e06d68ac17ec554dc6, ohspec:oh_fb3d93b4938f66f37ba4766778ece200cab2b809 ;
+    schema:telephone "+491608544002" ;
+    schema:url "https://www.domaines-berlin.de" .
+
+business:b_1242
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "2785222741" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13439" ;
+        schema:streetAddress "Schorfheidestraße 23"
+    ] ;
+    schema:description "Kroatische Küche"@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.59393 ;
+        schema:longitude 13.3474
+    ] ;
+    schema:name "Restaurant Dalmacija" ;
+    schema:openingHoursSpecification ohspec:oh_015d296c6a7f058fc08acd522f19d2d5d62747a5, ohspec:oh_1276eee6032121557392873d506c79510d0ffd62, ohspec:oh_4368f725253cea12453da7146a147e7d51809de6, ohspec:oh_49de6fd389ed152e35e8bbebb46d9d6e38dd4c8b, ohspec:oh_54f78713f53f2a15f414dccce61e41abf663a959, ohspec:oh_6bf4206a118d77f0685fc52ea8783cd3fc6e1f90, ohspec:oh_b887e689489a1375fa4c1093d35dcbb8c8e2c715 ;
+    schema:telephone "+49304154041" ;
+    schema:url "https://www.restaurant-dalmacija.com" .
+
+business:b_1243
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "355654866" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12459" ;
+        schema:streetAddress "An der Wuhlheide 232"
+    ] ;
+    schema:description "Pizza, Pasta, Salate, Antipasta, Suppen, Hähnchenbrust, Großgarnelen, Lachsfilet"@de ;
+    schema:email "stelladelkoep@gmail.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.45601 ;
+        schema:longitude 13.55211
+    ] ;
+    schema:name "Ristorante Stella del Köp" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:telephone "+493053010773" ;
+    schema:url "http://www.ilkoep.de" .
+
+business:b_1244
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferung innerhalb des S-Bahn-Rings"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "1251095626" ;
+    delivery:pickupComment "Anrufen, bestellen, innerhalb von 20 Minuten abholen."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10117" ;
+        schema:streetAddress "Voßstraße 1"
+    ] ;
+    schema:description "Chinesische Spezialitäten im Regierungsviertel"@de ;
+    schema:email "tang@peking-ente-berlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51155 ;
+        schema:longitude 13.38284
+    ] ;
+    schema:name "Peking Ente Berlin" ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_b166a19aece644f8f1714937d95e6088b620a67f, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531 ;
+    schema:telephone "+49302294523" ;
+    schema:url "https://www.peking-ente-berlin.de" .
+
+business:b_1245
+    a schema:LocalBusiness ;
+    delivery:deliveryComment "Vergünstigte Lieferung zu besonderen Terminen. Ansonsten persönliche Lieferung bei Vorabbestellung."@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "5424534812" ;
+    delivery:pickupComment "Abholung von Cupcakes, Cake-Pops und Macarons täglich zwischen 08:00 Uhr und 18:00 Uhr. Keine Vorbestellung notwendig."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10115" ;
+        schema:streetAddress "Chausseestraße 60"
+    ] ;
+    schema:description "Konditorei, spezialisiert auf Cucpakes, Cake-Pops, Macarons, Torten sowie Kaffeespezialitäten."@de ;
+    schema:email "info@tigertoertchen.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53695 ;
+        schema:longitude 13.37579
+    ] ;
+    schema:name "Tigertörtchen - Berlin Cupcakes" ;
+    schema:openingHoursSpecification ohspec:oh_032cfd488e2d8a74992f58f7b640798d9de5a19b, ohspec:oh_0c52ae2752cc4ded165cf9228bd8bcc45843bdc4, ohspec:oh_755ef69d5b2ba0403ac7ecd3bfe84b7129b6db6a, ohspec:oh_adbb9a6eda67b6d624c0c065c7b8b8735c38fe05, ohspec:oh_be24e994041357c601d7fe3ceeb358d11d6c1dbd, ohspec:oh_c432f2b1600d2f0b91c5a851a86b7aab58fd6b6f, ohspec:oh_eb07aa4fb50a6e7d93e83b503d916d0eca6fc40c ;
+    schema:telephone "+493067969051" ;
+    schema:url "https://www.tigertoertchen.de" .
+
+business:b_1246
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferung Mittwoch und Donnerstag oder abholen in unsere Laden."@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Southern (US) comfort food"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13088" ;
+        schema:streetAddress "Gürtelstraße 10"
+    ] ;
+    schema:description "Southern (US) comfort food"@de ;
+    schema:email "info@humblepie.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.54532 ;
+        schema:longitude 13.45257
+    ] ;
+    schema:name "Humble Pie" ;
+    schema:openingHoursSpecification ohspec:oh_5317af3fcad4d06e83c5ec91527cd7cffa405d1d, ohspec:oh_6e1f75ce2c5d1a9f5f21266f571db128bb8b13fa ;
+    schema:telephone "+4915750975891" ;
+    schema:url "https://www.humblepie.de" .
+
+business:b_1247
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferungen per Lieferando"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "4515944289" ;
+    delivery:pickupComment "Selbstabholen gerne nach telefonischer Vorbestellung"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10119" ;
+        schema:streetAddress "Tor Straße 59"
+    ] ;
+    schema:description "Vegetarische japanisch-vietnamesische Küche"@de ;
+    schema:email "hallo@ryong.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52907 ;
+        schema:longitude 13.40899
+    ] ;
+    schema:name "Ryong" ;
+    schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea, ohspec:oh_88256a6f0d63e3c66316cb81e689a9e5147225d7, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_c06f026245856a7ee58fdcf8a81ceadf18e03fce, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 ;
+    schema:telephone "+493030307047" ;
+    schema:url "http://ryong.de" .
+
+business:b_1248
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "865291758" ;
+    delivery:pickupComment "Vorbestellung von 15-20 Uhr unter 0173-7206249, Abholung von 16-21 Uhr in der Gotzkowskystraße 17 in Moabit."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10555" ;
+        schema:streetAddress "Gotzkowskystraße 17"
+    ] ;
+    schema:description "Jamaikanische Soulfood, Jerk Chicken, Ackee&Saltfish, Ackee-Plate(vegetarisch/vegan)"@de ;
+    schema:email "info@ya-man.info" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52442 ;
+        schema:longitude 13.32962
+    ] ;
+    schema:name "YA-MAN Caribbean Soul Food" ;
+    schema:openingHoursSpecification ohspec:oh_4c96a6913fb65f0dd09348d30be52e75e140f844, ohspec:oh_81a27128e4062bd3a8ff247ceba5f3931307a646, ohspec:oh_8e8a27757bc96f7432b8d35d24070c616497bb5b, ohspec:oh_a1b03157554eaba80bffe3db55f215f9d8fe904e, ohspec:oh_a914d0fa357f8d8d20442ea6b67fc4970af30fd4, ohspec:oh_bbe23c79d31ab9b743c9c281e8f8c637cf5ff6e2, ohspec:oh_d78cca33463a48218f82f5a45854a592ea9822f6 ;
+    schema:telephone "+491737206249" ;
+    schema:url "https://www.ya-man.info" .
+
+business:b_1249
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "1212504449" ;
+    delivery:pickupComment "13:00 bis 19:00 Uhr"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10119" ;
+        schema:streetAddress "Rosenthaler Straße 61"
+    ] ;
+    schema:description "Italienische Küche"@de ;
+    schema:email "info@muretlabarba.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52754 ;
+        schema:longitude 13.40354
+    ] ;
+    schema:name "Muret la barba" ;
+    schema:openingHoursSpecification ohspec:oh_2c95bf84c52983eaddffe828d8ad2d86f42066fc, ohspec:oh_2eaa86488e326dd89868d263450c6db2af2df81c, ohspec:oh_96e62052babcd08f257018916bd920b51fbeb6b8, ohspec:oh_9ad01cf97e9ab4ebcbe92f01be5e15294cab7729, ohspec:oh_b9be2049c7d1aa03a2c2e2fb27191fa162d067f6, ohspec:oh_cc48c693875f8f1fcdadeea8aba5b1c8a30b5bff ;
+    schema:telephone "+493028097212" ;
+    schema:url "https://www.muretlabarba.de" .
 
 business:b_125
     a schema:FoodEstablishment ;
@@ -11613,18 +11863,18 @@ business:b_322
 
 business:b_323
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Kein stundenlanges Kochen, kein Stress beim Einkaufen und kein Putzen. Das Ganze bieten wir ohne Aufpreis in einer Blackbox inkl. Geschirr, Besteck und Stoffservietten. 3 Gang Gourmet Menü wartet auf Sie"@de ;
+    delivery:deliveryComment "Lieferung innerhalb von 5 km: kostenlos | 6-10 km: zzgl 5 € | 11-25 km: zuzüglich 10 €"@de ;
     delivery:deliveryPossible true ;
-    delivery:pickupComment "Bestellen Sie bitte 24h vorher. Die Abholung kann zwischen 12 Uhr und 21:30 Uhr erfolgen. Gern liefern wir Ihnen unsere Blackbox auch nach Hause."@de ;
+    delivery:pickupComment "Abholung erfolgt direkt bei uns in der Nürnbergerstraße 65, 10787 Berlin. Wir sind von 12 Uhr bis 21:30 Uhr zu erreichen für euch."@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
         schema:addressCountry "DE" ;
         schema:addressLocality "Berlin" ;
         schema:postalCode "10787" ;
-        schema:streetAddress "Nürnberger Straße 65"
+        schema:streetAddress "Nürnbergerstraße 65"
     ] ;
-    schema:description "Zuhausebleiben und genießen – Das The Wilson’s Menü! Mehr denn je haben Sie es sich jetzt verdient: ein Gourmet-Menü der Extraklasse mit US Prime Rib. Auch wenn The Wilson’s geschlossen ist, so müssen Sie nicht auf unser gute Küche verzichten."@de ;
+    schema:description "Sie können ab jetzt im Onlineshop Menüs mit US Prime Rib Fleisch und weitere Köstlichkeiten für zuhause bestellen, zusätzlich auch Wein zu Sonderpreisen."@de ;
     schema:email "info@restaurant-wilsons.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -29763,7 +30013,7 @@ business:b_999
     dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
     dcterms:descriptions "RDF-Daten zu Geschäften in Berlin die wegen der Corona/COVID-19-Beschränkungen Liefer- oder Abholdienste anbieten. Die werden Daten aus einem offenen Datensatz erzeugt, der von der Berliner Senatsverwaltung für Wirtschaft, Energie und Betriebe veröffentlicht wird."@de ;
     dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
-    dcterms:modified "2020-04-30"^^xsd:date ;
+    dcterms:modified "2020-05-04"^^xsd:date ;
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
     void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;
