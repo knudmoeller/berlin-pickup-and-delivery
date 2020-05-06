@@ -6504,6 +6504,107 @@ business:b_125
     schema:telephone "+493021752240" ;
     schema:url "https://www.teeteathe.de" .
 
+business:b_1250
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "6325574371" ;
+    delivery:pickupComment "Wir veröffentlichen ein wöchentliches Menü und es ist sehr einfach: 1. Bestellung über Social Media  2. Nennt uns eure Abholzeit 3. Holt euer Essen ab"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10245" ;
+        schema:streetAddress "Neue Bahnhofstraße 25"
+    ] ;
+    schema:description "Venezuelan Essen"@de ;
+    schema:email "info@karrecho.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50685 ;
+        schema:longitude 13.47053
+    ] ;
+    schema:name "Kärrecho" ;
+    schema:openingHoursSpecification ohspec:oh_a13444b8bd03d929e1c32eb7e5b96eaf3a5ef78c, ohspec:oh_cc7bc8bf1aabb2f5b6e3a036c46799b4c53144c6 ;
+    schema:telephone "+493035510923" ;
+    schema:url "https://www.karrecho.com" .
+
+business:b_1251
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferungen in Prenzlauer Berg, Mitte, Friedrichshain für Home Deliveries, Office Caterings in ganz Berlin"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Selbstabholung Donnerstag und Freitag mittag"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10407" ;
+        schema:streetAddress "Bernhard-Lichtenberg-Straße 2"
+    ] ;
+    schema:description "Leckere frische Lunchboxen mit bunten Salaten, herzhafte Quiche, Brownies, Granola"@de ;
+    schema:email "info@dollskitchen.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53637 ;
+        schema:longitude 13.43468
+    ] ;
+    schema:name "Doll's Kitchen" ;
+    schema:openingHoursSpecification ohspec:oh_63ac4f9d3230a48cb07247e889223e4ede1384e7, ohspec:oh_eb2820a96443661d4d45b46967b5cd34fb84eb2b ;
+    schema:telephone "+4915735235395" ;
+    schema:url "http://www.dollskitchen.de" .
+
+business:b_1252
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "1333747986" ;
+    delivery:pickupComment "Die Stue Kantine öffnet Ihr Verkaufsfenster täglich von 12-17 Uhr - Speisen und Getränke zum mitnehmen."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10787" ;
+        schema:streetAddress "Drakestraße 1"
+    ] ;
+    schema:description "Das Hotel SO/ Berlin Das Stue im Tiergarten offeriert aktuell einen Verkauf aus dem \"Küchenfenster\" heraus. Im Angebot sind verschiedene Gerichte und Tagesteller, wie Foccaccia mit Tomate, spanische frittierte Pfannkuchen oder ein leckeres Bocadillo. Täglich 12-17 Uhr im Das Stue"@de ;
+    schema:email "stay@das-stue.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50983 ;
+        schema:longitude 13.34589
+    ] ;
+    schema:name "Stue Kantine" ;
+    schema:openingHoursSpecification ohspec:oh_00710fbce98cd451f9b66531e037ea99abd580db, ohspec:oh_0b72922dd24692bef24635754027a8305127b1bb, ohspec:oh_182f3533886040ddc2de75cb0a5a6e6a5d001eed, ohspec:oh_a8dec44fecedfa7359d5b66e2c84a7f247ac7509, ohspec:oh_bdd09150d3dac7bdfab1bfae7d358e2408c5f80e, ohspec:oh_cc7ce3bdee0d61c8d707266a2804ce8d04ac6fb2, ohspec:oh_eef02547270781b714fe7e59803c4e972fb3f0ec ;
+    schema:telephone "+49303117220" ;
+    schema:url "https://www.das-stue.com/" .
+
+business:b_1253
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Unsere aktuellen Liefergebiete werden auf unsere Webseite veröffentlicht"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "1274115695" ;
+    delivery:pickupComment "Bestellungen zum abholen bieten wir täglich von 12:00 - 21:00 , unser Menü finden sie auf unserer Webseite"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10115" ;
+        schema:streetAddress "Torstraße 164"
+    ] ;
+    schema:description "Unser kulinarisches Angebot bietet eine Vielzahl unterschiedlichster Köstlichkeiten. Hierzu gehören u.a. vietnamesisches Streetfood, Bao-Burger, klassisches und veganes Sushi, besondere Sommerrollen, kreative Currys und vieles mehr"@de ;
+    schema:email "info@royalsandriceberlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.52886 ;
+        schema:longitude 13.39599
+    ] ;
+    schema:name "Royals&Rice Berlin" ;
+    schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 ;
+    schema:telephone "+493066405111" ;
+    schema:url "https://www.royalsandriceberlin.de" .
+
 business:b_126
     a schema:FoodEstablishment ;
     delivery:deliveryComment "im Umkreis von 5 km ab einen Mindestbestellwert ab 25€"@de ;
@@ -24681,10 +24782,9 @@ business:b_8
 
 business:b_80
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Lieferung im Umkreis von 3 km vom Standort Bundesallee"@de ;
-    delivery:deliveryPossible true ;
+    delivery:deliveryPossible false ;
     delivery:osmIdentifier "704002914" ;
-    delivery:pickupComment "bei Selbstabholung 10% Rabatt"@de ;
+    delivery:pickupComment "bei Selbstabholung 5% Rabatt"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -24701,7 +24801,7 @@ business:b_80
         schema:longitude 13.33129
     ] ;
     schema:name "Ishin" ;
-    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_9d2b2cc6d6f5704b10b2de59dedcda960ce18a00, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
+    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
     schema:telephone "+493021016009" ;
     schema:url "https://ishin.de" .
 
@@ -30013,7 +30113,7 @@ business:b_999
     dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
     dcterms:descriptions "RDF-Daten zu Geschäften in Berlin die wegen der Corona/COVID-19-Beschränkungen Liefer- oder Abholdienste anbieten. Die werden Daten aus einem offenen Datensatz erzeugt, der von der Berliner Senatsverwaltung für Wirtschaft, Energie und Betriebe veröffentlicht wird."@de ;
     dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
-    dcterms:modified "2020-05-04"^^xsd:date ;
+    dcterms:modified "2020-05-06"^^xsd:date ;
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
     void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;

@@ -124,4 +124,4 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 Repository: https://github.com/knudmoeller/berlin-pickup-and-delivery
 
-Last changed: 2020-05-04
+Last changed: 2020-05-06
