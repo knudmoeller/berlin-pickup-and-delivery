@@ -107,32 +107,9 @@ This is done as follows:
 - For the matching to OpenStreetMap, the [haversine](https://rubygems.org/gems/haversine) and [overpass-api-ruby](https://rubygems.org/gems/overpass-api-ruby) gems are needed.
 - The script to convert the intermedia N-Triples file to Turtle ([bin/to_ttl.sh](bin/to_ttl.sh)) is a simple shell script and requires the `rapper` command to be available. `rapper` is part of [Redland](http://librdf.org). For Mac OS, there is a [brew formula to install Redland](https://formulae.brew.sh/formula/redland). There are also packages for Debian and other distributions.
 - [jq](https://stedolan.github.io/jq/) is required for handling intermediate JSON files.
-- The `arq` query tool that comes with [Apache Jena](https://jena.apache.org/) (for generating the 'statistics' in the README).
 
 ## Logo
 
 - "truck" logo by [FontAwesome](https://fontawesome.com) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - "RDF" logo by  [W3C](https://www.w3.org/RDF/icons/).
 
-## Type Statistics
-
-type_uri | comment | type_count
---- | --- | ---
-https://schema.org/FoodEstablishment | total | 763
-https://schema.org/FoodEstablishment | with OSM-link | 513
-https://schema.org/LocalBusiness | total | 476
-https://schema.org/LocalBusiness | with OSM-link | 211
-https://schema.org/Organization | all businesses | 1239
-
-## License
-
-All software in this repository is published under the [MIT License](LICENSE). All data in this repository is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
-
-
----
-
-2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
-
-Repository: https://github.com/knudmoeller/berlin-pickup-and-delivery
-
-Last changed: 2020-05-11

@@ -1,0 +1,31 @@
+PREFIX rdfs:   <https://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX delivery: <https://daten.berlin.de/vocab/deliveries/>
+
+SELECT ?type_uri ?comment (COUNT(?type_uri) as ?type_count)
+WHERE {
+    {
+        # instances of all types of businesses (subclasses of schema:Organization)
+        ?business a ?type_uri .
+        ?type_uri rdfs:subClassOf* <https://schema.org/Organization> .
+        BIND("total" AS ?comment) .
+    } UNION
+    {
+        # instances of all types of businesses (subclasses of schema:Organization),
+        # that also have an OSM identifier
+        ?business a ?type_uri ;
+            delivery:osmIdentifier ?osm_id ;
+        .
+        ?type_uri rdfs:subClassOf* <https://schema.org/Organization> .
+        BIND("with OSM-link" AS ?comment) .
+    } UNION
+    {
+        # all businesses (instance of subclasses of schema:Organization)
+        ?business a ?type_uri_2 .
+        ?type_uri_2 rdfs:subClassOf* <https://schema.org/Organization> .
+        BIND(<https://schema.org/Organization> AS ?type_uri) .
+        BIND("all businesses" AS ?comment) .
+    }
+}
+GROUP BY ?type_uri ?comment
+ORDER BY ?type_uri DESC(?type_count)

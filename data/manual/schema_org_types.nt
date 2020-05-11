@@ -1,0 +1,5 @@
+<https://schema.org/FoodEstablishment> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/LocalBusiness> .
+<https://schema.org/LocalBusiness> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
+<https://schema.org/LocalBusiness> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Place> .
+<https://schema.org/Organization> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Thing> .
+<https://schema.org/Place> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Thing> .

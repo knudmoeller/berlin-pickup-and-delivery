@@ -54,9 +54,25 @@ data/source/lieferdienste_simple_search.geojson: | data/source
 	@curl -s "https://www.berlin.de/sen/web/service/liefer-und-abholdienste/index.php/index/all.gjson?q=" --output $@
 
 .PHONY: data/temp/modified.nt
-data/temp/modified.nt:
+data/temp/modified.nt: | data/temp
 	@echo "write current date as N-Triples to $@ ..."
 	@date '+<https://daten.berlin.de/ds/delivery_and_pickup/> <http://purl.org/dc/terms/modified> "%Y-%m-%d"^^<http://www.w3.org/2001/XMLSchema#date> .' > $@
+
+.PHONY: data/temp/type_stats.csv
+data/temp/type_stats.csv: data/temp/all+types.nt queries/count_types.rq
+	@echo "query $< for type counts ..."
+	@echo "writing to $@ ..."
+	@arq --data $< --query $(word 2,$^) --results=CSV > $@
+
+data/temp/all+types.nt: data/temp/all.nt data/manual/schema_org_types.nt
+	@echo "combining $^ ..."
+	@echo "writing to $@ ..."
+	@cat $^ > $@
+
+data/temp/type_stats.md: data/temp/type_stats.csv
+	@echo "generating markdown table from csv in $< ..."
+	@echo "writing to $@ ..."
+	@ruby bin/csv_2_md_table.rb $< $@ "Type Statistics"
 
 .PHONY: data/temp/date.txt
 data/temp/date.txt: | data/temp
@@ -89,8 +105,6 @@ data/target:
 	@echo "creating target directory ..."
 	@mkdir -p data/target
 
-README.md: data/temp/date.txt
-	@echo "update $@ with current date"
-	@sed '$$ d' $@ > _README.md
-	@cat _README.md $< > $@
-	@rm _README.md $<
+README.md: README/main.md data/temp/type_stats.md README/license.md data/temp/date.txt
+	@echo "combine parts to generate $@ ..."
+	@cat $^ > $@
