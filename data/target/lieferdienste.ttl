@@ -2635,7 +2635,7 @@ business:b_1095
     schema:name "eFluppe-Rauchfrei" ;
     schema:openingHoursSpecification ohspec:oh_333d9dcb2f35550e0818e0e8081a29b694ec9534, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_48f4016ca7a6c0a01c3c2fe5e671c77cdb062685, ohspec:oh_6696cb76a1513b291cdba8248efdbb3d3bf7572a, ohspec:oh_8fa5171a0efd7ea719f1acb38b13c59b024272db, ohspec:oh_d8b7c63f5fc78927c24e45bebf761dd392fd40dd ;
     schema:telephone "+493041743370" ;
-    schema:url "https://https:\\\\www.efluppe-rauchfrei.de" .
+    schema:url "https://www.efluppe-rauchfrei.de" .
 
 business:b_1096
     a schema:LocalBusiness ;
@@ -2908,7 +2908,7 @@ business:b_1104
 
 business:b_1105
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Unsere aktuellen Liefergebiete werden auf unsere Webseite veröffentlicht."@de ;
+    delivery:deliveryComment "13156,13158,13409,13435,13437,13439,13465,13467,13469,13509"@de ;
     delivery:deliveryPossible true ;
     delivery:osmIdentifier "794777318" ;
     delivery:pickupPossible true ;
@@ -2919,16 +2919,17 @@ business:b_1105
         schema:postalCode "13439" ;
         schema:streetAddress "Dannenwalder Weg 70"
     ] ;
-    schema:description "Griechische Gerichte Moussakas, Tzatziki, Gyros"@de ;
+    schema:description "GRIECHISCHE MEDITERRANE KÜCHE Seien Sie gewiss, wir werden Sie verwöhnen und bemüht sein, all Ihre Wünsche zu Ihrer vollsten Zufriedenheit zu erfüllen. Unsere Spezialitäten werden mit besonderer Liebe und Sorgfalt zubereitet, wie es der Tradition griechischer Kochkunst entspricht"@de ;
+    schema:email "info@taverna-orakel.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
         schema:latitude 52.59111 ;
         schema:longitude 13.3465
     ] ;
-    schema:name "Restaurant Orakel" ;
+    schema:name "Taverna Orakel" ;
     schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_70bdf56b318ff4bfe8e6de515463966d16a0faa8, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
-    schema:telephone "+4941720959" ;
-    schema:url "https://www.taverna-orakel.de" .
+    schema:telephone "+493041720959" ;
+    schema:url "https://www.taverna-orakel.de/" .
 
 business:b_1106
     a schema:FoodEstablishment ;
@@ -5391,10 +5392,10 @@ business:b_120
 
 business:b_1200
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "unser Partner Lieferando liefert 2,3 km um die Postleitzahl 12165 Berlin Steglitz"@de ;
+    delivery:deliveryComment "Im Umkreis von 2,3 km von 12165 Berlin liefert unser Partner Lieferando unsere Speisen aus."@de ;
     delivery:deliveryPossible true ;
     delivery:osmIdentifier "408866983" ;
-    delivery:pickupComment "Wir nehmen Bestellungen per Telefon, Mail und WhatsApp entgegen. Die Speisen werden für Sie frisch zubereitet."@de ;
+    delivery:pickupComment "Cocktails und ausgewählte lateinamerikansche Speisen können bei uns abgeholt werden."@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -5403,7 +5404,7 @@ business:b_1200
         schema:postalCode "12165" ;
         schema:streetAddress "Wrangelstraße 11-12"
     ] ;
-    schema:description "lateinamerikansche und mexikanische Küche, sowie klassische und extravagante Cocktails."@de ;
+    schema:description "Cocktails und ausgewählte lateinamerikanische/mexikanische Speisen to go"@de ;
     schema:email "sombreroberlin@gmail.com" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -5411,8 +5412,8 @@ business:b_1200
         schema:longitude 13.31752
     ] ;
     schema:name "Sombrero Restaurant Bar Catering" ;
-    schema:openingHoursSpecification ohspec:oh_4c96a6913fb65f0dd09348d30be52e75e140f844, ohspec:oh_81a27128e4062bd3a8ff247ceba5f3931307a646, ohspec:oh_8e8a27757bc96f7432b8d35d24070c616497bb5b, ohspec:oh_a914d0fa357f8d8d20442ea6b67fc4970af30fd4, ohspec:oh_d78cca33463a48218f82f5a45854a592ea9822f6 ;
-    schema:telephone "+49491773203208" ;
+    schema:openingHoursSpecification ohspec:oh_5a784021649db3702ce2ed021b165fa2a0eef7d4, ohspec:oh_6779431fc56c5ab2bd3f65289f1a6f2f3b5551d3, ohspec:oh_8e9e9d26a6bda41ca4b1e557af2fcfeae2fae9fa, ohspec:oh_9b50ec170e76aadaae1af810e349678459d9aa8e, ohspec:oh_c06f026245856a7ee58fdcf8a81ceadf18e03fce ;
+    schema:telephone "+493079743409" ;
     schema:url "https://www.sombrero.berlin//" .
 
 business:b_1202
@@ -6605,6 +6606,103 @@ business:b_1253
     schema:telephone "+493066405111" ;
     schema:url "https://www.royalsandriceberlin.de" .
 
+business:b_1254
+    a schema:LocalBusiness ;
+    delivery:deliveryComment "Lieferservice für 34,95€ für Berlin & Potsdam, andere Regionen auf Anfrage möglich!"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "... Abholungen sind in der Corona-Zeit Mo-Fr 10:00-18:00 & Sa 11:00-16:00 nach vorheriger Terminvereinbarung in unserem Center möglich!"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13059" ;
+        schema:streetAddress "Grevesmühlener Straße 32"
+    ] ;
+    schema:description "Große Auswahl von mehr als 500 Kinderwagen mitnahmenereit, Sportwagen, Zwillingswagen, Geschwisterwagen, Buggy`s & Sportwagen"@de ;
+    schema:email "kontakt@firlefanz.club" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.56908 ;
+        schema:longitude 13.51851
+    ] ;
+    schema:name "Firlefanz Baby-Kaufhaus GmbH" ;
+    schema:telephone "+491712711232" ;
+    schema:url "http://firlefanz.club/" .
+
+business:b_1255
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "693892039" ;
+    delivery:pickupComment "Wir bieten euch eine Auswahl unserer Speisen zum abholen an. Ihr findet unsere take away Karte auf unserer Website."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10713" ;
+        schema:streetAddress "Hohenzollerndamm 185"
+    ] ;
+    schema:description "Wir sind das bayerische Wirtshaus in Berlin und seit 1966 für euch da."@de ;
+    schema:email "haxenwirt@gmail.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.49146 ;
+        schema:longitude 13.31831
+    ] ;
+    schema:name "Restaurant zum Haxenwirt" ;
+    schema:openingHoursSpecification ohspec:oh_0da4bb722c665b26876562df4000bcc009a75005, ohspec:oh_1be08419390583d86bc38e2512cec6d602f6d774, ohspec:oh_83651a864021fa3086e64164d5e264ea106c60df, ohspec:oh_8b79ef1d83c62e68e48fdf8be3b013971f2335c9, ohspec:oh_fe362aa7696cd94a1007ad94fa7b5497a1285a3e ;
+    schema:telephone "+49308225133" ;
+    schema:url "https://zum-haxenwirt-berlin.de" .
+
+business:b_1256
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Ab 30 Drinks geht’s los. Wir machen wie immer Paketpreise, die schon alles beinhalten. Das heißt Drink separates Eis Lieferkosten etc. pp. Die benutzten Gläser und Behältnisse holen wir später wieder ab. Ihr könnt euch unten aus der Karte 4 Drinks aussuchen. Wir stellen die Drink"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible false ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13125" ;
+        schema:streetAddress "Alt-Buch 34"
+    ] ;
+    schema:description "Cocktail Lieferung"@de ;
+    schema:email "info@cocktail-up.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.6348 ;
+        schema:longitude 13.49807
+    ] ;
+    schema:name "Cocktail Up" ;
+    schema:telephone "+491726659900" ;
+    schema:url "https://www.cocktail-up.de/" .
+
+business:b_1258
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Die aktuellen Liefergebiete finden Sie auf unserer Website."@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupComment "Mochi-Eis"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10963" ;
+        schema:streetAddress "Möckernstraße 100"
+    ] ;
+    schema:description "Mochi-Eis"@de ;
+    schema:email "info@mochis.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.49381 ;
+        schema:longitude 13.37989
+    ] ;
+    schema:name "Chubby Cheeks Mochis" ;
+    schema:openingHoursSpecification ohspec:oh_0febdd8a31dba5306f7504b58fed78950b064625, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_ab3e410e43132116fe4da0148e5ec088db094192 ;
+    schema:telephone "+4930403645070" ;
+    schema:url "https://mochis.de" .
+
 business:b_126
     a schema:FoodEstablishment ;
     delivery:deliveryComment "im Umkreis von 5 km ab einen Mindestbestellwert ab 25€"@de ;
@@ -6629,6 +6727,79 @@ business:b_126
     schema:name "Restaurant Athen" ;
     schema:telephone "+493032597872" ;
     schema:url "https://athen-adlershof.de" .
+
+business:b_1261
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "12:00-23:50"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12163" ;
+        schema:streetAddress "S-Bhf. Feuerbachstraße 34"
+    ] ;
+    schema:description "Wir bieten Ihnen griechischen Fast-Food unter anderem ein Vielzahl an griechische Vorspeisen, frische Salate, den Klassiker Gyros Pita sowie viele Grillgerichte und Traditionelen Backofen und Topf Gerichten. Wir verwöhnen damit jeden Geschmack und Liebhaber der griechische Küche."@de ;
+    schema:email "info@lieferservice-gyrosgrill-berlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.46369 ;
+        schema:longitude 13.33217
+    ] ;
+    schema:name "Gyros Grill Villa Christina" ;
+    schema:openingHoursSpecification ohspec:oh_03305e482aaed9a3ba944db1b80bc6a1dba8d651, ohspec:oh_1738d589fd1672a82cf2f57130b17f169de3dece, ohspec:oh_4bc78d10d2ff309ccaaa87442023317f9f8d6568, ohspec:oh_4d4a63befc22c6789b771dfb82279934c24ab2cd, ohspec:oh_9c835fb0aa85b01b0846c0b972916bcacaa7bc9b, ohspec:oh_a1a8f45b590c32db3c4bf6da06b371c7b780f2e2, ohspec:oh_a60bd86be606d59b77d2cc82c7f1ecc299a6fdcd ;
+    schema:telephone "+493077201010" ;
+    schema:url "https://www.lieferservice-gyrosgrill-berlin.de/" .
+
+business:b_1262
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "12099,12103,12105,12107,12109,12203,12249,12277,12305,12307,12349,12359"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "2674876174" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12107" ;
+        schema:streetAddress "Mariendorfer Damm 131"
+    ] ;
+    schema:description "GRIECHISCHE MEDITERRANE KÜCHE. Mit einer langjährigen Erfahrung zaubert Ihnen unser Kochchef, traditionelle griechische Köstlichkeiten. Von frischen Salaten bis zu Grillgerichten für mehrere Personen, Sie finden auf unserer Speisekarte das richtige für Sie."@de ;
+    schema:email "info@lieferservice-berlin-villa-christina.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.43998 ;
+        schema:longitude 13.38791
+    ] ;
+    schema:name "Villa Christina" ;
+    schema:openingHoursSpecification ohspec:oh_25f6b301ffcde86500209b1c13c97d34eecf20a9, ohspec:oh_3247db96e6b08e0b330c1a4c4f025da19c387d76, ohspec:oh_7b23a856c13faf5c919273d6a9fa4d79f29efe94, ohspec:oh_a34c8c4ee7942b904feddd1ff5d1718ea4194365, ohspec:oh_a48a05afed40d39501a2794e3f7fff6943be3608, ohspec:oh_cc9db1a8052bd78f5fe5a5666e35acaad0bb4ab4, ohspec:oh_ffccc7d9595a1cd694051763c3cf79a3a037ae4d ;
+    schema:telephone "+493070209072" ;
+    schema:url "https://www.lieferservice-berlin-villa-christina.de/" .
+
+business:b_1263
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "1633255464" ;
+    delivery:pickupComment "Wie bieten Menüs aus unserem Angebot an."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10245" ;
+        schema:streetAddress "Krossener Straße 20"
+    ] ;
+    schema:description "Tapas"@de ;
+    schema:email "lisboa-bar-am-boxi@gmx.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51032 ;
+        schema:longitude 13.45902
+    ] ;
+    schema:name "Lisboa Bar am Boxi" ;
+    schema:telephone "+493093621978" ;
+    schema:url "https://www.lisboa-bar-berlin.de" .
 
 business:b_127
     a schema:FoodEstablishment ;
@@ -18313,7 +18484,7 @@ business:b_559
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:osmIdentifier "2549735529" ;
-    delivery:pickupComment "Frischer, deutscher Spargel mitSchinken oder Schnitzel, Flammkuchen,Boulette mit Mischgemüse und Kartoffeln, Haxe mit Waldpilzen, Salate"@de ;
+    delivery:pickupComment "Schnitzel in vielen Variationen, Flammkuchen"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -18322,14 +18493,14 @@ business:b_559
         schema:postalCode "10178" ;
         schema:streetAddress "Sophienstraße 11"
     ] ;
-    schema:description "Moderne Deutsche Küche mit Klassikern"@de ;
+    schema:description "Traditionelle und moderne Deutsche Küche. \"Beelitzer Spargel\" vegi Variation oder mit einem Schnitzel,Flammkuchen"@de ;
     schema:geo [
         a schema:GeoCoordinates ;
         schema:latitude 52.52505 ;
         schema:longitude 13.40273
     ] ;
     schema:name "Restauration \"Sophien 11\"" ;
-    schema:openingHoursSpecification ohspec:oh_285497b56e3486d056073d774208972b50296b5f, ohspec:oh_3a9d874626ba2de3ee828322bca70c558245ee4e, ohspec:oh_49de6fd389ed152e35e8bbebb46d9d6e38dd4c8b, ohspec:oh_54f78713f53f2a15f414dccce61e41abf663a959, ohspec:oh_9d2b2cc6d6f5704b10b2de59dedcda960ce18a00, ohspec:oh_b887e689489a1375fa4c1093d35dcbb8c8e2c715 ;
+    schema:openingHoursSpecification ohspec:oh_015d296c6a7f058fc08acd522f19d2d5d62747a5, ohspec:oh_1276eee6032121557392873d506c79510d0ffd62, ohspec:oh_49de6fd389ed152e35e8bbebb46d9d6e38dd4c8b, ohspec:oh_54f78713f53f2a15f414dccce61e41abf663a959, ohspec:oh_b887e689489a1375fa4c1093d35dcbb8c8e2c715, ohspec:oh_e05482c706d22eb151ad4d61a5f02a523c168593 ;
     schema:telephone "+49302832136" ;
     schema:url "https://www.restauration-sophien11.de" .
 
@@ -22958,9 +23129,8 @@ business:b_730
 
 business:b_731
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "10115, 10119, 10435, 10437, 10439, 10551, 10553, 10555, 10559, 13156, 13158, 13187, 13189, 13347, 13349, 13351, 13353, 13355, 13357, 13359, 13403, 13405, 13407, 13409,"@de ;
+    delivery:deliveryComment "10115,10119,10435,10437,10439,10551,10553,10555,10559,13156,13158,13187,13189,13347,13349,13351,13353,13355,13357,13359,13403,13405,13407,13409"@de ;
     delivery:deliveryPossible true ;
-    delivery:pickupComment "Trotz der ungewöhnlichen Lage bleiben wir als Restaurant für Essenslieferung & Abholung weiterhin für Sie von 12 bis 22:40 Uhr geöffnet. Wir bitten Sie deshalb, ausreichend Abstand zu halten mindestens 2 m.,"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -22969,17 +23139,17 @@ business:b_731
         schema:postalCode "13409" ;
         schema:streetAddress "Markstraße 20"
     ] ;
-    schema:description "TAVERNA HELLAS  ARISTON Erfolgsgeschichte seit 1984 seit über 35 Jahre steht die Taverna Hellas Ariston als eine den besten Restaurants in Berlin Reinikendorf. Die legendäre griechische Küche des Lokals wurde den letzten Jahren von Gastro Award, Gastro Gold, Culinarius, Eurocard"@de ;
+    schema:description "Griechische Mediterrane Küche"@de ;
     schema:email "info@taverna-hellas.net" ;
     schema:geo [
         a schema:GeoCoordinates ;
         schema:latitude 52.55831 ;
         schema:longitude 13.36568
     ] ;
-    schema:name "TAVERNA HELLAS ARISTON" ;
+    schema:name "Taverna Hellas Ariston" ;
     schema:openingHoursSpecification ohspec:oh_11a25adc398d8c02a141436607a16acf1aaeb134, ohspec:oh_6ab84bf3db0be60dd33ffb688c528662206f5900, ohspec:oh_b20c049516393f3ca1b2be1e088aaa4c1794deaf, ohspec:oh_c4e308e42dea7a781329f611bc0e39aee1370033, ohspec:oh_f2830186d4aa0b96fccc8b3e8d1b4ce8c72c5b6d, ohspec:oh_fb6b9b483f3d0b2fcf8cb5a45c1725a24153b848, ohspec:oh_ff22deee897a2e73a1a128f66e1ab30d8b3d6fba ;
     schema:telephone "+493043737643" ;
-    schema:url "https://www.hellas-lieferservice.de/" .
+    schema:url "https://www.taverna-hellas.net/" .
 
 business:b_732
     a schema:LocalBusiness ;
@@ -30113,7 +30283,7 @@ business:b_999
     dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
     dcterms:descriptions "RDF-Daten zu Geschäften in Berlin die wegen der Corona/COVID-19-Beschränkungen Liefer- oder Abholdienste anbieten. Die werden Daten aus einem offenen Datensatz erzeugt, der von der Berliner Senatsverwaltung für Wirtschaft, Energie und Betriebe veröffentlicht wird."@de ;
     dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
-    dcterms:modified "2020-05-06"^^xsd:date ;
+    dcterms:modified "2020-05-11"^^xsd:date ;
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
     void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;
@@ -30197,6 +30367,12 @@ ohspec:oh_032cfd488e2d8a74992f58f7b640798d9de5a19b
     schema:closes "18:00:00" ;
     schema:dayOfWeek schema:Saturday ;
     schema:opens "08:00:00" .
+
+ohspec:oh_03305e482aaed9a3ba944db1b80bc6a1dba8d651
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Thursday ;
+    schema:opens "12:00:00" .
 
 ohspec:oh_0330e2708befca9100d6f666fd7ca7cfae9f581a
     a schema:OpeningHoursSpecification ;
@@ -30791,6 +30967,12 @@ ohspec:oh_172a4d5b39644535b16b9bcf2333b27e0f06c520
     schema:closes "0:00:00" ;
     schema:dayOfWeek schema:Sunday ;
     schema:opens "11:00:00" .
+
+ohspec:oh_1738d589fd1672a82cf2f57130b17f169de3dece
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Sunday ;
+    schema:opens "12:00:00" .
 
 ohspec:oh_177faf77f4ec419f05cf94cb8afc849fa6595930
     a schema:OpeningHoursSpecification ;
@@ -32244,6 +32426,12 @@ ohspec:oh_4bc3f429bacb8c34345687207140aaf581337198
     schema:dayOfWeek schema:Saturday ;
     schema:opens "16:00:00" .
 
+ohspec:oh_4bc78d10d2ff309ccaaa87442023317f9f8d6568
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Friday ;
+    schema:opens "12:00:00" .
+
 ohspec:oh_4c639cae217520e3be04ef8ac35ee29771bfd262
     a schema:OpeningHoursSpecification ;
     schema:closes "15:00:00" ;
@@ -32273,6 +32461,12 @@ ohspec:oh_4d0f38901dcb09c2cf8284adaa347c2bdcc51e6f
     schema:closes "21:30:00" ;
     schema:dayOfWeek schema:Saturday ;
     schema:opens "16:00:00" .
+
+ohspec:oh_4d4a63befc22c6789b771dfb82279934c24ab2cd
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Monday ;
+    schema:opens "12:00:00" .
 
 ohspec:oh_4d8b1bb753beabb583a4f5921ceb60aae4b605d3
     a schema:OpeningHoursSpecification ;
@@ -34536,6 +34730,12 @@ ohspec:oh_9c3c57295b6b85126759f4e94ba9866e9d9c225b
     schema:dayOfWeek schema:Tuesday ;
     schema:opens "08:00:00" .
 
+ohspec:oh_9c835fb0aa85b01b0846c0b972916bcacaa7bc9b
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Tuesday ;
+    schema:opens "12:00:00" .
+
 ohspec:oh_9c961bdf309b06564fc65fd7ff4928e2c446b686
     a schema:OpeningHoursSpecification ;
     schema:closes "14:30:00" ;
@@ -34704,6 +34904,12 @@ ohspec:oh_a17cbc8e802fd639589caa7bcc345ccd4012e221
     schema:dayOfWeek schema:Tuesday ;
     schema:opens "15:00:00" .
 
+ohspec:oh_a1a8f45b590c32db3c4bf6da06b371c7b780f2e2
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Saturday ;
+    schema:opens "12:00:00" .
+
 ohspec:oh_a1b03157554eaba80bffe3db55f215f9d8fe904e
     a schema:OpeningHoursSpecification ;
     schema:closes "21:00:00" ;
@@ -34787,6 +34993,12 @@ ohspec:oh_a5f8b7e3b39294b8c987f9b3c5b22ffb4f5c7ac1
     schema:closes "15:30:00" ;
     schema:dayOfWeek schema:Friday ;
     schema:opens "14:30:00" .
+
+ohspec:oh_a60bd86be606d59b77d2cc82c7f1ecc299a6fdcd
+    a schema:OpeningHoursSpecification ;
+    schema:closes "23:50:00" ;
+    schema:dayOfWeek schema:Wednesday ;
+    schema:opens "12:00:00" .
 
 ohspec:oh_a6878551b2f10ee7c240625d4d9ac903cae5a046
     a schema:OpeningHoursSpecification ;
