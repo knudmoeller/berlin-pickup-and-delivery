@@ -107,7 +107,6 @@ This is done as follows:
 - For the matching to OpenStreetMap, the [haversine](https://rubygems.org/gems/haversine) and [overpass-api-ruby](https://rubygems.org/gems/overpass-api-ruby) gems are needed.
 - The script to convert the intermedia N-Triples file to Turtle ([bin/to_ttl.sh](bin/to_ttl.sh)) is a simple shell script and requires the `rapper` command to be available. `rapper` is part of [Redland](http://librdf.org). For Mac OS, there is a [brew formula to install Redland](https://formulae.brew.sh/formula/redland). There are also packages for Debian and other distributions.
 - [jq](https://stedolan.github.io/jq/) is required for handling intermediate JSON files.
-- The `arq` query tool that comes with [Apache Jena](https://jena.apache.org/) (for generating the 'statistics' in the README).
 
 ## Logo
 
@@ -117,12 +116,12 @@ This is done as follows:
 ## Type Statistics
 
 type_uri | comment | type_count
---- | --- | ---
-https://schema.org/FoodEstablishment | total | 763
-https://schema.org/FoodEstablishment | with OSM-link | 513
-https://schema.org/LocalBusiness | total | 476
-https://schema.org/LocalBusiness | with OSM-link | 211
-https://schema.org/Organization | all businesses | 1239
+:--- | :--- | ---:
+[schema:FoodEstablishment](https://schema.org/FoodEstablishment) | total | 763
+[schema:FoodEstablishment](https://schema.org/FoodEstablishment) | with OSM-link | 513
+[schema:LocalBusiness](https://schema.org/LocalBusiness) | total | 476
+[schema:LocalBusiness](https://schema.org/LocalBusiness) | with OSM-link | 211
+[schema:Organization](https://schema.org/Organization) | all businesses | 1239
 
 ## License
 
@@ -135,4 +134,4 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 Repository: https://github.com/knudmoeller/berlin-pickup-and-delivery
 
-Last changed: 2020-05-11
+Last changed: 2020-05-12

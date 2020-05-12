@@ -74,6 +74,11 @@ data/temp/type_stats.md: data/temp/type_stats.csv
 	@echo "writing to $@ ..."
 	@ruby bin/csv_2_md_table.rb $< $@ "Type Statistics" "llr"
 
+data/temp/type_stats_curie.md: data/temp/type_stats.md
+	@echo "replacing full URIs with CURIEs in $< ..."
+	@echo "writing to $@ ..."
+	@ruby bin/namespace_2_md_link.rb ./conf/namespaces.rb $< $@
+
 .PHONY: data/temp/date.txt
 data/temp/date.txt: | data/temp
 	@echo "write current date ..."
@@ -105,6 +110,6 @@ data/target:
 	@echo "creating target directory ..."
 	@mkdir -p data/target
 
-README.md: README/main.md data/temp/type_stats.md README/license.md data/temp/date.txt
+README.md: README/main.md data/temp/type_stats_curie.md README/license.md data/temp/date.txt
 	@echo "combine parts to generate $@ ..."
 	@cat $^ > $@
