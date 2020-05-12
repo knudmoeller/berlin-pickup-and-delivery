@@ -107,6 +107,7 @@ This is done as follows:
 - For the matching to OpenStreetMap, the [haversine](https://rubygems.org/gems/haversine) and [overpass-api-ruby](https://rubygems.org/gems/overpass-api-ruby) gems are needed.
 - The script to convert the intermedia N-Triples file to Turtle ([bin/to_ttl.sh](bin/to_ttl.sh)) is a simple shell script and requires the `rapper` command to be available. `rapper` is part of [Redland](http://librdf.org). For Mac OS, there is a [brew formula to install Redland](https://formulae.brew.sh/formula/redland). There are also packages for Debian and other distributions.
 - [jq](https://stedolan.github.io/jq/) is required for handling intermediate JSON files.
+- The `arq` query tool that comes with [Apache Jena](https://jena.apache.org/) (for generating the 'statistics' in the README).
 
 ## Logo
 
