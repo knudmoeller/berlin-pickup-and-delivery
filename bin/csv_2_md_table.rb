@@ -2,10 +2,14 @@
 
 require 'csv'
 
-unless ARGV.length != 3
+unless ARGV.length != 4
     csv_in_path = ARGV[0]
     md_out_path = ARGV[1]
     table_header = ARGV[2]
+    table_alignment = ARGV[3].split("")
+
+    alignment_mapping = { 'l' => ':---', 'c' => ':---:', 'r' => '---:' }
+    alignment_mapping.default = '---'
 
     File.open(md_out_path, "wb") do |md_out|
         md_out.puts "\#\# #{table_header}"
@@ -15,7 +19,7 @@ unless ARGV.length != 3
 
         header_row = rows.shift
         md_out.puts header_row.join(" | ")
-        md_out.puts Array.new(header_row.length, "---").join(" | ")
+        md_out.puts table_alignment.map { |alignment| alignment_mapping[alignment] }.join(" | ")
 
         rows.each do |row|
             md_out.puts row.join(" | ")

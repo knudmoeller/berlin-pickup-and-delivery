@@ -72,7 +72,7 @@ data/temp/all+types.nt: data/temp/all.nt data/manual/schema_org_types.nt
 data/temp/type_stats.md: data/temp/type_stats.csv
 	@echo "generating markdown table from csv in $< ..."
 	@echo "writing to $@ ..."
-	@ruby bin/csv_2_md_table.rb $< $@ "Type Statistics"
+	@ruby bin/csv_2_md_table.rb $< $@ "Type Statistics" "llr"
 
 .PHONY: data/temp/date.txt
 data/temp/date.txt: | data/temp
