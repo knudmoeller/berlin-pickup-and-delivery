@@ -95,11 +95,12 @@ This is done as follows:
 - Using the Overpass API, we query OSM for all amenity and shop nodes within the bounding box of Berlin (see [bin/get_osm_nodes.rb](bin/get_osm_nodes.rb)).
 - For all business entities in the delivery dataset, we find all OSM nodes that are within a range of 100 metres, using the Haversine formula.
 - Why such a wide radius? The geocoder approaches used by the delivery dataset and OSM are quite different, so the same business can often have coordinates that are up to 100 metres apart in both sources.
-- Starting with the closest OSM match, we then compare the names of the business A with the name of the potential match B.
+- Starting with the closest OSM match, we then compare the names of business A with the name of the potential match B.
 - A complete match (of the normalized name) will be accepted straight away.
 - If no complete match is found, we check if A is contained in B or vice versa (to match things like `Pizzaria da Mario` and `Da Mario`).
 - Some manual matches have been included as well.
-- There is a lot of room for improvement here, obviously, but the result is good enough for now.  
+- There is a lot of room for improvement here, obviously, but the result is good enough for now.
+- For an overview of how many businesses have successfully received an OSM identifier, see [Type Statistics](#type-statistics).
 
 ## Requirements
 

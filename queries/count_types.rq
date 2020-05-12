@@ -24,7 +24,16 @@ WHERE {
         ?business a ?type_uri_2 .
         ?type_uri_2 rdfs:subClassOf* <https://schema.org/Organization> .
         BIND(<https://schema.org/Organization> AS ?type_uri) .
-        BIND("all businesses" AS ?comment) .
+        BIND("all businesses (total)" AS ?comment) .
+    } UNION
+    {
+        # all businesses (instance of subclasses of schema:Organization)
+        ?business a ?type_uri_2 ;
+            delivery:osmIdentifier ?osm_id ;
+        .
+        ?type_uri_2 rdfs:subClassOf* <https://schema.org/Organization> .
+        BIND(<https://schema.org/Organization> AS ?type_uri) .
+        BIND("all businesses (with OSM-link)" AS ?comment) .
     }
 }
 GROUP BY ?type_uri ?comment
