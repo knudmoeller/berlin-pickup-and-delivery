@@ -14445,6 +14445,7 @@ business:b_408
     a schema:LocalBusiness ;
     delivery:deliveryComment "wir liefern nach Vereinbarung in Friedenau und Schöneberg"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7544210930" ;
     delivery:pickupComment "Bestellungen zum Abholen sollen uns bis 15:00 am vorherigen Tag erreichen. Abgeholt werden kann zwischen 10 - 15 Uhr"@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -15866,6 +15867,7 @@ business:b_461
     a schema:LocalBusiness ;
     delivery:deliveryComment "Ihr könnt Eure Bestellung Telefonisch bei uns im Lokalen E-Zigaretten Shop in Berlin durchgeben. Ihr erreicht uns unter der Nummer 030/37466704 und gebt uns einfach und bequem Eure Bestellung durch. Die Lieferung findet nicht über eine herkömmliche Paket-zustellerfirma statt. Wir"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7550986530" ;
     delivery:pickupComment "Sowohl die Bestellaufnahme als auch die Lieferung erfolgt während der Öffnungszeiten von unserem E-Zigaretten-Shop Mo.-Fr. von 11:00 -19:30 Uhr und Sa. von 10:00-18:30 Uhr. Den Lieferzeitpunkt werden wir gemeinsam telefonisch und individuell ausmachen. Es kann leider keine Abgabe"@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -17607,6 +17609,7 @@ business:b_526
     a schema:LocalBusiness ;
     delivery:deliveryComment "Lieferungen innerhalb Berlins gegen Aufpreis. Liefertag voraussichtlich Donnerstagsabends"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7551664103" ;
     delivery:pickupComment "Alles rund ums Tier sowie lebende Meerschweinchen und Rennmäuse aus eigener Zucht"@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -22597,6 +22600,7 @@ business:b_710
 business:b_711
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
+    delivery:osmIdentifier "2875570159" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -24523,6 +24527,7 @@ business:b_784
     a schema:LocalBusiness ;
     delivery:deliveryComment "per Mail /Tel. oder Shop bestellte Ware Kerzen, Deko Brautartikel lt. Webseite"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7610396214" ;
     delivery:pickupComment "Abholservice bestellter Ware Mo-Fr. 11-17 Uhr"@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -27140,6 +27145,7 @@ business:b_883
     a schema:LocalBusiness ;
     delivery:deliveryComment "Lieferungen in Berlin und deutschlandweit"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7598149824" ;
     delivery:pickupComment "Unter Einhaltung des Sicherheitsabstands"@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -28232,6 +28238,7 @@ business:b_922
 business:b_923
     a schema:LocalBusiness ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7567619981" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -30283,7 +30290,7 @@ business:b_999
     dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
     dcterms:descriptions "RDF-Daten zu Geschäften in Berlin die wegen der Corona/COVID-19-Beschränkungen Liefer- oder Abholdienste anbieten. Die werden Daten aus einem offenen Datensatz erzeugt, der von der Berliner Senatsverwaltung für Wirtschaft, Energie und Betriebe veröffentlicht wird."@de ;
     dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
-    dcterms:modified "2020-05-11"^^xsd:date ;
+    dcterms:modified "2020-06-12"^^xsd:date ;
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
     void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;

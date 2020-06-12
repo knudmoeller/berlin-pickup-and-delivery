@@ -120,11 +120,11 @@ This is done as follows:
 type_uri | comment | type_count
 :--- | :--- | ---:
 [schema:FoodEstablishment](https://schema.org/FoodEstablishment) | total | 763
-[schema:FoodEstablishment](https://schema.org/FoodEstablishment) | with OSM-link | 513
+[schema:FoodEstablishment](https://schema.org/FoodEstablishment) | with OSM-link | 514
 [schema:LocalBusiness](https://schema.org/LocalBusiness) | total | 476
-[schema:LocalBusiness](https://schema.org/LocalBusiness) | with OSM-link | 211
+[schema:LocalBusiness](https://schema.org/LocalBusiness) | with OSM-link | 217
 [schema:Organization](https://schema.org/Organization) | all businesses (total) | 1239
-[schema:Organization](https://schema.org/Organization) | all businesses (with OSM-link) | 724
+[schema:Organization](https://schema.org/Organization) | all businesses (with OSM-link) | 731
 
 ## License
 
@@ -137,4 +137,4 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 Repository: https://github.com/knudmoeller/berlin-pickup-and-delivery
 
-Last changed: 2020-05-12
+Last changed: 2020-06-12
