@@ -1926,10 +1926,9 @@ business:b_1068
 
 business:b_1069
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "Wir liefern 1,5 km rund um die Albrechtstr. 8. Die Bestellung kann alternativ auch vor Ort bei uns abgeholt werden."@de ;
-    delivery:deliveryPossible true ;
+    delivery:deliveryPossible false ;
     delivery:osmIdentifier "3180581857" ;
-    delivery:pickupComment "UNSER ANGEBOT:  Tagesgericht inkl. Vorspeise oder Dessert | 10€  Suppe des Tages | 5€"@de ;
+    delivery:pickupComment "UNSER ANGEBOT:  Tagesgericht inkl. Vorspeise oder Dessert | 10€  Suppe des Tages | 5€. Abholung ist von Mo bis Fr in der Zeit von 12 bis 15 Uhr möglich"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -1938,7 +1937,7 @@ business:b_1069
         schema:postalCode "10117" ;
         schema:streetAddress "Albrechtstraße 8"
     ] ;
-    schema:description "Wir liefern von Montag bis Sonntag, 11 bis 18 Uhr, die Gerichte unserer Wochenkarte sowie leckere Suppen zu Ihnen nach Hause. Die Bestellung kann alternativ auch vor Ort bei uns abgeholt werden.  UNSER ANGEBOT:  Tagesgericht inkl. Vorspeise oder Dessert | 10€  Suppe des Tages | 5"@de ;
+    schema:description "UNSER ANGEBOT:  Tagesgericht inkl. Vorspeise oder Dessert | 10€  Suppe des Tages | 5"@de ;
     schema:email "kontakt@alvis-restaurant.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -5560,6 +5559,7 @@ business:b_121
     a schema:FoodEstablishment ;
     delivery:deliveryComment "Liefergebiete: 10437, 10435, 10439, 13355, 10119, 10405, 10115. Weitere Informationen auf unserer Facebook und Instagram Seite"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7681321949" ;
     delivery:pickupComment "Einfach anrufen und abholen. Gerne auch mit eigenen Tupperboxen von zu Hause."@de ;
     delivery:pickupPossible true ;
     schema:address [
@@ -6234,6 +6234,7 @@ business:b_1239
 business:b_124
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
+    delivery:osmIdentifier "3157844842" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -6656,10 +6657,11 @@ business:b_1255
     schema:url "https://zum-haxenwirt-berlin.de" .
 
 business:b_1256
-    a schema:FoodEstablishment ;
-    delivery:deliveryComment "Ab 30 Drinks geht’s los. Wir machen wie immer Paketpreise, die schon alles beinhalten. Das heißt Drink separates Eis Lieferkosten etc. pp. Die benutzten Gläser und Behältnisse holen wir später wieder ab. Ihr könnt euch unten aus der Karte 4 Drinks aussuchen. Wir stellen die Drink"@de ;
+    a schema:LocalBusiness ;
+    delivery:deliveryComment "Wir liefern Ihnen für Ihre Veranstaltung fertig gemixte Cocktails, stilvoll angerichtet im Schraubglas. Bestellungen sind in kleinen Mengen für Ihre Teamevents oder die Feierlichkeit im privaten Rahmen möglich. So müssen Sie keine Kompromisse eingehen."@de ;
     delivery:deliveryPossible true ;
-    delivery:pickupPossible false ;
+    delivery:pickupComment "Ab 30 Drinks liefern wir Cocktails in und um Berlin zu Ihrem Event. Sie erhalten von uns die frisch hergestellten Getränke fertig gemixt im Glas, einschließlich Trinkhalme und Eis im Kühlbehälter – sodass Sie sich um nichts weiter kümmern müssen. Nach der Veranstaltung holen wir"@de ;
+    delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
         schema:addressCountry "DE" ;
@@ -6667,7 +6669,7 @@ business:b_1256
         schema:postalCode "13125" ;
         schema:streetAddress "Alt-Buch 34"
     ] ;
-    schema:description "Cocktail Lieferung"@de ;
+    schema:description "Cocktail Catering/Lieferservice"@de ;
     schema:email "info@cocktail-up.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -6676,7 +6678,7 @@ business:b_1256
     ] ;
     schema:name "Cocktail Up" ;
     schema:telephone "+491726659900" ;
-    schema:url "https://www.cocktail-up.de/" .
+    schema:url "https://www.cocktail-up.de/lieferservice" .
 
 business:b_1258
     a schema:FoodEstablishment ;
@@ -6801,6 +6803,99 @@ business:b_1263
     schema:telephone "+493093621978" ;
     schema:url "https://www.lisboa-bar-berlin.de" .
 
+business:b_1265
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10179" ;
+        schema:streetAddress "Inselstraße 9"
+    ] ;
+    schema:description ""@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51226 ;
+        schema:longitude 13.41187
+    ] ;
+    schema:name "Mamman" .
+
+business:b_1267
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:pickupComment "Für Bestellungen zum Abholen reicht es aus, wenn Sie 15 Minuten vorher anrufen."@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12207" ;
+        schema:streetAddress "Osdorfer Straße 26"
+    ] ;
+    schema:description "Chinesische Küche (vegetarisch und vegan auch möglich), Catering"@de ;
+    schema:email "info@royal-china.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.41619 ;
+        schema:longitude 13.31516
+    ] ;
+    schema:name "Royal Garden" ;
+    schema:openingHoursSpecification ohspec:oh_496f583334a5b0b31d2b67fab5e2acb46d91fad4, ohspec:oh_4affdb1a71a2f800ed8aebdb71f7748204627952, ohspec:oh_5dab34595bf2e01982e4d205704355b3571f6027, ohspec:oh_759b8edcfe1dd43ea0c910ea8d1400e94da3d987, ohspec:oh_92c43882801d557e7e55a25dcf3b9b5fd8d337b8, ohspec:oh_c0edc930ee0cc97bdc5d097f6c5bd60873428a29, ohspec:oh_e05482c706d22eb151ad4d61a5f02a523c168593 ;
+    schema:telephone "+493081852332" ;
+    schema:url "https://www.royal-china.de" .
+
+business:b_1268
+    a schema:FoodEstablishment ;
+    delivery:deliveryPossible false ;
+    delivery:osmIdentifier "5404159223" ;
+    delivery:pickupComment "Telefonische Bestellung und Abholung"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "12051" ;
+        schema:streetAddress "Warthestraße 60"
+    ] ;
+    schema:description "Burger, selbstgemachte gf vegane Nachspeisen"@de ;
+    schema:email "sprachcafeplume@gmail.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.46952 ;
+        schema:longitude 13.42596
+    ] ;
+    schema:name "Café PLUME" ;
+    schema:openingHoursSpecification ohspec:oh_478f7c660fad0b8d27db10e06cdd3367f4196ebc, ohspec:oh_7b66cff917cad25aa1ba5a6383c46ee16ab64aa3, ohspec:oh_8f481f1b0c22821f515a4c4ea6739a8b1c9aaf6c, ohspec:oh_c24d2b9ffd008fdf36d0b513b8a7c22ce43d93b7, ohspec:oh_d663a5be582f571aee04e5d533f7926dcf171c54, ohspec:oh_dd1a4ecf3c74e146e8be0e8048d3d9848b25d657 ;
+    schema:telephone "+493055287575" ;
+    schema:url "https://www.sprachcafeplume.de" .
+
+business:b_1269
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Unsere aktuellen Liefergebiete werden auf unserer Website veröffentlicht."@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "3675747756" ;
+    delivery:pickupComment "Lunch zum Abholen von 11.30 Uhr bis 15.30 Uhr"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10789" ;
+        schema:streetAddress "Augsburger Straße 29"
+    ] ;
+    schema:description "Mediterrane Küche, frische und gesunde Mahlzeiten, Business Lunch, Business Lunch Lieferservice"@de ;
+    schema:email "info@salutberlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50144 ;
+        schema:longitude 13.33439
+    ] ;
+    schema:name "Salut Mediterranean Food & Catering" ;
+    schema:openingHoursSpecification ohspec:oh_43e9ea102e93bbd958c20d888d93577a457ff8b0, ohspec:oh_68a8d8443ea870cff4cbc3f423b8454c1fc592b1, ohspec:oh_80d2e1cd82c1ce1beae801c1483e2e0ec2dc9e25, ohspec:oh_89e3092efcda6cabdc0469118f53abd9a1c6b6d2, ohspec:oh_dfe38be47c32954a07d332fa28a569999986c848 ;
+    schema:url "https://salutberlin.de" .
+
 business:b_127
     a schema:FoodEstablishment ;
     delivery:deliveryComment "Mindestbestellwert 20,00€. Lieferung im Bezirk Charlottenburg-Wilmersdorf"@de ;
@@ -6826,6 +6921,151 @@ business:b_127
     schema:openingHoursSpecification ohspec:oh_1943a483c7975918929f94ad38df8f44682aad92, ohspec:oh_665fa95d0f16b9371f7a2916afaba49ad4af291a, ohspec:oh_ab3b5f9fbfa3ce082d1cf7a743c880cf6dde4873, ohspec:oh_b166a19aece644f8f1714937d95e6088b620a67f, ohspec:oh_c0204f008114c640b35ff2b18b20b54fb2989e5c, ohspec:oh_ff70a1fe4e6279b3430105461bc476d900f40c8f, ohspec:oh_ff8f66b27447acff0e470ffc018a254298d67a45 ;
     schema:telephone "+49308819378" ;
     schema:url "https://www.weyers-restaurant.de" .
+
+business:b_1270
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Berlin"@de ;
+    delivery:deliveryPossible true ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13053" ;
+        schema:streetAddress "Marzahner Straße 36"
+    ] ;
+    schema:description "abholservice24.de - Das Restaurant - Portal für Essen zum Mitnehmen Ihr Restaurant bietet Essen zum Mitnehmen an? Dann zeigen Sie das jetzt kostenlos Ihren Kunden auf abholservice24.de"@de ;
+    schema:email "info@abholservice24.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.54624 ;
+        schema:longitude 13.52342
+    ] ;
+    schema:name "abholservice24.de" ;
+    schema:telephone "+49309824235" ;
+    schema:url "https://www.abholservice24.de/" .
+
+business:b_1271
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferungen"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "1225767168" ;
+    delivery:pickupComment "Selbstabholer"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10367" ;
+        schema:streetAddress "Parkaue 35"
+    ] ;
+    schema:description "indisches Restaurant"@de ;
+    schema:email "info@aastha-restaurant.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.51692 ;
+        schema:longitude 13.4794
+    ] ;
+    schema:name "Aastha" ;
+    schema:openingHoursSpecification ohspec:oh_75262a28dc06c772ba18a0328e3fa4099b222d2d, ohspec:oh_83f44cd0ecf28ecccad8503ef75918d627822db2, ohspec:oh_c4697a6285f217ada51df0cef79dbc579516f0ab, ohspec:oh_cc80465095f8633ff9f62e730a5292835650207b, ohspec:oh_dafe2e050c3dca3d5833985d353efbfca1d440e3, ohspec:oh_dd4aa8b86d4d77b4a588f5c75dc646ca8b73d50a, ohspec:oh_e419ee005f4b1e1e4da4e849680b820474e53190 ;
+    schema:telephone "+493085735738" ;
+    schema:url "https://aastha-restaurant.de" .
+
+business:b_1272
+    a schema:LocalBusiness ;
+    delivery:deliveryComment "Abholung und Lieferung von Kaffeevollautomaten und Kaffeemaschinen zur Reparatur und Service."@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "4413810835" ;
+    delivery:pickupComment "Kaffeevollautomaten und Kaffeemaschinen"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "13353" ;
+        schema:streetAddress "Antwerpener Straße 4"
+    ] ;
+    schema:description "Kaffeevollautomaten Reparatur und Service."@de ;
+    schema:email "info@kaffeedrom.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.54762 ;
+        schema:longitude 13.34921
+    ] ;
+    schema:name "Kaffeedrom" ;
+    schema:openingHoursSpecification ohspec:oh_0c52ae2752cc4ded165cf9228bd8bcc45843bdc4, ohspec:oh_adbb9a6eda67b6d624c0c065c7b8b8735c38fe05, ohspec:oh_be24e994041357c601d7fe3ceeb358d11d6c1dbd, ohspec:oh_c432f2b1600d2f0b91c5a851a86b7aab58fd6b6f, ohspec:oh_c5c3f36b1d7af52976d9a206a5864864e7e73026, ohspec:oh_eb07aa4fb50a6e7d93e83b503d916d0eca6fc40c ;
+    schema:telephone "+493033978665" ;
+    schema:url "https://www.kaffeedrom.de" .
+
+business:b_1273
+    a schema:LocalBusiness ;
+    delivery:deliveryPossible false ;
+    delivery:pickupPossible false ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10115" ;
+        schema:streetAddress "Chausseestraße 110"
+    ] ;
+    schema:description ""@de ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.53116 ;
+        schema:longitude 13.38212
+    ] ;
+    schema:name "Fastfood" .
+
+business:b_1274
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "über Lieferando"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "1317437029" ;
+    delivery:pickupComment "Rufen Sie uns an und in 10 Min. ist Ihr Essen abholbereit"@de ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10623" ;
+        schema:streetAddress "Grolmanstraße 15"
+    ] ;
+    schema:description "Indische Speisen - vegan, vegetarisch, mit Hähnchen-oder Lammfleisch"@de ;
+    schema:email "info@ajanta-berlin.de" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50856 ;
+        schema:longitude 13.31999
+    ] ;
+    schema:name "Ajanta" ;
+    schema:openingHoursSpecification ohspec:oh_75262a28dc06c772ba18a0328e3fa4099b222d2d, ohspec:oh_83f44cd0ecf28ecccad8503ef75918d627822db2, ohspec:oh_c4697a6285f217ada51df0cef79dbc579516f0ab, ohspec:oh_cc80465095f8633ff9f62e730a5292835650207b, ohspec:oh_dafe2e050c3dca3d5833985d353efbfca1d440e3, ohspec:oh_dd4aa8b86d4d77b4a588f5c75dc646ca8b73d50a, ohspec:oh_e419ee005f4b1e1e4da4e849680b820474e53190 ;
+    schema:telephone "+493031016116" ;
+    schema:url "https://www.ajanta-berlin.de" .
+
+business:b_1276
+    a schema:FoodEstablishment ;
+    delivery:deliveryComment "Lieferungen Kurfürstendmam + ca. 2km"@de ;
+    delivery:deliveryPossible true ;
+    delivery:osmIdentifier "549490078" ;
+    delivery:pickupPossible true ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressCountry "DE" ;
+        schema:addressLocality "Berlin" ;
+        schema:postalCode "10719" ;
+        schema:streetAddress "Kurfürstendamm 224"
+    ] ;
+    schema:description "Amerikanische Küche"@de ;
+    schema:email "berlinsales@hardrock.com" ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.50313 ;
+        schema:longitude 13.32956
+    ] ;
+    schema:name "Hard Rock Cafe Berlin" ;
+    schema:openingHoursSpecification ohspec:oh_496f583334a5b0b31d2b67fab5e2acb46d91fad4, ohspec:oh_4affdb1a71a2f800ed8aebdb71f7748204627952, ohspec:oh_5dab34595bf2e01982e4d205704355b3571f6027, ohspec:oh_759b8edcfe1dd43ea0c910ea8d1400e94da3d987, ohspec:oh_92c43882801d557e7e55a25dcf3b9b5fd8d337b8, ohspec:oh_c0edc930ee0cc97bdc5d097f6c5bd60873428a29, ohspec:oh_e05482c706d22eb151ad4d61a5f02a523c168593 ;
+    schema:telephone "+4930884620" ;
+    schema:url "https://www.hardrockcafe.com/location/berlin/" .
 
 business:b_128
     a schema:FoodEstablishment ;
@@ -14806,6 +15046,7 @@ business:b_421
     a schema:FoodEstablishment ;
     delivery:deliveryComment "5km Umkreis, ab 12€"@de ;
     delivery:deliveryPossible true ;
+    delivery:osmIdentifier "7726331543" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -22010,10 +22251,9 @@ business:b_69
 
 business:b_690
     a schema:FoodEstablishment ;
-    delivery:deliveryComment "via lieferando"@de ;
-    delivery:deliveryPossible true ;
+    delivery:deliveryPossible false ;
     delivery:osmIdentifier "3265597175" ;
-    delivery:pickupComment "indisch vegetarisch und mit Hähnchen und Lamm"@de ;
+    delivery:pickupComment "Rufen Sie uns an und Ihr Essen ist in 10 Min abholbereit"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -22022,7 +22262,7 @@ business:b_690
         schema:postalCode "10623" ;
         schema:streetAddress "Knesebeckstraße 4"
     ] ;
-    schema:description "Indisch"@de ;
+    schema:description "Indisches Restaurant"@de ;
     schema:email "info@manjurani.de" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -22030,8 +22270,8 @@ business:b_690
         schema:longitude 13.32241
     ] ;
     schema:name "Manjurani" ;
-    schema:openingHoursSpecification ohspec:oh_59ce5e0189f6311724679fac817051c1ba28bd3a, ohspec:oh_5e37b96e0141d0c129519fdb5417241ae2bfd0ea, ohspec:oh_755e9301fa1bdad4b2f7c33297efed093729e474, ohspec:oh_9015280269c9528a2b5bb719fe8c5916e55ab147, ohspec:oh_90928b9d94c0d5db2e7ae01d05c7aaa137a3604f, ohspec:oh_d20f39304db902a981bceffdd77585fee7be27cd, ohspec:oh_f42e833062c0e5cdb8e3c2283de8bbf502cb9936 ;
-    schema:telephone "+49303123029" ;
+    schema:openingHoursSpecification ohspec:oh_10b0d82f4a55757503495a7d91b171ed6e155e56, ohspec:oh_1499e742db94e72fc5113be53902a7a18db40b9a, ohspec:oh_7f2dd59f61fe9c238481269aff60787a777b9ca1, ohspec:oh_ac47e9b370980b8277a298c8309598bc370775c2, ohspec:oh_be92c83672adc6c99990c8e09fac587f79e8966f, ohspec:oh_c81731e120dbe385d4d411e104c049c326eff705, ohspec:oh_f039f667b0be4f5f799bfacbaae9d52902da2482 ;
+    schema:telephone "+49303128615" ;
     schema:url "https://www.manjurani.de" .
 
 business:b_691
@@ -24956,29 +25196,7 @@ business:b_8
     schema:telephone "+491723812093" .
 
 business:b_80
-    a schema:FoodEstablishment ;
-    delivery:deliveryPossible false ;
-    delivery:osmIdentifier "704002914" ;
-    delivery:pickupComment "bei Selbstabholung 5% Rabatt"@de ;
-    delivery:pickupPossible true ;
-    schema:address [
-        a schema:PostalAddress ;
-        schema:addressCountry "DE" ;
-        schema:addressLocality "Berlin" ;
-        schema:postalCode "10717" ;
-        schema:streetAddress "Bundesallee 203"
-    ] ;
-    schema:description "Japanische Küche"@de ;
-    schema:email "info@ishin.de" ;
-    schema:geo [
-        a schema:GeoCoordinates ;
-        schema:latitude 52.49418 ;
-        schema:longitude 13.33129
-    ] ;
-    schema:name "Ishin" ;
-    schema:openingHoursSpecification ohspec:oh_29e6add2843afce1a10ec01dc8a8a2e1323481b2, ohspec:oh_3e43624558a612f55fc7857588af36f5d478d5bd, ohspec:oh_5b2f48520edde7a6aff46bd56d6383d0bde29fe7, ohspec:oh_b46541b048e88fd6e0c6bb97c878ecbfd6749c43, ohspec:oh_c4113db00e79d8febfb0575dbc1edda15462f531, ohspec:oh_fa517a54dff1d5da871abd0355a6617b42e78917 ;
-    schema:telephone "+493021016009" ;
-    schema:url "https://ishin.de" .
+    delivery:osmIdentifier "704002914" .
 
 business:b_800
     a schema:FoodEstablishment ;
@@ -29241,6 +29459,7 @@ business:b_96
 business:b_960
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
+    delivery:osmIdentifier "7640755747" ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -29362,6 +29581,7 @@ business:b_965
     a schema:FoodEstablishment ;
     delivery:deliveryPossible false ;
     delivery:osmIdentifier "3900932277" ;
+    delivery:pickupComment "Man kann telefonisch oder im Restaurant direkt bestellen"@de ;
     delivery:pickupPossible true ;
     schema:address [
         a schema:PostalAddress ;
@@ -29370,7 +29590,7 @@ business:b_965
         schema:postalCode "10435" ;
         schema:streetAddress "Sredzkistraße 23"
     ] ;
-    schema:description "Pizza ,Pasta,Salate,Fleisch"@de ;
+    schema:description "Pizza Pasta Fleisch Salate Suppen Desserts"@de ;
     schema:email "cenacolo.berlin@googlemail.com" ;
     schema:geo [
         a schema:GeoCoordinates ;
@@ -29378,7 +29598,7 @@ business:b_965
         schema:longitude 13.41602
     ] ;
     schema:name "Cenacolo" ;
-    schema:openingHoursSpecification ohspec:oh_4c96a6913fb65f0dd09348d30be52e75e140f844, ohspec:oh_81a27128e4062bd3a8ff247ceba5f3931307a646, ohspec:oh_8e8a27757bc96f7432b8d35d24070c616497bb5b, ohspec:oh_a1b03157554eaba80bffe3db55f215f9d8fe904e, ohspec:oh_a914d0fa357f8d8d20442ea6b67fc4970af30fd4, ohspec:oh_bbe23c79d31ab9b743c9c281e8f8c637cf5ff6e2, ohspec:oh_d78cca33463a48218f82f5a45854a592ea9822f6 ;
+    schema:openingHoursSpecification ohspec:oh_0f40f9c2fd91327e3b12eba8bcdb50c9cb35f42c, ohspec:oh_496f583334a5b0b31d2b67fab5e2acb46d91fad4, ohspec:oh_8e11f2e2abe82d04a7267e7a6c628dd7d2a89cd0, ohspec:oh_92c43882801d557e7e55a25dcf3b9b5fd8d337b8, ohspec:oh_c660df7be0662aae2c07f8c8d313c5713a86c88d, ohspec:oh_de637efd2eb7fb97cf600fd8a2d8f24323f148b2, ohspec:oh_e05482c706d22eb151ad4d61a5f02a523c168593 ;
     schema:telephone "+493044044743" .
 
 business:b_966
@@ -30290,7 +30510,7 @@ business:b_999
     dcterms:description "RDF data on businesses in Berlin that offer delivery and/or pickup of products in times of Corona/COVID-19. The data is derived from on open dataset published by Berlin's Senate Department for Economics, Energy and Public Enterprises."@en ;
     dcterms:descriptions "RDF-Daten zu Geschäften in Berlin die wegen der Corona/COVID-19-Beschränkungen Liefer- oder Abholdienste anbieten. Die werden Daten aus einem offenen Datensatz erzeugt, der von der Berliner Senatsverwaltung für Wirtschaft, Energie und Betriebe veröffentlicht wird."@de ;
     dcterms:license <https://creativecommons.org/licenses/by/3.0/de/> ;
-    dcterms:modified "2020-06-12"^^xsd:date ;
+    dcterms:modified "2020-07-29"^^xsd:date ;
     dcterms:source <https://daten.berlin.de/datensaetze/gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice> ;
     dcterms:title "Delivery and Pickup Services in Berlin"@en, "Liefer- und Abholdienste in Berlin"@de ;
     void:dataDump <https://knudmoeller.github.io/berlin-pickup-and-delivery/data/target/lieferdienste.ttl> ;
